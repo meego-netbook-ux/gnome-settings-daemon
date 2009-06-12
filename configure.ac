@@ -349,6 +349,7 @@ plugins/keybindings/Makefile
 plugins/keyboard/Makefile
 plugins/media-keys/Makefile
 plugins/media-keys/cut-n-paste/Makefile
+plugins/mount/Makefile
 plugins/mouse/Makefile
 plugins/sound/Makefile
 plugins/typing-break/Makefile
