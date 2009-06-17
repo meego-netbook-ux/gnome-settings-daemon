@@ -482,7 +482,6 @@ update_xft_settings (GnomeXSettingsManager *manager,
 
         xft_settings_get (client, &settings);
         xft_settings_set_xsettings (manager, &settings);
-        xft_settings_set_xresources (&settings);
 
         gnome_settings_profile_end (NULL);
 }
