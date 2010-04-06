@@ -237,6 +237,13 @@ purge_thumbnail_cache (void)
         files = read_dir_for_purge (path, files, HASH);
         g_free (path);
 
+        path = g_build_filename (g_get_user_cache_dir (),
+                                 "libsocialweb",
+                                 "thumbnails",
+                                 NULL);
+        files = read_dir_for_purge (path, files, HASH);
+        g_free (path);
+
         g_get_current_time (&current_time);
 
         purge_data.now = current_time.tv_sec;
