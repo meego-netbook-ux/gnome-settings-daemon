@@ -31,6 +31,7 @@ plugins/keyboard/gsd-keyboard-xkb.c
 plugins/media-keys/gsd-media-keys-manager.c
 plugins/media-keys/cut-n-paste/gvc-mixer-control.c
 [type: gettext/ini]plugins/media-keys/media-keys.gnome-settings-plugin.in
+plugins/mount/gsd-mount-manager.c
 plugins/mouse/gsd-mouse-manager.c
 [type: gettext/ini]plugins/mouse/mouse.gnome-settings-plugin.in
 [type: gettext/ini]plugins/typing-break/typing-break.gnome-settings-plugin.in

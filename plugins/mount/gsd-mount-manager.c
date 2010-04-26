@@ -24,6 +24,11 @@
 #include <glib/gi18n.h>
 #include <gio/gio.h>
 #include <gtk/gtk.h>
+#include <dbus/dbus-glib.h>
+
+#ifdef HAVE_LIBNOTIFY
+#include <libnotify/notify.h>
+#endif
 
 #include "gsd-mount-manager.h"
 
@@ -112,6 +117,158 @@ volume_added_cb (GVolumeMonitor *monitor,
         g_free (name);
 }
 
+#ifdef HAVE_LIBNOTIFY
+
+/* NOTE: This function needs to be synchroniced with what
+ * moblin-devices-panel shows. */
+static gboolean
+_mount_is_wanted_device (GMount *mount)
+{
+        GDrive *drive;
+        gboolean removable = TRUE;
+
+        /* shadowed mounts are not supposed to be shown to user */
+        if (g_mount_is_shadowed (mount)) {
+                return FALSE;
+        }
+
+        /* we do not want to show non-removable drives */
+        drive = g_mount_get_drive (mount);
+        if (!drive) {
+                return TRUE;
+        }
+        removable = g_drive_is_media_removable (drive);
+        g_object_unref (drive);
+
+        return removable;
+}
+
+
+static char*
+_get_mount_name (GMount *mount)
+{
+        GVolume *volume;
+        char *name = NULL;
+
+        volume = g_mount_get_volume (mount);
+        if (volume) {
+                name = g_volume_get_identifier (volume,
+                                                G_VOLUME_IDENTIFIER_KIND_LABEL);
+                g_object_unref (volume);
+        }
+        if (!name) {
+                name = g_mount_get_name (mount);
+        }
+
+        return name;
+}
+
+static void
+_show_clicked_cb (NotifyNotification *notification,
+                  gchar *action,
+                  gpointer data)
+{
+        DBusGProxy *proxy;
+        DBusGConnection *bus;
+
+        bus = dbus_g_bus_get (DBUS_BUS_SESSION, NULL);
+        if (!bus) {
+                return;
+        }
+        proxy = dbus_g_proxy_new_for_name (bus,
+                                           "org.moblin.UX.Shell.Toolbar",
+                                           "/org/moblin/UX/Shell/Toolbar",
+                                           "org.moblin.UX.Shell.Toolbar");
+        dbus_g_proxy_call_no_reply (proxy, "ShowPanel",
+                                    G_TYPE_STRING, "moblin-panel-devices",
+                                    G_TYPE_INVALID,
+                                    G_TYPE_INVALID);
+        g_object_unref (proxy);
+}
+
+static void
+_show_new_mount_notification (GMount *mount)
+{
+        char *name, *body, *summary;
+        NotifyNotification *note;
+
+        name = _get_mount_name (mount);
+        /* TRANSLATORS: notification title */
+        summary = _("USB plugged in");
+        /* TRANSLATORS: notification text: placeholder is a mount or volume 
+         * name, e.g. "Canon digital camera", "Kingston 32GB". */
+        body = g_strdup_printf (_("%s has been plugged in. You can use "
+                                  "the Devices panel to interact with it"),
+                                name);
+
+        note = notify_notification_new (summary, body, NULL, NULL);
+        /* TRANSLATORS: notification action button */
+        notify_notification_add_action (note,
+                                        "show-panel", _("Show"),
+                                        (NotifyActionCallback) _show_clicked_cb,
+                                        NULL, NULL);
+
+        notify_notification_show (note, NULL);
+
+        g_object_set_data_full (G_OBJECT (mount),
+                                "gsd-mount-note", note, g_object_unref);
+
+        g_free (name);
+        g_free (body);
+}
+
+static void
+mount_changed_cb (GMount *mount,
+                  gpointer data)
+{
+        NotifyNotification *note = g_object_get_data (G_OBJECT (mount),
+                                                      "gsd-mount-note");
+
+        if (note && !_mount_is_wanted_device (mount)) {
+                /* mount is no longer wanted, possibly became shadowed.*/
+                notify_notification_close (note, NULL);
+                /* This will unref the note. */
+                g_object_set_data (G_OBJECT (mount),
+                                   "gsd-mount-note", NULL);
+        } else if (!note && _mount_is_wanted_device (mount)) {
+                /* not sure if this ever happens... */
+                _show_new_mount_notification (mount);
+        }
+}
+
+static void
+mount_unmounted_cb (GMount *mount,
+                    GsdMountManager *manager)
+{
+        NotifyNotification *note = g_object_get_data (G_OBJECT (mount),
+                                                      "gsd-mount-note");
+        if (note) {
+                notify_notification_close (note, NULL);
+                g_object_set_data (G_OBJECT (mount),
+                                   "gsd-mount-note", NULL);
+        }
+
+        g_signal_handlers_disconnect_by_func (mount,
+                                              mount_changed_cb,
+                                              manager);
+}
+
+static void
+mount_added_cb (GVolumeMonitor *monitor,
+                GMount *mount,
+                GsdMountManager *manager)
+{
+        g_signal_connect (mount, "changed",
+                          G_CALLBACK (mount_changed_cb), manager);
+        g_signal_connect (mount, "unmounted",
+                          G_CALLBACK (mount_unmounted_cb), manager);
+        if (_mount_is_wanted_device (mount)) {
+                _show_new_mount_notification (mount);
+        }
+}
+
+#else
+
 static void
 mount_added_cb (GVolumeMonitor *monitor,
                 GMount *mount,
@@ -131,6 +288,8 @@ mount_added_cb (GVolumeMonitor *monitor,
         g_free (uri);
         g_object_unref (file);
 }
+
+#endif
 
 static void
 mount_existing_volumes (GsdMountManager *manager)
