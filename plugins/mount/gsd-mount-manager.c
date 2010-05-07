@@ -327,6 +327,11 @@ gsd_mount_manager_start (GsdMountManager *manager,
 {
         g_debug ("Starting mount manager");
 
+#if HAVE_LIBNOTIFY
+        if (!notify_is_initted ())
+                notify_init (PACKAGE);
+#endif
+
         manager->priv->monitor = g_volume_monitor_get ();
 
 #if 0
