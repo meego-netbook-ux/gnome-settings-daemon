@@ -120,7 +120,7 @@ volume_added_cb (GVolumeMonitor *monitor,
 #ifdef HAVE_LIBNOTIFY
 
 /* NOTE: This function needs to be synchroniced with what
- * moblin-devices-panel shows. */
+ * meego-panel-devices shows. */
 static gboolean
 _mount_is_wanted_device (GMount *mount)
 {
@@ -176,11 +176,11 @@ _show_clicked_cb (NotifyNotification *notification,
                 return;
         }
         proxy = dbus_g_proxy_new_for_name (bus,
-                                           "org.moblin.UX.Shell.Toolbar",
-                                           "/org/moblin/UX/Shell/Toolbar",
-                                           "org.moblin.UX.Shell.Toolbar");
+                                           "com.meego.UX.Shell.Toolbar",
+                                           "/com/meego/UX/Shell/Toolbar",
+                                           "com.meego.UX.Shell.Toolbar");
         dbus_g_proxy_call_no_reply (proxy, "ShowPanel",
-                                    G_TYPE_STRING, "moblin-panel-devices",
+                                    G_TYPE_STRING, "meego-panel-devices",
                                     G_TYPE_INVALID,
                                     G_TYPE_INVALID);
         g_object_unref (proxy);
