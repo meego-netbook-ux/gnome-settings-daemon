@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-22 21:17+0000\n"
-"PO-Revision-Date: 2010-06-23 11:37-0800\n"
-"Last-Translator: Namfon Thasanon <maewbox@gmail.com>\n"
+"PO-Revision-Date: 2010-06-24 11:26-0800\n"
+"Last-Translator: Anna Bergman <anna.b.bergman@gmail.com>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -381,9 +381,8 @@ msgid "Enable media keys plugin"
 msgstr "Käytä medianäppäinlisäosaa"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:16
-#, fuzzy
 msgid "Enable mount plugin"
-msgstr "Käytä kirjasinlisäosaa"
+msgstr "Käytä asennuslisäosaa"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:17
 msgid "Enable mouse plugin"
@@ -430,9 +429,8 @@ msgid "Set to True to enable the housekeeping plugin, to prune transient file ca
 msgstr "Aseta todeksi, jos haluat käyttää siivousliitännäistä, joka tyhjentää ylijääneet välimuistitiedostot."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:28
-#, fuzzy
 msgid "Set to True to enable the plugin to automount media."
-msgstr "Aseta todeksi, jos haluat ottaa käyttöön kirjasinasetusten hallinnan lisäosan."
+msgstr "Aseta todeksi, jos haluat ottaa käyttöön automaattisen media-asetuksen lisäosan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:29
 msgid "Set to True to enable the plugin to manage clipboard settings."
@@ -1003,24 +1001,23 @@ msgstr "Medianäppäinten liitännäinen"
 #: ../plugins/mount/gsd-mount-manager.c:74
 #, c-format
 msgid "Unable to mount %s"
-msgstr ""
+msgstr "Ei pystytty asettamaan %s"
 
 #. TRANSLATORS: notification title
 #: ../plugins/mount/gsd-mount-manager.c:197
-#, fuzzy
 msgid "USB plugged in"
-msgstr "Ääniliitännäinen"
+msgstr "USB liitetty"
 
 #. TRANSLATORS: notification text: placeholder is a mount or volume
 #. * name, e.g. "Canon digital camera", "Kingston 32GB".
 #: ../plugins/mount/gsd-mount-manager.c:200
 #, c-format
 msgid "%s has been plugged in. You can use the Devices panel to interact with it"
-msgstr ""
+msgstr "%s on liitetty.  Voit ottaa sitä käyttöön Laitteet-paneelin kautta"
 
 #: ../plugins/mount/gsd-mount-manager.c:207
 msgid "Show"
-msgstr ""
+msgstr "Näytä"
 
 #: ../plugins/mouse/gsd-mouse-manager.c:882
 msgid "Could not enable mouse accessibility features"
@@ -1075,8 +1072,8 @@ msgstr "Näyttöasetuksia ei voitu palauttaa varmuuskopiosta"
 #, c-format
 msgid "If you don't do anything we'll switch back in %d second"
 msgid_plural "If you don't do anything we'll switch back in %d seconds"
-msgstr[0] ""
-msgstr[1] "Jos et tee mitään, vaihdamme takaisin %d sekunnissa."
+msgstr[0] "Jos et tee mitään, vaihdamme takaisin %d sekunnissa"
+msgstr[1] "Jos et tee mitään, vaihdamme takaisin %d sekunnissa"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:342
 #, c-format
@@ -1172,44 +1169,62 @@ msgstr "X-asetukset"
 #~ msgstr ""
 #~ "Koneen virransäästötilan aktivointi ei onnistunut.\n"
 #~ "Tarkista, että tietokoneesi asetukset ovat oikein."
+
 #~ msgid "The display will be reset to its previous configuration in %d second"
+
 #~ msgid_plural ""
 #~ "The display will be reset to its previous configuration in %d seconds"
 #~ msgstr[0] "Näyttö palautetaan edelliseen asetuksiin %d sekunnin kuluttua"
 #~ msgstr[1] "Näyttö palautetaan edelliseen asetuksiin %d sekunnin kuluttua"
+
 #~ msgid "Does the display look OK?"
 #~ msgstr "Näyttääkö näyttö oikealta?"
+
 #~ msgid "_Restore Previous Configuration"
 #~ msgstr "_Palauta edelliset asetukset"
+
 #~ msgid "_Keep This Configuration"
 #~ msgstr "_Säilytä nämä asetukset"
+
 #~ msgid "Binding to suspend the computer."
 #~ msgstr "Sidos tietokoneen siirtämiseksi keskeytystilaan."
+
 #~ msgid "Suspend"
 #~ msgstr "Keskeytystila"
+
 #~ msgid "GNOME Volume Control"
 #~ msgstr "Gnomen äänenvoimakkuus"
+
 #~ msgid ""
 #~ "Set to True to display a dialog when there are errors running the "
 #~ "screensaver."
 #~ msgstr "Näytä virheikkuna, kun näytönsäästäjän suorittamisessa on ongelmia."
+
 #~ msgid "Set to True to run the screensaver at login."
 #~ msgstr "Käynnistä näytönsäästäjä kirjauduttaessa sisään."
+
 #~ msgid "Show startup errors"
 #~ msgstr "Näytä käynnistysvirheet"
+
 #~ msgid "Start screensaver"
 #~ msgstr "Käynnistä näytönsäästäjä"
+
 #~ msgid "Enable screensaver plugin"
 #~ msgstr "Käytä näytönsäästäjälisäosaa"
+
 #~ msgid "Set to True to enable the plugin to manage screensaver settings."
 #~ msgstr ""
 #~ "Aseta todeksi, jos haluat ottaa käyttöön näytönsäästäjän hallintalisäosan."
+
 #~ msgid "Toggle screenreader"
 #~ msgstr "Näytetäänkö näytönlukija"
+
 #~ msgid "%d%% of the disk space on `%s' is in use"
 #~ msgstr "%d %% levytilasta osiolla \"%s\" on käytössä"
+
 #~ msgid "Analyze"
 #~ msgstr "Analysoi"
+
 #~ msgid ""
 #~ "There was an error starting up the screensaver:\n"
 #~ "\n"
@@ -1222,40 +1237,54 @@ msgstr "X-asetukset"
 #~ "%s\n"
 #~ "\n"
 #~ "Näytönsäästäjät eivät toimi tämän istunnon aikana."
+
 #~ msgid "Screensaver"
 #~ msgstr "Näytönsäästäjä"
+
 #~ msgid "Screensaver plugin"
 #~ msgstr "Näytönsäästäjä-liitännäinen"
+
 #~ msgid ""
 #~ "Cannot create the directory \"%s\".\n"
 #~ "This is needed to allow changing the mouse pointer theme."
 #~ msgstr ""
 #~ "Kansiota \"%s\" ei voi luoda.\n"
 #~ "Kansio tarvitaan, jotta hiiren osoittimen teemaa voi vaihtaa."
+
 #~ msgid ""
 #~ "Cannot create the directory \"%s\".\n"
 #~ "This is needed to allow changing cursors."
 #~ msgstr ""
 #~ "Kansion \"%s\" luonti epäonnistui.\n"
 #~ "Kansio tarvitaan, jotta kursoreita voi vaihtaa."
+
 #~ msgid "Couldn't load sound file %s as sample %s"
 #~ msgstr "Äänitiedoston %s latautuminen ääneksi %s epäonnistui"
+
 #~ msgid "Login"
 #~ msgstr "Kirjaudu sisään"
+
 #~ msgid "Logout"
 #~ msgstr "Kirjaudu ulos"
+
 #~ msgid "Boing"
 #~ msgstr "Kumahdus"
+
 #~ msgid "Siren"
 #~ msgstr "Sireeni"
+
 #~ msgid "Clink"
 #~ msgstr "Helähdys"
+
 #~ msgid "Beep"
 #~ msgstr "Piippaus"
+
 #~ msgid "No sound"
 #~ msgstr "Ei ääntä"
+
 #~ msgid "Sound not set for this event."
 #~ msgstr "Tälle tapahtumalle ei ole määritelty ääntä"
+
 #~ msgid ""
 #~ "The sound file for this event does not exist.\n"
 #~ "You may want to install the gnome-audio package for a set of default "
@@ -1263,20 +1292,27 @@ msgstr "X-asetukset"
 #~ msgstr ""
 #~ "Tapahtumaan liittyvää äänitiedostoa ei ole olemassa.\n"
 #~ "Voi olla että haluat asentaa paketin gnome-audio, jossa oletusäänet ovat."
+
 #~ msgid "The sound file for this event does not exist."
 #~ msgstr "Tämän tapahtuman äänitiedostoa ei ole."
+
 #~ msgid "Select Sound File"
 #~ msgstr "Valitse äänitiedosto"
+
 #~ msgid "The file %s is not a valid wav file"
 #~ msgstr "Tiedosto %s ei ole kelvollinen WAV-tiedosto"
+
 #~ msgid "Select sound file..."
 #~ msgstr "Valitse äänitiedosto..."
+
 #~ msgid "Sound"
 #~ msgstr "Ääni"
+
 #~ msgid "An error occurred while configuring the screen"
 #~ msgstr "Tapahtui virhe määriteltäessä näyttöasetuksia"
+
 #~ msgid "gtk-close"
 #~ msgstr "gtk-close"
+
 #~ msgid "Screen Rotation"
 #~ msgstr "Näytön kierto"
-
