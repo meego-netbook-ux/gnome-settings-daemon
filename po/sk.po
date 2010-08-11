@@ -378,9 +378,8 @@ msgid "Enable media keys plugin"
 msgstr "Povoliť modul multimediálnych kláves"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:16
-#, fuzzy
 msgid "Enable mount plugin"
-msgstr "Povoliť modul písiem"
+msgstr "Povoliť modul pre pripojovanie"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:17
 msgid "Enable mouse plugin"
@@ -427,9 +426,8 @@ msgid "Set to True to enable the housekeeping plugin, to prune transient file ca
 msgstr "Pre povolenie \"upratovacieho\" modulu (vyčistenie dočasných súborových keší) nastavte na true."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:28
-#, fuzzy
 msgid "Set to True to enable the plugin to automount media."
-msgstr "Pre povolenie modulu správy nastavení písiem nastavte na true."
+msgstr "Pre povolenie modulu správy nastavení automatického pripojovania médií nastavte na true."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:29
 msgid "Set to True to enable the plugin to manage clipboard settings."
@@ -860,7 +858,7 @@ msgid "Keyboard plugin"
 msgstr "Modul klávesnice"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:114
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Error activating XKB configuration.\n"
 "It can happen under various circumstances:\n"
@@ -891,7 +889,6 @@ msgstr ""
 "- Výsledok <b>%s</b>"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:128
-#, fuzzy
 msgid ""
 "You are using XFree 4.3.0.\n"
 "There are known problems with complex XKB configurations.\n"
@@ -1004,7 +1001,7 @@ msgstr "Modul multimediálnych kláves"
 #: ../plugins/mount/gsd-mount-manager.c:74
 #, c-format
 msgid "Unable to mount %s"
-msgstr ""
+msgstr "Nie je možné pripojiť %s"
 
 #. TRANSLATORS: notification title
 #: ../plugins/mount/gsd-mount-manager.c:197
