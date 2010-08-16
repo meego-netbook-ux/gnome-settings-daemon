@@ -326,7 +326,7 @@ msgstr ""
 
 #: ../data/gnome-settings-daemon.desktop.in.in.h:1
 msgid "GNOME Settings Daemon"
-msgstr ""
+msgstr "Démon des tchuzes di GNOME"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:1
 #, fuzzy
@@ -334,14 +334,12 @@ msgid "Binding to toggle the magnifier."
 msgstr "Betchteu waibe"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:2
-#, fuzzy
 msgid "Binding to toggle the on-screen keyboard."
-msgstr "Betchteu waibe"
+msgstr "Tape po (dis)mete li taprece el waitroûle."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:3
-#, fuzzy
 msgid "Binding to toggle the screen reader."
-msgstr "Betchteu waibe"
+msgstr "Tape po (dis)mete li léjheu del waitroûle."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:4
 msgid "Bounce keys"
@@ -353,11 +351,11 @@ msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:6
 msgid "Command used to turn the on-screen keyboard on or off."
-msgstr ""
+msgstr "Comande po mete en alaedje ou dismete li taprece el waitroûle."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:7
 msgid "Command used to turn the screen reader on or off."
-msgstr ""
+msgstr "Comande po mete en alaedje ou dismete li léjheu del waitroûle."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:8
 msgid "Enable accessibility keyboard plugin"
@@ -422,9 +420,8 @@ msgid "Enable xsettings plugin"
 msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:23
-#, fuzzy
 msgid "Mouse keys"
-msgstr "Sori"
+msgstr "Botons del sori"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:24
 msgid "On-screen keyboard"
@@ -436,9 +433,8 @@ msgid "Screen magnifier"
 msgstr "Waitroûle"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:26
-#, fuzzy
 msgid "Screen reader"
-msgstr "Waitroûle"
+msgstr "Léjheu del waitroûle"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:27
 msgid "Set to True to enable the housekeeping plugin, to prune transient file caches."
