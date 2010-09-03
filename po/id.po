@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: meego-gnome-settings-daemon meego-10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-26 16:12+0000\n"
-"PO-Revision-Date: 2010-09-01 23:07+0700\n"
+"PO-Revision-Date: 2010-09-03 12:50+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesia <andika@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -306,6 +306,10 @@ msgid ""
 "\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full"
 "\" for maximum hinting (may cause distortion of letter forms)."
 msgstr ""
+"Jenis hinting yang dipakai ketika merender fonta. Nilai yang mungkin adalah "
+"\"none\" untuk tanpa hinting, \"slight\" untuk dasar, \"medium\" untuk "
+"menengah\", dan \"full\" untuk hinting maksimum (dapat menyebabkan distorsi "
+"bentuk huruf)."
 
 #: ../data/desktop_gnome_keybindings.schemas.in.h:1
 msgid "Allowed keys"
@@ -487,6 +491,8 @@ msgid ""
 "Set to True to enable the housekeeping plugin, to prune transient file "
 "caches."
 msgstr ""
+"Isi dengan True untuk mengaktifkan plugin pembersih rumah, untuk memangkas "
+"singgahan berkas transien."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:28
 msgid "Set to True to enable the plugin to automount media."
@@ -524,6 +530,7 @@ msgstr ""
 #: ../data/gnome-settings-daemon.schemas.in.h:35
 msgid "Set to True to enable the plugin to manage sound sample caches."
 msgstr ""
+"Isi dengan True untuk mengaktifkan plugin pengelola singgahan contoh suara."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:36
 msgid ""
@@ -555,99 +562,90 @@ msgid "Set to True to enable the plugin to manage xsettings."
 msgstr "Isi dengan True untuk mengaktifkan plugin pengelola xsettings."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:42
-#, fuzzy
 msgid "Slow keys"
-msgstr "Tombol Lambat"
+msgstr "Tombol lambat"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:43
-#, fuzzy
 msgid "Sticky keys"
-msgstr "Tombol Lengket"
+msgstr "Tombol lengket"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:44
-#, fuzzy
 msgid "The name of the keyboard shortcut to toggle the magnifier"
-msgstr "Tombol singkat untuk menyalakan/mematikan penampakan batang menu"
+msgstr "Nama tombol pintas untuk menjungkit kaca pembesar"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:45
-#, fuzzy
 msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
-msgstr ""
-"Tombol singkat untuk merubah kondisi layar menjadi layar penuh dan sebaliknya"
+msgstr "Nama tombol pintas untuk menjungkit papan tik pada layar"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:46
-#, fuzzy
 msgid "The name of the keyboard shortcut to toggle the screen reader"
-msgstr ""
-"Tombol singkat untuk merubah kondisi layar menjadi layar penuh dan sebaliknya"
+msgstr "Nama tombol pintas untuk menjungkit pembaca layar"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:47
 msgid ""
 "This is the name of the keyboard shortcut to toggle the magnifier. This name "
 "will be shown in the keyboard shortcut preferences dialog."
 msgstr ""
+"Ini adalah nama tombol pintas untuk menjungkit kaca pembesar. Nama ini akan "
+"ditampilkan di dialog preferensi pintasan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:48
 msgid ""
 "This is the name of the keyboard shortcut to toggle the on-screen keyboard. "
 "This name will be shown in the keyboard shortcut preferences dialog."
 msgstr ""
+"Ini adalah nama tombol pintas untuk menjungkit papan tik di layar. Nama ini "
+"akan ditampilkan di dialog preferensi pintasan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:49
 msgid ""
 "This is the name of the keyboard shortcut to toggle the screen reader. This "
 "name will be shown in the keyboard shortcut preferences dialog."
 msgstr ""
+"Ini adalah nama tombol pintas untuk menjungkit pembaca layar. Nama ini akan "
+"ditampilkan di dialog preferensi pintasan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:50
-#, fuzzy
 msgid "Toggle magnifier"
-msgstr "Binding untuk menjungkit kaca pembesar."
+msgstr "Jungkitkan kaca pembesar"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:51
-#, fuzzy
 msgid "Toggle on-screen keyboard"
-msgstr "Binding untuk menjungkit papan tik pada layar."
+msgstr "Jungkitkan papan tik pada layar"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:52
-#, fuzzy
 msgid "Toggle screen reader"
-msgstr "Binding untuk menjungkit pembaca layar."
+msgstr "Jungkitkan pembaca layar"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:53
-#, fuzzy
 msgid "Whether the bounce keys keyboard accessibility feature is turned on."
-msgstr "Atur pengaturan kemudahan akses pada papan ketik"
+msgstr "Apakah fitur aksesibilitas papan tik kunci pantul dinyalakan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:54
-#, fuzzy
 msgid "Whether the mouse keys keyboard accessibility feature is turned on."
-msgstr "Atur pengaturan kemudahan akses pada papan ketik"
+msgstr "Apakah fitur aksesibilitas papan tik kunci tetikus dinyalakan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:55
 msgid "Whether the on-screen keyboard is turned on."
-msgstr ""
+msgstr "Apakah papan tik pada layar dinyalakan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:56
 msgid "Whether the screen magnifier is turned on."
-msgstr ""
+msgstr "Apakah kaca pembesar layar dinyalakan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:57
 msgid "Whether the screen reader is turned on."
-msgstr ""
+msgstr "Apakah pembaca layar dinyalakan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:58
-#, fuzzy
 msgid "Whether the slow keys keyboard accessibility feature is turned on."
-msgstr "Atur pengaturan kemudahan akses pada papan ketik"
+msgstr "Apakah fitur aksesibilitas papan tik tombol lambat dinyalakan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:59
-#, fuzzy
 msgid "Whether the sticky keys keyboard accessibility feature is turned on."
-msgstr "Atur pengaturan kemudahan akses pada papan ketik"
+msgstr "Apakah fitur aksesibilitas papan tik tombol lengket dinyalakan."
 
 #: ../gnome-settings-daemon/main.c:55
-#, fuzzy
 msgid "Enable debugging code"
 msgstr "Aktifkan kode awa kutu"
 
@@ -657,21 +655,19 @@ msgstr "Jangan menjadi daemon"
 
 #: ../gnome-settings-daemon/main.c:57
 msgid "GConf prefix from which to load plugin settings"
-msgstr ""
+msgstr "Prefiks GConf tempat asal muat tatanan plugin"
 
 #: ../gnome-settings-daemon/main.c:58
-#, fuzzy
 msgid "Exit after a time - for debugging"
-msgstr "Keluar setelah tundaan sejenak (untuk pengawakutuan)"
+msgstr "Keluar setelah tundaan sejenak - untuk pengawakutuan"
 
 #: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
 msgid "Accessibility Keyboard"
 msgstr "Papan Tik Aksesibilitas"
 
 #: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
-#, fuzzy
 msgid "Accessibility keyboard plugin"
-msgstr "Aktifkan plugin papan ketik aksesibilitas"
+msgstr "Plugin papan tik aksesibilitas"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:388
 #, c-format
@@ -784,15 +780,15 @@ msgstr "Preferensi Akses Universal"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:1
 msgid "Enhance _contrast in colors"
-msgstr ""
+msgstr "Tingkatkan _kontras warna"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:2
 msgid "Make _text larger and easier to read"
-msgstr ""
+msgstr "Buat _teks lebih besar dan lebih mudah dibaca"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:3
 msgid "Press and _hold keys to accept them (Slow Keys)"
-msgstr ""
+msgstr "Tekan dan ta_han tombol untuk menerimanya (Kunci Lambat)"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:5
 msgid "Use on-screen _keyboard"
@@ -812,7 +808,7 @@ msgstr "Aba_ikan penekanan tombol berganda (Tombol Pantul)"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:9
 msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
-msgstr ""
+msgstr "Tekan tombol _pintas satu per satu (Kunci Lengket)"
 
 #: ../plugins/background/background.gnome-settings-plugin.in.h:1
 msgid "Background"
@@ -831,14 +827,12 @@ msgid "Clipboard plugin"
 msgstr "Plugin clipboard"
 
 #: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
-#, fuzzy
 msgid "Dummy"
-msgstr "Window dummy saja"
+msgstr "Pengganti"
 
 #: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
-#, fuzzy
 msgid "Dummy plugin"
-msgstr "Pengatur Plugin"
+msgstr "Plugin pengganti"
 
 #: ../plugins/font/font.gnome-settings-plugin.in.h:1
 msgid "Font"
@@ -849,48 +843,56 @@ msgid "Font plugin"
 msgstr "Plugin fonta"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:64
-#, fuzzy
 msgid "Don't show any warnings again for this filesystem"
-msgstr "_Jangan tampilkan peringatan ini lagi"
+msgstr "Jangan tampilkan peringatan lagi bagi sistem berkas ini"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:66
-#, fuzzy
 msgid "Don't show any warnings again"
-msgstr "Jangan tunjukkan pesan ini lagi"
+msgstr "Jangan tampilkan peringatan lagi"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:79
 #, c-format
 msgid "The volume \"%s\" has only %s disk space remaining."
-msgstr ""
+msgstr "Volume \"%s\" hanya memiliki sisa ruang disk %s."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:82
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "Komputer hanya memiliki sisa ruang disk %s."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:98
 msgid ""
 "You can free up disk space by emptying the Trash, removing unused programs "
 "or files, or moving files to another disk or partition."
 msgstr ""
+"Anda dapat membebaskan ruang disk dengan cara mengosongkan Tong Sampah, "
+"menghapus program atau berkas tak terpakai, atau memindah berkas ke disk "
+"atau partisi lain."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:101
 msgid ""
 "You can free up disk space by removing unused programs or files, or by "
 "moving files to another disk or partition."
 msgstr ""
+"Anda dapat membebaskan ruang disk dengan cara menghapus program atau berkas "
+"tak terpakai, atau memindah berkas ke disk atau partisi lain."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:106
 msgid ""
 "You can free up disk space by emptying the Trash, removing unused programs "
 "or files, or moving files to an external disk."
 msgstr ""
+"Anda dapat membebaskan ruang disk dengan cara mengosongkan Tong Sampah, "
+"menghapus program atau berkas tak terpakai, atau memindah berkas ke disk "
+"eksternal."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:109
 msgid ""
 "You can free up disk space by removing unused programs or files, or by "
 "moving files to an external disk."
 msgstr ""
+"Anda dapat membebaskan ruang disk dengan cara menghapus program atau berkas "
+"tak terpakai, atau memindah berkas ke disk atau partisi lain."
 
 #. Set up all the window stuff here
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:204
@@ -950,14 +952,14 @@ msgid "_Empty Trash"
 msgstr "_Kosongkan Tong"
 
 #: ../plugins/keybindings/gsd-keybindings-manager.c:139
-#, fuzzy, c-format
+#, c-format
 msgid "Key binding (%s) is invalid"
-msgstr "Kunci yang Anda masukkan tak valid"
+msgstr "Binding kunci (%s) tidak valid"
 
 #: ../plugins/keybindings/gsd-keybindings-manager.c:197
-#, fuzzy, c-format
+#, c-format
 msgid "Key binding (%s) is incomplete"
-msgstr "Kunci %s bukan daftar.\n"
+msgstr "Binding kunci (%s) tidak lengkap"
 
 #: ../plugins/keybindings/gsd-keybindings-manager.c:493
 #, c-format
@@ -1081,15 +1083,17 @@ msgid ""
 "Could not get default terminal. Verify that your default terminal command is "
 "set and points to a valid application."
 msgstr ""
+"Tidak bisa memperoleh terminal bawaan. Pastikan bahwa perintah terminal "
+"bawaan Anda tertata dan mengacu ke suatu aplikasi valid."
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:235
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Couldn't execute command: %s\n"
 "Verify that this is a valid command."
 msgstr ""
-"Perintah tidak dapat dijalankan: %s\n"
-"Periksa dulu apakah perintah tersebut tersedia atau tidak."
+"Tidak dapat menjalankan perintah: %s\n"
+"Pastikan bahwa perintah tersebut valid."
 
 #. translators:
 #. * The device has been disabled
