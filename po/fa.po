@@ -12,13 +12,15 @@ msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-26 16:12+0000\n"
-"PO-Revision-Date: 2006-02-15 15:49+0330\n"
-"Last-Translator: Farzaneh Sarafraz <farzaneh@farsiweb.info>\n"
+"PO-Revision-Date: 2010-09-07 19:45+0330\n"
+"Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
 
 #: ../data/50-accessibility.xml.in.h:1
 msgid "Accessibility"
@@ -41,35 +43,25 @@ msgid "Mount paths to ignore"
 msgstr "مسیرهای اتصال به منظور نادیده گرفته شدن"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:5
-msgid ""
-"Percentage free space threshold for initial warning of low disk space. If "
-"the percentage free space drops below this, a warning will be shown"
-msgstr ""
-"درصد آستانه فضای خالی برای آماده سازی هشدار کمبود فضای دیسک. اگر"
-"درصد فضای خالی کمتر از این مقدار شود، یک هشدار نمایش داده خواهد شد"
+msgid "Percentage free space threshold for initial warning of low disk space. If the percentage free space drops below this, a warning will be shown"
+msgstr "درصد آستانه فضای خالی برای آماده سازی هشدار کمبود فضای دیسک. اگردرصد فضای خالی کمتر از این مقدار شود، یک هشدار نمایش داده خواهد شد"
+
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:6
 msgid "Specify a list of mount paths to ignore when they run low on space."
 msgstr "یک فهرست از مسیرهای اتصال برای نادیده گرفتن به هنگام اجرای کمبود فضا مشخص کنید."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:7
-msgid ""
-"Specify a time in minutes. Subsequent warnings for a volume will not appear "
-"more often than this period."
-msgstr ""
-"یک مدت زمان بر حسب ثانیه تعیین کنید. هشدارهای بعدی بیش از این دوره تناوب"
-"نمایش داده نخواهند شد."
+msgid "Specify a time in minutes. Subsequent warnings for a volume will not appear more often than this period."
+msgstr "یک مدت زمان بر حسب ثانیه تعیین کنید. هشدارهای بعدی بیش از این دوره تناوبنمایش داده نخواهند شد."
+
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:8
-msgid ""
-"Specify an amount in GB. If the amount of free space is more than this, no "
-"warning will be shown"
-msgstr "یک حجم بر حسب گیگابایت تعیین کنید. اگر مقدار فضای خالی بیش از این مقدار باش، هیچ"
-"هشداری نمایش داده نخواهد شد."
+msgid "Specify an amount in GB. If the amount of free space is more than this, no warning will be shown"
+msgstr "یک حجم بر حسب گیگابایت تعیین کنید. اگر مقدار فضای خالی بیش از این مقدار باش، هیچهشداری نمایش داده نخواهد شد."
+
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:9
-msgid ""
-"Specify the percentage that the free disk space should reduce by before "
-"issuing a subsequent warning"
-msgstr "یک مقدار بر حسب درصد تعیین کنید تا فضای خالی دیسک پیش از نمایش هشدار"
-"تعدیل شود."
+msgid "Specify the percentage that the free disk space should reduce by before issuing a subsequent warning"
+msgstr "یک مقدار بر حسب درصد تعیین کنید تا فضای خالی دیسک پیش از نمایش هشدارتعدیل شود."
+
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:10
 msgid "Subsequent free percentage notify threshold"
 msgstr "آستانه اعلام بعدی درصد خالی"
@@ -212,7 +204,7 @@ msgstr "توقف پخش"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
 msgid "Toggle touchpad"
-msgstr ""
+msgstr "تغییر وضعیت صفحه لمسی"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
 msgid "Volume down"
@@ -235,14 +227,12 @@ msgid "Volume up"
 msgstr "زیاد کردن بلندی صدا"
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:1
-msgid ""
-"If a notification icon with display related things should be shown in the "
-"panel."
-msgstr ""
+msgid "If a notification icon with display related things should be shown in the panel."
+msgstr "چناچه شمایل اخطار همراه با موارد مرتبط با صفحه نمایش باید در تابلو نشان داده شوند."
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:2
 msgid "Show Displays in Notification Area"
-msgstr ""
+msgstr "نمایش صفحات نمایش در ناحیه‌ی اطلاع‌رسانی"
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:1
 msgid "Antialiasing"
@@ -250,103 +240,79 @@ msgstr ""
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:2
 msgid "DPI"
-msgstr ""
+msgstr "DPI"
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:3
-#, fuzzy
 msgid "Hinting"
-msgstr "<b>راهنمایی</b>:"
+msgstr "راهنمایی"
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:4
 msgid "RGBA order"
-msgstr ""
+msgstr "ترتیب RGBA"
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:5
-msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
-"on bottom."
+msgid "The order of subpixel elements on an LCD screen; only used when antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red on bottom."
 msgstr ""
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:6
-msgid ""
-"The resolution used for converting font sizes to pixel sizes, in dots per "
-"inch."
-msgstr ""
+msgid "The resolution used for converting font sizes to pixel sizes, in dots per inch."
+msgstr "تفکیک‌پذیری مورد استفاده جهت تبدیل اندازه‌های قلم به اندازه‌های پیکسل، نقطه در اینچ."
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:7
-msgid ""
-"The type of antialiasing to use when rendering fonts. Possible values are: "
-"\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
-"antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+msgid "The type of antialiasing to use when rendering fonts. Possible values are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
 msgstr ""
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:8
-msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: \"none"
-"\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full"
-"\" for maximum hinting (may cause distortion of letter forms)."
+msgid "The type of hinting to use when rendering fonts. Possible values are: \"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full\" for maximum hinting (may cause distortion of letter forms)."
 msgstr ""
 
 #: ../data/desktop_gnome_keybindings.schemas.in.h:1
-#, fuzzy
 msgid "Allowed keys"
-msgstr "کلید‌های موشی"
+msgstr "کلیدهای قابل قبول"
 
 #: ../data/desktop_gnome_keybindings.schemas.in.h:2
-msgid ""
-"If non-empty, keybindings will be ignored unless their GConf directory is in "
-"the list. This is useful for lockdown."
+msgid "If non-empty, keybindings will be ignored unless their GConf directory is in the list. This is useful for lockdown."
 msgstr ""
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:1
 msgid "Disable touchpad while typing"
-msgstr ""
+msgstr "غیرفعال کردن صفحه لمسی در هنگام تایپ کردن"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:2
 msgid "Enable horizontal scrolling"
-msgstr ""
+msgstr "فعال کردن اسکرول افقی"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:3
 msgid "Enable mouse clicks with touchpad"
-msgstr ""
+msgstr "فعال کردن کلیک موشواره با استفاده از صفحه لمسی"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:4
-#, fuzzy
 msgid "Enable touchpad"
-msgstr "راه‌اندازی پسانه امکان نداشت"
+msgstr "فعال کردن صفحه لمسی"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:5
 msgid "Select the touchpad scroll method"
-msgstr ""
+msgstr "انتخاب حالت اسکرول در صفحه لمسی"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:6
-msgid ""
-"Select the touchpad scroll method. Supported values are: 0 - disabled, 1 - "
-"edge scrolling, 2 - two-finger scrolling"
-msgstr ""
+msgid "Select the touchpad scroll method. Supported values are: 0 - disabled, 1 - edge scrolling, 2 - two-finger scrolling"
+msgstr "انتخاب حالت اسکرول در صفحه لمسی. مقادیر قابل قبول: 0 - غیرفعال، 1 - اسکرول در حاشیه، 2 - اسکرول دو انگشتی"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:7
-msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
-msgstr ""
+msgid "Set this to TRUE if you have problems with accidentally hitting the touchpad while typing."
+msgstr "چناچه مشکل تماس اتفاقی با صفحه‌ی لمسی را در هنگام تایپ کردن دارید، مقدار این گزینه را TRUE تنظیم کنید."
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:8
-msgid ""
-"Set this to TRUE to allow horizontal scrolling by the same method selected "
-"with the scroll_method key."
+msgid "Set this to TRUE to allow horizontal scrolling by the same method selected with the scroll_method key."
 msgstr ""
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:9
-msgid ""
-"Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
+msgid "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
+msgstr "برای فعال کردن کلیک از طریق ضربه به صفحه‌ی لمسی، مقدار این گزینه را TRUE تنظیم کنید."
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:10
 msgid "Set this to TRUE to enable all touchpads."
-msgstr ""
+msgstr "برای فعال کردن تمام صفحات لمسی، مقدار این گزینه را TRUE تنظیم کنید."
 
 #: ../data/gnome-settings-daemon.desktop.in.in.h:1
 #, fuzzy
@@ -370,29 +336,27 @@ msgstr "راه‌اندازی مرورگر وب"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:4
 msgid "Bounce keys"
-msgstr ""
+msgstr "کلیدهای پرشی"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:5
 msgid "Command used to turn the magnifier on or off."
-msgstr ""
+msgstr "دستور استفاده شده برای خاموش و روشن کردن ذره‌بین."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:6
 msgid "Command used to turn the on-screen keyboard on or off."
-msgstr ""
+msgstr "دستور استفاده شده برای خاموش و روشن کردن صفحه‌کلید مجازی."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:7
-#, fuzzy
 msgid "Command used to turn the screen reader on or off."
-msgstr "اجرای محافظ صفحه‌نمایش هنگام ورود به سیستم"
+msgstr "دستور استفاده شده برای خاموش و روشن کردن صفحه‌نمایش‌خوان"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:8
-#, fuzzy
 msgid "Enable accessibility keyboard plugin"
-msgstr "_به کار انداختن امکانات دسترسی‌پذیری صفحه‌کلید"
+msgstr "فعال کردن امکانات دسترسی‌پذیری صفحه‌کلید"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:9
 msgid "Enable background plugin"
-msgstr ""
+msgstr "فعال کردن افزونه پس‌زمینه"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:10
 msgid "Enable clipboard plugin"
@@ -400,7 +364,7 @@ msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:11
 msgid "Enable font plugin"
-msgstr ""
+msgstr "فعال کردن افزونه قلم"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:12
 #, fuzzy
@@ -409,15 +373,15 @@ msgstr "اجرای محافظ صفحه‌نمایش هنگام ورود به س�
 
 #: ../data/gnome-settings-daemon.schemas.in.h:13
 msgid "Enable keybindings plugin"
-msgstr ""
+msgstr "فعال کردن افزونه کلیدهای الزامی"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:14
 msgid "Enable keyboard plugin"
-msgstr ""
+msgstr "فعال کردن افزونه صفحه‌کلید"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:15
 msgid "Enable media keys plugin"
-msgstr ""
+msgstr "فعال کردن افزنه دکمه‌های رسانه"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:16
 #, fuzzy
@@ -426,53 +390,47 @@ msgstr "اجرای محافظ صفحه‌نمایش هنگام ورود به س�
 
 #: ../data/gnome-settings-daemon.schemas.in.h:17
 msgid "Enable mouse plugin"
-msgstr ""
+msgstr "فعال کردن افزونه موشواره"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:18
 msgid "Enable sound plugin"
-msgstr ""
+msgstr "فعال کردن افزونه صدا"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:19
 msgid "Enable typing breaks plugin"
-msgstr ""
+msgstr "فعال کردن افزونه توقف تایپ"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:20
 msgid "Enable xrandr plugin"
-msgstr ""
+msgstr "فعال کردن افزونه xrandr"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:21
 msgid "Enable xrdb plugin"
-msgstr ""
+msgstr "فعال کردن افزونه xrdb"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:22
 msgid "Enable xsettings plugin"
-msgstr ""
+msgstr "فعال کردن افزونه تنظیمات x"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:23
-#, fuzzy
 msgid "Mouse keys"
-msgstr "کلید‌های موشی"
+msgstr "کلیدهای موشواره"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:24
-#, fuzzy
 msgid "On-screen keyboard"
-msgstr "صفحه‌کلید _روی صفحه‌نمایش"
+msgstr "صفحه‌کلید مجازی"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:25
-#, fuzzy
 msgid "Screen magnifier"
-msgstr "آغاز محافظ صفحه‌نمایش"
+msgstr "ذره‌بین"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:26
-#, fuzzy
 msgid "Screen reader"
-msgstr "_صفحه‌نمایش‌خوان"
+msgstr "صفحه‌نمایش‌خوان"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:27
-msgid ""
-"Set to True to enable the housekeeping plugin, to prune transient file "
-"caches."
-msgstr ""
+msgid "Set to True to enable the housekeeping plugin, to prune transient file caches."
+msgstr "برای فعال کردن افزونه خانه‌داری به حالت TRUE تنظیم شود، تا کش پرونده‌های موقت حذف شوند."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:28
 msgid "Set to True to enable the plugin to automount media."
@@ -484,144 +442,127 @@ msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:30
 msgid "Set to True to enable the plugin to manage desktop background settings."
-msgstr ""
+msgstr "جهت فعال کردن افزونه مدیریت تنظیمات پس‌زمینه، به حالت TRUE تنظبم شود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:31
 msgid "Set to True to enable the plugin to manage font settings."
-msgstr ""
+msgstr "جهت فعال کردن افزونه مدیریت تنظیمات قلم، به حالت TRUE تنظیم شود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:32
 msgid "Set to True to enable the plugin to manage keyboard settings."
-msgstr ""
+msgstr "جهت فعال کردن افزونه مدیریت تنظیمات صفحه کلید، به حالت TRUE تنظیم شود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:33
 msgid "Set to True to enable the plugin to manage mouse settings."
-msgstr ""
+msgstr "جهت فعال کردن افزونه مدیریت تنطیمات موشواره، به حالت TRUE تنظیم شود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:34
 msgid "Set to True to enable the plugin to manage multimedia keys settings."
-msgstr ""
+msgstr "جهت فعال کردن افزونه مدیریت تنظیمات کلیدهای چندرسانه‌ای، به حالت TRUE تنظیم شود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:35
 msgid "Set to True to enable the plugin to manage sound sample caches."
 msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:36
-msgid ""
-"Set to True to enable the plugin to manage the accessibility keyboard "
-"settings."
-msgstr ""
+msgid "Set to True to enable the plugin to manage the accessibility keyboard settings."
+msgstr "جهت فعال کردن افزونه مدیریت تنظیمات دسترسی‌پذیری صفحه‌کلید، به حالت TRUE تنظیم شود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:37
 msgid "Set to True to enable the plugin to manage the keybindings."
-msgstr ""
+msgstr "جهت فعال کردن افزونه مدیریت کلیدهای الزامی، به حالت TRUE تنظبم شود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:38
 msgid "Set to True to enable the plugin to manage typing breaks."
-msgstr ""
+msgstr "جهت فعال کردن افزونه مدیرت توقف تایپ، به حالت TRUE تنظیم شود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:39
 msgid "Set to True to enable the plugin to manage xrandr settings."
-msgstr ""
+msgstr "جهت فعال کردن افزونه مدیریت تنظیمات xrandr، به حالت TRUE تنظیم شود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:40
 msgid "Set to True to enable the plugin to manage xrdb settings."
-msgstr ""
+msgstr "جهت فعال کردن افزونه مدیریت تنظیمات xrdb، به حالت TRUE تنظیم شود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:41
 msgid "Set to True to enable the plugin to manage xsettings."
-msgstr ""
+msgstr "جهت فعال کردن مدیریت تنظیمات x، به حالت TRUE تنظیم شود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:42
-#, fuzzy
 msgid "Slow keys"
-msgstr "هشدار کلیدهای آهسته"
+msgstr "کلیدهای آرام"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:43
-#, fuzzy
 msgid "Sticky keys"
-msgstr "هشدار کلیدهای چسبان"
+msgstr "کلیدهای چسبان"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:44
 msgid "The name of the keyboard shortcut to toggle the magnifier"
-msgstr ""
+msgstr "نام میان‌بر صفحه کلید جهت تغییر وضعیت ذره‌بین"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:45
 msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
-msgstr ""
+msgstr "نام میان‌بر صفحه کلید جهت تغییر وضعیت صفحه کلید مجازی"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:46
 msgid "The name of the keyboard shortcut to toggle the screen reader"
-msgstr ""
+msgstr "نام میان‌بر صفحه‌کلید جهت تغییر وضعیت صفحه‌نمایش‌خوان"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:47
-msgid ""
-"This is the name of the keyboard shortcut to toggle the magnifier. This name "
-"will be shown in the keyboard shortcut preferences dialog."
-msgstr ""
+msgid "This is the name of the keyboard shortcut to toggle the magnifier. This name will be shown in the keyboard shortcut preferences dialog."
+msgstr "این نام میان‌بر صفحه کلید جهت تغییر وضعیت ذره‌بین است. این نام در قسمت ترجیحات میانبر صفحه کلید نمایش داده میشود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:48
-msgid ""
-"This is the name of the keyboard shortcut to toggle the on-screen keyboard. "
-"This name will be shown in the keyboard shortcut preferences dialog."
-msgstr ""
+msgid "This is the name of the keyboard shortcut to toggle the on-screen keyboard. This name will be shown in the keyboard shortcut preferences dialog."
+msgstr "این نام میان‌بر صفحه کلید جهت تغییر وضعیت صفحه کلید مجازی است.  این نام در قسمت ترجیحات میانبر صفحه کلید نمایش داده میشود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:49
-msgid ""
-"This is the name of the keyboard shortcut to toggle the screen reader. This "
-"name will be shown in the keyboard shortcut preferences dialog."
-msgstr ""
+msgid "This is the name of the keyboard shortcut to toggle the screen reader. This name will be shown in the keyboard shortcut preferences dialog."
+msgstr "این نام میان‌بر صفحه‌کلید جهت تغییر وضعیت صفحه‌نمایش‌خوان است. این نام در قسمت ترجیجات میان‌بر صفحه‌کلید نمایش داده می‌شود."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:50
-#, fuzzy
 msgid "Toggle magnifier"
-msgstr "_ذره‌بین"
+msgstr "تغییر وضعیت ذره‌بین"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:51
-#, fuzzy
 msgid "Toggle on-screen keyboard"
-msgstr "صفحه‌کلید _روی صفحه‌نمایش"
+msgstr "تغییر وضعیت صفحه‌کلید مجازی"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:52
-#, fuzzy
 msgid "Toggle screen reader"
-msgstr "_صفحه‌نمایش‌خوان"
+msgstr "تغییر وضعبت صفحه‌نمایش‌خوان"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:53
-#, fuzzy
 msgid "Whether the bounce keys keyboard accessibility feature is turned on."
-msgstr "ترجیحات دسترسی‌پذیری صفحه‌کلیدتان را تنظیم کنید"
+msgstr "چنانچه امکان کلیدهای پرشی مربوط به امکانات دسترسی‌پذیری صفحه‌کلیدتان روشن است"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:54
-#, fuzzy
 msgid "Whether the mouse keys keyboard accessibility feature is turned on."
-msgstr "ترجیحات دسترسی‌پذیری صفحه‌کلیدتان را تنظیم کنید"
+msgstr "چنانچه امکان کلیدهای موشواره از امکانات دسترسی‌پذیری صفحه‌کلید روشن است."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:55
 msgid "Whether the on-screen keyboard is turned on."
-msgstr ""
+msgstr "چنانچه صفحه کلید مجازی فعال است."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:56
 msgid "Whether the screen magnifier is turned on."
-msgstr ""
+msgstr "چناچه ذره‌بین فعال است."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:57
 msgid "Whether the screen reader is turned on."
-msgstr ""
+msgstr "چنانچه صفحه‌نمایش‌خوان روشن است."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:58
-#, fuzzy
 msgid "Whether the slow keys keyboard accessibility feature is turned on."
-msgstr "ترجیحات دسترسی‌پذیری صفحه‌کلیدتان را تنظیم کنید"
+msgstr "چنانچه امکان کلیدهای آرام از امکانات دسترسی‌پذیری صفحه‌کلید روشن است."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:59
-#, fuzzy
 msgid "Whether the sticky keys keyboard accessibility feature is turned on."
-msgstr "ترجیحات دسترسی‌پذیری صفحه‌کلیدتان را تنظیم کنید"
+msgstr "چنانچه امکان کلیدهای چسبان از امکانات دسترسی‌پذیری صفحه‌کلید روشن است."
 
 #: ../gnome-settings-daemon/main.c:55
 msgid "Enable debugging code"
-msgstr ""
+msgstr "فعال کردن اشکال‌زدائی کد"
 
 #: ../gnome-settings-daemon/main.c:56
 msgid "Don't become a daemon"
@@ -629,21 +570,19 @@ msgstr ""
 
 #: ../gnome-settings-daemon/main.c:57
 msgid "GConf prefix from which to load plugin settings"
-msgstr ""
+msgstr "پیشوند GConf جهت بارگزاری تنظیمات افزونه"
 
 #: ../gnome-settings-daemon/main.c:58
 msgid "Exit after a time - for debugging"
-msgstr ""
+msgstr "خروج پس از مدتی - جهت اشکال‌زدائی"
 
 #: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
-#, fuzzy
 msgid "Accessibility Keyboard"
-msgstr "_دسترسی‌پذیری"
+msgstr "دسترسی‌پذیری صفحه‌کلید"
 
 #: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
-#, fuzzy
 msgid "Accessibility keyboard plugin"
-msgstr "_دسترسی‌پذیری"
+msgstr "افزونه دسترسی‌پذیری صفحه‌کلید"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:388
 #, c-format
@@ -662,52 +601,48 @@ msgstr "آیا می‌خواهید کلیدهای آهسته را غیرفعال
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:521
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:587
-msgid ""
-"You just held down the Shift key for 8 seconds.  This is the shortcut for "
-"the Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-"شما کلید مبدل را برای ۸ ثانیه نگه داشتید.  این میانبری به امکانات کلیدهای "
-"آهسته است، که کارکرد صفحه‌کلید شما را تحت تأثیر قرار می‌دهد."
+msgid "You just held down the Shift key for 8 seconds.  This is the shortcut for the Slow Keys feature, which affects the way your keyboard works."
+msgstr "شما کلید مبدل را برای ۸ ثانیه نگه داشتید.  این میانبری به امکانات کلیدهای آهسته است، که کارکرد صفحه‌کلید شما را تحت تأثیر قرار می‌دهد."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:546
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:685
 msgid "Don't activate"
-msgstr ""
+msgstr "فعال نکنید"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:546
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:685
 msgid "Don't deactivate"
-msgstr ""
+msgstr "غیرفعال نکنید"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:552
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:691
 msgid "Activate"
-msgstr ""
+msgstr "فعال کردن"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:552
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:691
 msgid "Deactivate"
-msgstr ""
+msgstr "غیرفعال کردن"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:608
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:749
 msgid "Do_n't activate"
-msgstr ""
+msgstr "_فعال نکنید"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:608
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:749
 msgid "Do_n't deactivate"
-msgstr ""
+msgstr "_غیرفعال نکنید"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:611
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:752
 msgid "_Activate"
-msgstr ""
+msgstr "فعال _کردن"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:611
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:752
 msgid "_Deactivate"
-msgstr ""
+msgstr "غیرفعا_ل کردن"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:615
 msgid "Slow Keys Alert"
@@ -725,23 +660,13 @@ msgstr "آیا می‌خواهید کلیدهای چسبان را غیرفعال
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:658
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:726
-msgid ""
-"You just pressed the Shift key 5 times in a row.  This is the shortcut for "
-"the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-"شما کلید مبدل را ۵ بار پشت سر هم فشار دادید. این میانبری بهامکانات کلیدهای "
-"چسبان است، که کارکرد صفحه‌کلید شما را تحت تأثیر قرار می‌دهد."
+msgid "You just pressed the Shift key 5 times in a row.  This is the shortcut for the Sticky Keys feature, which affects the way your keyboard works."
+msgstr "شما کلید مبدل را ۵ بار پشت سر هم فشار دادید. این میانبری بهامکانات کلیدهای چسبان است، که کارکرد صفحه‌کلید شما را تحت تأثیر قرار می‌دهد."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:660
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:728
-msgid ""
-"You just pressed two keys at once, or pressed the Shift key 5 times in a "
-"row.  This turns off the Sticky Keys feature, which affects the way your "
-"keyboard works."
-msgstr ""
-"شما کافی‌ست دو کلید را با هم فشار دهید، یا کلید مبدل را ۵ بار در یک ردیف فشار "
-"دهید. با این‌کار امکانات کلیدهای چسبان از کار می‌افتد ، که در کارکرد صفحه‌کلید "
-"شما موثر است."
+msgid "You just pressed two keys at once, or pressed the Shift key 5 times in a row.  This turns off the Sticky Keys feature, which affects the way your keyboard works."
+msgstr "شما کافی‌ست دو کلید را با هم فشار دهید، یا کلید مبدل را ۵ بار در یک ردیف فشار دهید. با این‌کار امکانات کلیدهای چسبان از کار می‌افتد ، که در کارکرد صفحه‌کلید شما موثر است."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:756
 msgid "Sticky Keys Alert"
@@ -749,9 +674,8 @@ msgstr "هشدار کلیدهای چسبان"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.c:920
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:4
-#, fuzzy
 msgid "Universal Access Preferences"
-msgstr "ترجیحات موشی"
+msgstr "ترجیحات دسترسی فراگیر"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:1
 msgid "Enhance _contrast in colors"
@@ -759,43 +683,39 @@ msgstr ""
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:2
 msgid "Make _text larger and easier to read"
-msgstr ""
+msgstr "_متن را برای خواندن بزرگتر و ساده‌تر کن"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:3
 msgid "Press and _hold keys to accept them (Slow Keys)"
-msgstr ""
+msgstr "جهت پذیرفتن آنها، کلیدها را _فشرده و نگاه دارید (کلیدهای آرام)"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:5
-#, fuzzy
 msgid "Use on-screen _keyboard"
-msgstr "صفحه‌کلید _روی صفحه‌نمایش"
+msgstr "از صفحه‌کلید مجازی استفاده کن"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:6
 msgid "Use screen _magnifier"
-msgstr ""
+msgstr "استفاده از _ذره‌بین"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:7
-#, fuzzy
 msgid "Use screen _reader"
-msgstr "_صفحه‌نمایش‌خوان"
+msgstr "استفاده از _صفحه‌نمایش‌خوان"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:8
-#, fuzzy
 msgid "_Ignore duplicate keypresses (Bounce Keys)"
-msgstr "نا_دیده گرفتن دوبار فشار داده شدن یک کلید در زمانی کمتر از:"
+msgstr "نا_دیده گرفتن دوبار فشار داده شدن یک کلید (کلیدهای پرشی)"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:9
 msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
 msgstr ""
 
 #: ../plugins/background/background.gnome-settings-plugin.in.h:1
-#, fuzzy
 msgid "Background"
-msgstr "اِعمال _پس‌زمینه"
+msgstr "پس‌زمینه"
 
 #: ../plugins/background/background.gnome-settings-plugin.in.h:2
 msgid "Background plugin"
-msgstr ""
+msgstr "افزونه پس‌زمینه"
 
 #: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:1
 msgid "Clipboard"
@@ -806,12 +726,14 @@ msgid "Clipboard plugin"
 msgstr ""
 
 #: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#, fuzzy
 msgid "Dummy"
-msgstr ""
+msgstr "ساختگی"
 
 #: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#, fuzzy
 msgid "Dummy plugin"
-msgstr ""
+msgstr "افزونه ساختگی"
 
 #: ../plugins/font/font.gnome-settings-plugin.in.h:1
 msgid "Font"
@@ -819,17 +741,15 @@ msgstr "قلم"
 
 #: ../plugins/font/font.gnome-settings-plugin.in.h:2
 msgid "Font plugin"
-msgstr ""
+msgstr "افزونه قلم"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:64
-#, fuzzy
 msgid "Don't show any warnings again for this filesystem"
-msgstr "این اخطار را دوباره نشان داده _نشود"
+msgstr "هیچ اخطار دیگری برای این سیستم فایلی نمایش نده"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:66
-#, fuzzy
 msgid "Don't show any warnings again"
-msgstr "این اخطار را دوباره نشان داده _نشود"
+msgstr "هیچ اخطاری نمایش نده"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:79
 #, c-format
@@ -839,30 +759,22 @@ msgstr ""
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:82
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "این رایانه تنها %s فضای باقیمانده دارد."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:98
-msgid ""
-"You can free up disk space by emptying the Trash, removing unused programs "
-"or files, or moving files to another disk or partition."
+msgid "You can free up disk space by emptying the Trash, removing unused programs or files, or moving files to another disk or partition."
 msgstr ""
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:101
-msgid ""
-"You can free up disk space by removing unused programs or files, or by "
-"moving files to another disk or partition."
+msgid "You can free up disk space by removing unused programs or files, or by moving files to another disk or partition."
 msgstr ""
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:106
-msgid ""
-"You can free up disk space by emptying the Trash, removing unused programs "
-"or files, or moving files to an external disk."
+msgid "You can free up disk space by emptying the Trash, removing unused programs or files, or moving files to an external disk."
 msgstr ""
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:109
-msgid ""
-"You can free up disk space by removing unused programs or files, or by "
-"moving files to an external disk."
+msgid "You can free up disk space by removing unused programs or files, or by moving files to an external disk."
 msgstr ""
 
 #. Set up all the window stuff here
@@ -872,64 +784,61 @@ msgstr ""
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:439
 msgid "Empty Trash"
-msgstr ""
+msgstr "خالی کردن سطل زباله"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:447
 msgid "Examine..."
-msgstr ""
+msgstr "بازرسی..."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:454
 msgid "Ignore"
-msgstr ""
+msgstr "نادیده گرفتن"
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:96
-#, fuzzy, c-format
+#, c-format
 msgid "Removing item %lu of %lu"
-msgstr "در حال نسخه برداری از پرونده: %Iu از %Iu"
+msgstr "درحال پاک کردن مورد %lu از %lu مورد"
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:116
-#, fuzzy, c-format
+#, c-format
 msgid "<i>Removing: %s</i>"
-msgstr "<i>زیاد</i>"
+msgstr "<i>درحال پاک کردن: %s</i>"
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:244
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:293
 msgid "Emptying the trash"
-msgstr ""
+msgstr "در حال خالی کردن سطل زباله"
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:269
 msgid "Preparing to empty trash..."
-msgstr ""
+msgstr "آماده‌سازی جهت خالی کردن سطل زباله"
 
 #. Translators: "Emptying trash from <device>"
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:296
-#, fuzzy
 msgid "From: "
 msgstr "از:"
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:357
 msgid "Empty all of the items from the trash?"
-msgstr ""
+msgstr "خالی کردن تمام موارد از سطل زباله؟"
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:360
-msgid ""
-"If you choose to empty the trash, all items in it will be permanently lost. "
-"Please note that you can also delete them separately."
-msgstr ""
+msgid "If you choose to empty the trash, all items in it will be permanently lost. Please note that you can also delete them separately."
+msgstr "چنانچه سطل زباله را خالی کنید، تمام موارد داخل آن برای همیشه از بین خواهند رفت. لطفا در نظر داشته باشید که میتوانید آنها را جدا جدا پاک نمایید."
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:367
 msgid "_Empty Trash"
-msgstr ""
+msgstr "_خالی کردن سطل زباله"
 
 #: ../plugins/keybindings/gsd-keybindings-manager.c:139
-#, fuzzy, c-format
+#, c-format
 msgid "Key binding (%s) is invalid"
-msgstr "کلید مقید (%s) نامعتبر است\n"
+msgstr "کلید الزامی (%s) نامعتبر است"
 
 #: ../plugins/keybindings/gsd-keybindings-manager.c:197
-#, fuzzy, c-format
+#, c-format
 msgid "Key binding (%s) is incomplete"
-msgstr "کلید مقید (%s) ناتمام است\n"
+msgstr "کلید الزامی (%s) ناقص است"
 
 #: ../plugins/keybindings/gsd-keybindings-manager.c:493
 #, c-format
@@ -942,20 +851,19 @@ msgstr ""
 
 #: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:1
 msgid "Keybindings"
-msgstr ""
+msgstr "کلیدهای الزامی"
 
 #: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:2
 msgid "Keybindings plugin"
-msgstr ""
+msgstr "افزونه کلیدهای الزامی"
 
 #: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
 msgid "Keyboard"
 msgstr "صفحه‌کلید"
 
 #: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
-#, fuzzy
 msgid "Keyboard plugin"
-msgstr "گزینه‌های صفحه‌کلید"
+msgstr "افزونه صفحه‌کلید"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:114
 #, c-format
@@ -974,36 +882,50 @@ msgid ""
 "- The result of <b>%s</b>\n"
 "- The result of <b>%s</b>"
 msgstr ""
+"خطا در هنگام فعال سازی پیکربندی XKB.\n"
+"این مسئله ممکن است در شرایط مختلفی رخ دهد:\n"
+"- یک اشکال در کتابخانه libxklavier\n"
+"- یک مشکل در کارگزار X (ابزارهای xkbcomp، xmodmap)\n"
+"- کارگزار X همراه با پیاده‌سازی ناقص از libxkbfile\n"
+"\n"
+"اطلاعات مربوط به نسخه کارگزار X: \n"
+"%s\n"
+"%d\n"
+"%s\n"
+"چناچه مایل به گزارش این مضعیت به عنوان یک مشکل هستید، خواهشمند است موارد زیر را نیز اضافه نمایید:\n"
+"- نتایج مربوط به <b>%s</b>\n"
+"- نتایج مربوط به <b>%s</b>"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:128
 msgid ""
 "You are using XFree 4.3.0.\n"
 "There are known problems with complex XKB configurations.\n"
-"Try using a simpler configuration or taking a fresher version of XFree "
-"software."
+"Try using a simpler configuration or taking a fresher version of XFree software."
 msgstr ""
+"شما در حال استفاده از XFree 4.3.0 هستید.\n"
+"تعدادی مشکل شناخته شده مربوط به پیکربندی‌های پیچیده XKB وجود دارد.\n"
+"سعی کنید از تنظیمات ساده‌تری برای پیکربندی و یا از نسخه تازه‌تری از XFree استفاده نمایید."
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:200
 msgid "Unknown"
 msgstr "نامعلوم"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:269
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard Layout \"%s\""
-msgstr "چیدمان صفحه‌کلید"
+msgstr "چیدمان صفحه‌کلید \"%s\""
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:392
 msgid "_Groups"
-msgstr ""
+msgstr "_گروه‌ها"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:399
-#, fuzzy
 msgid "Keyboard _Preferences"
-msgstr "ترجیحات صفحه‌کلید"
+msgstr "_ترجیحات صفحه‌کلید"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:405
 msgid "Show Current _Layout"
-msgstr ""
+msgstr "نمایش _طرح‌بندی کنونی"
 
 #: ../plugins/keyboard/modmap-dialog.ui.h:1
 msgid "A_vailable files:"
@@ -1030,24 +952,21 @@ msgid "_Loaded files:"
 msgstr "_فایل‌های بار ‌شده:"
 
 #: ../plugins/keyboard/show-layout.ui.h:1
-#, fuzzy
 msgid "Keyboard Layout"
 msgstr "چیدمان صفحه‌کلید"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:195
-msgid ""
-"Could not get default terminal. Verify that your default terminal command is "
-"set and points to a valid application."
-msgstr ""
+msgid "Could not get default terminal. Verify that your default terminal command is set and points to a valid application."
+msgstr "امکان دریافت پایانه‌ی پیش‌فرض وجود ندارد. صحت تنظیم و اشاره به برنامه‌ای صحیح را در دستور پایانه‌ی پیش‌فرض خود بررسی کنید"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:235
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Couldn't execute command: %s\n"
 "Verify that this is a valid command."
 msgstr ""
-"نمی‌توان فرمان: %s را را اجرا کرد\n"
-"تایید کنید این‌که این فرمان وجود دارد."
+"عدم امکان اجرای دستور: %s\n"
+"صحت دستور فوق را تایید نمایید."
 
 #. translators:
 #. * The device has been disabled
@@ -1061,7 +980,7 @@ msgstr "از کار افتاده"
 #, c-format
 msgid "%u Output"
 msgid_plural "%u Outputs"
-msgstr[0] ""
+msgstr[0] "%u خروجی"
 
 #. translators:
 #. * The number of sound inputs on a particular device
@@ -1069,21 +988,19 @@ msgstr[0] ""
 #, c-format
 msgid "%u Input"
 msgid_plural "%u Inputs"
-msgstr[0] ""
+msgstr[0] "%u ورودی"
 
 #: ../plugins/media-keys/cut-n-paste/gvc-mixer-control.c:1304
-#, fuzzy
 msgid "System Sounds"
-msgstr "سیستم"
+msgstr "صدای سیستم"
 
 #: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:1
-#, fuzzy
 msgid "Media keys"
-msgstr "کلید‌های موشی"
+msgstr "کلید‌های رسانه"
 
 #: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
 msgid "Media keys plugin"
-msgstr ""
+msgstr "افزونه کلیدهای رسانه"
 
 #: ../plugins/mount/gsd-mount-manager.c:74
 #, fuzzy, c-format
@@ -1092,31 +1009,27 @@ msgstr "باز کردن دفترچه‌ی نشانی امکان نداشت"
 
 #. TRANSLATORS: notification title
 #: ../plugins/mount/gsd-mount-manager.c:197
-#, fuzzy
 msgid "USB plugged in"
-msgstr "پرونده‌ی صدا"
+msgstr "USB متصل شد"
 
 #. TRANSLATORS: notification text: placeholder is a mount or volume
 #. * name, e.g. "Canon digital camera", "Kingston 32GB".
 #: ../plugins/mount/gsd-mount-manager.c:200
 #, c-format
-msgid ""
-"%s has been plugged in. You can use the Devices panel to interact with it"
-msgstr ""
+msgid "%s has been plugged in. You can use the Devices panel to interact with it"
+msgstr "%s متصل شده است. شما میتوانید از تایلوی دستگاه‌ها جهت ارتباط با آن بهره ببرید"
 
 #: ../plugins/mount/gsd-mount-manager.c:207
 msgid "Show"
-msgstr ""
+msgstr "نمایش"
 
 #: ../plugins/mouse/gsd-mouse-manager.c:882
-#, fuzzy
 msgid "Could not enable mouse accessibility features"
-msgstr "_به کار انداختن امکانات دسترسی‌پذیری صفحه‌کلید"
+msgstr "امکان راه‌اندازی امکانات دسترسی‌پذیری صفحه‌کلید نیست"
 
 #: ../plugins/mouse/gsd-mouse-manager.c:884
-msgid ""
-"Mouse accessibility requires mousetweaks to be installed on your system."
-msgstr ""
+msgid "Mouse accessibility requires mousetweaks to be installed on your system."
+msgstr "امکانات دسترسی‌پذیری موشواره احتیاج به نصب mousetweaks را دارد."
 
 #: ../plugins/mouse/gsd-mouse-manager.c:887
 msgid "Mouse Preferences"
@@ -1128,136 +1041,130 @@ msgstr "موشی"
 
 #: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
 msgid "Mouse plugin"
-msgstr ""
+msgstr "افزونه موشواره"
 
 #: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:1
 msgid "Typing Break"
 msgstr "استراحت تایپ"
 
 #: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:2
-#, fuzzy
 msgid "Typing break plugin"
-msgstr "استراحت تایپ"
+msgstr "افزونه‌ی توقف تایپ"
 
 #: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
 msgid "Set up screen size and rotation settings"
-msgstr ""
+msgstr "نصب تنظیمات چرخش و اندازه صفحه نمایش"
 
 #: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
 msgid "XRandR"
-msgstr ""
+msgstr "XRandR"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:222
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1350
 msgid "Could not switch the monitor configuration"
-msgstr ""
+msgstr "امکان تعویض پیکربندی نمایشگر نیست"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:246
 msgid "Could not restore the display's configuration"
-msgstr ""
+msgstr "امکان بازگرداندن پیکربندی نمایشگر نیست"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:271
 msgid "Could not restore the display's configuration from a backup"
-msgstr ""
+msgstr "امکان بازگرداندن پیکربندی نمایشگر از یک پشتیبان وجود ندارد"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:292
 #, c-format
 msgid "If you don't do anything we'll switch back in %d second"
 msgid_plural "If you don't do anything we'll switch back in %d seconds"
-msgstr[0] ""
+msgstr[0] "اگر در مدت %d ثانیه کاری انجام ندهید به حالت قبلی باز خواهیم گشت"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:342
 #, c-format
 msgid "Resolution changed to %dx%d. Does that look right?"
-msgstr ""
+msgstr "تفکیک‌پذیری صفحه‌نمایش به %dx%d تغییر پیدا کرده است. آیا به درستی نشان داده می‌شود؟"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:350
 msgid "No, revert"
-msgstr ""
+msgstr "خیر، بازگشت"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:351
 msgid "Yes, keep"
-msgstr ""
+msgstr "بله، نگه‌دار"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:431
 msgid "The selected configuration for displays could not be applied"
-msgstr ""
+msgstr "پیکربندی انتخاب شده برای نمایشگرها قابل ثبت نیست"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:967
 #, c-format
 msgid "Could not refresh the screen information: %s"
-msgstr ""
+msgstr "عدم امکان بارگذاری مجدد اطلاعات صفحه‌نمایش: %s"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:970
 msgid "Trying to switch the monitor configuration anyway."
-msgstr ""
+msgstr "در حال تلاش برای تعویض پیکربندی نمایشگر."
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1734
 msgid "<i>Rotation not supported</i>"
-msgstr ""
+msgstr "<i>از چرخش پشتیبانی نمی‌شود</i>"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1788
-#, fuzzy
 msgid "Could not save monitor configuration"
-msgstr "خطا در از کار انداختن شتاب‌دهنده در پایگاه داده‌ی پیکربندی: %s\n"
+msgstr "امکان ذخیره پیکربندی نمایشگر وجود ندارد"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1806
 msgid "Normal"
-msgstr ""
+msgstr "عادی"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1807
 msgid "Left"
-msgstr ""
+msgstr "چپ"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1808
-#, fuzzy
 msgid "Right"
-msgstr "_باریک"
+msgstr "راست"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1809
 msgid "Upside Down"
-msgstr ""
+msgstr "برعکس"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1929
 msgid "_Configure Display Settings ..."
-msgstr ""
+msgstr "_پیکربندی تنظیمات نمایشگر..."
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1970
 msgid "Configure display settings"
-msgstr ""
+msgstr "پیکربندی تنظیمات نمایشگر"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:2027
 msgid "Could not apply the stored configuration for monitors"
-msgstr ""
+msgstr "امکان ثبت پیکربندی ذخیره شده جهت نماشگرها وجود ندارد"
 
 #: ../plugins/xrdb/gsd-xrdb-manager.c:255
 #: ../plugins/xrdb/gsd-xrdb-manager.c:324
 msgid "Cannot determine user's home directory"
-msgstr "نمی‌توان شاخه‌ی آغاز کاربر را معین کرد"
+msgstr "نمی‌توان شاخه‌ی آغازه کاربر را معین کرد"
 
 #: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:1
 msgid "Manage the X resource database"
-msgstr ""
+msgstr "مدیریت منابع بانک اطلاعاتی X"
 
 #: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:2
 msgid "X Resource Database"
-msgstr ""
+msgstr "منابع بانک اطلاعاتی X"
 
 #: ../plugins/xsettings/gsd-xsettings-manager.c:595
 #, c-format
 msgid "GConf key %s set to type %s but its expected type was %s\n"
-msgstr ""
-"کلید GConf %s از نوع %s تنظیم شده است ولی نوع مورد نظر برای آن %s است\n"
+msgstr "کلید GConf %s از نوع %s تنظیم شده است ولی نوع مورد نظر برای آن %s است\n"
 
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
-#, fuzzy
 msgid "Manage X Settings"
-msgstr "استفاده از تنظیمات X"
+msgstr "مدیریت تنظیمات X"
 
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
-#, fuzzy
 msgid "X Settings"
-msgstr "استفاده از تنظیمات X"
+msgstr "تنظیمات X"
 
 #~ msgid "Sync text/plain and text/* handlers"
 #~ msgstr "همگام‌سازی متصدی‌های متنی/ساده و متنی/*‏"
@@ -1516,125 +1423,86 @@ msgstr "استفاده از تنظیمات X"
 # ../capplets/common/gconf-property-editor.:c:183
 #~ msgid "Change Password"
 #~ msgstr "تغییر گذرواژه"
-
 #~ msgid "Ci_ty:"
 #~ msgstr "ش_هر:"
-
 #~ msgid "Co_untry:"
 #~ msgstr "_کشور:"
-
 #~ msgid "Contact"
 #~ msgstr "اطلاعات تماس"
-
 #~ msgid "Cou_ntry:"
 #~ msgstr "کش_ور:"
-
 #~ msgid "Full Name"
 #~ msgstr "نام و نام خانوادگی"
-
 #~ msgid "Hom_e:"
 #~ msgstr "من_زل:"
-
 #~ msgid "Old pa_ssword:"
 #~ msgstr "_گذرواژه‌ی قدیمی:"
-
 #~ msgid "P.O. _box:"
 #~ msgstr "_صندوق پستی:"
-
 #~ msgid "P._O. box:"
 #~ msgstr "صن_دوق پستی:"
-
 #~ msgid "Personal Info"
 #~ msgstr "اطلاعات شخصی"
-
 #~ msgid "State/Pro_vince:"
 #~ msgstr "استان/نا_حیه:"
-
 #~ msgid "User name:"
 #~ msgstr "نام کاربر:"
-
 #~ msgid "Web _log:"
 #~ msgstr "وب‌_لاگ:"
-
 #~ msgid "Wor_k:"
 #~ msgstr "محل _کار:"
-
 #~ msgid "Work _fax:"
 #~ msgstr "_نمابر محل کار:"
-
 #~ msgid "Zip/_Postal code:"
 #~ msgstr "کد _پستی:"
-
 #~ msgid "_Address:"
 #~ msgstr "_نشانی:"
-
 #~ msgid "_Department:"
 #~ msgstr "_بخش:"
-
 #~ msgid "_Home page:"
 #~ msgstr "صفحه‌ی آ_غازه:"
-
 #~ msgid "_Home:"
 #~ msgstr "آ_غازه:"
-
 #~ msgid "_Manager:"
 #~ msgstr "_مدیر"
-
 #~ msgid "_Mobile:"
 #~ msgstr "تلفن _همراه:"
-
 #~ msgid "_New password:"
 #~ msgstr "گذرواژه‌ی _جدید:"
-
 #~ msgid "_Profession:"
 #~ msgstr "_حرفه:"
-
 #~ msgid "_Retype new password:"
 #~ msgstr "گذرواژه‌ی جدید را _دوباره وارد کنید:"
-
 #~ msgid "_State/Province:"
 #~ msgstr "ا_ستان/ناحیه:"
-
 #~ msgid "_Title:"
 #~ msgstr "_عنوان:"
-
 #~ msgid "_Work:"
 #~ msgstr "_کار:"
-
 #~ msgid "_Zip/Postal code:"
 #~ msgstr "کد _پستی:"
-
 #~ msgid "<b>Applications</b>"
 #~ msgstr "<b>برنامه‌ها</b>"
-
 #~ msgid "<b>Support</b>"
 #~ msgstr "<b>پشتیبانی</b>"
-
 #~ msgid ""
 #~ "<small><i><b>Note:</b> Changes to this setting will not take effect until "
 #~ "you next log in.</i></small>"
 #~ msgstr ""
 #~ "<small><i><b>تذکر:</b>تغییراتی که در این تنظیمات داده شده تا قبل از ورود "
 #~ "بعدی شما به سیستم لحاظ نخواهند شد.</i></small>"
-
 #~ msgid "Assistive Technology Preferences"
 #~ msgstr "ترجیحات فن‌آوری کمکی"
-
 #~ msgid "Close and _Log Out"
 #~ msgstr "بستن و _خروج از سیستم"
-
 #~ msgid "Start these assistive technologies every time you log in:"
 #~ msgstr "آغاز این فن‌آوری‌های کمکی هر بار که وارد سیستم می‌شوید :"
-
 #~ msgid "_Enable assistive technologies"
 #~ msgstr "_به کار انداختن فن‌آوری‌های کمکی"
-
 #~ msgid "Assistive Technology Support"
 #~ msgstr "پشتیبانی فن‌آوری کمکی"
-
 #~ msgid "Enable support for GNOME assistive technologies at login"
 #~ msgstr "به کار انداختن پشتیبانی فن‌آوری‌های کمکی گنوم هنگام ورود به سیستم"
-
 #~ msgid ""
 #~ "No Assistive Technology is available on your system.  The 'gok' package "
 #~ "must be installed in order to get on-screen keyboard support, and the "
@@ -1644,7 +1512,6 @@ msgstr "استفاده از تنظیمات X"
 #~ "هیچ فن‌آوری کمکی‌ای در سیستم شما موجود نیست.  برای پشتیبانی صفحه‌کلید روی "
 #~ "صفحه‌نمایش باید بسته‌ی «gok» نصب شود، و برای خواندن صفحه‌نمایش و داشتن "
 #~ "قابلیت‌های ذره‌بین نیز باید بسته‌ی«gnopernicus» نصب شود."
-
 #~ msgid ""
 #~ "Not all available assistive technologies are installed on your system.  "
 #~ "The 'gok' package must be installed in order to get on-screen keyboard "
@@ -1652,7 +1519,6 @@ msgstr "استفاده از تنظیمات X"
 #~ msgstr ""
 #~ "همه‌ی فن‌آوری‌های کمکی موجود روی سیستم شما نصب نشده‌اند.  برای پشتیبانی "
 #~ "صفحه‌نمایش-روشن می‌بایست بسته‌ی «gok» نصب شود."
-
 #~ msgid ""
 #~ "Not all available assistive technologies are installed on your system.  "
 #~ "The 'gnopernicus' package must be installed for screenreading and "
@@ -1660,220 +1526,154 @@ msgstr "استفاده از تنظیمات X"
 #~ msgstr ""
 #~ "همه‌ی فن‌آوری‌های کمکی موجود روی سیستم شما نصب نشده‌اند.  برای خواندن صفحه "
 #~ "نمایش و داشتن قابلیت‌های ذره‌بین باید بسته‌ی «gnopernicus» نصب شود."
-
 #~ msgid "There was an error launching the mouse preferences dialog: %s"
 #~ msgstr "در راه‌اندازی محاوره‌ی ترجیحات موشی: %s خطایی وجود داشت"
-
 #~ msgid "Unable to import AccessX settings from file '%s'"
 #~ msgstr "وارد کردن تنظیمات AccessX از پرونده‌ی «%s» مقدور نیست"
-
 #~ msgid "Import Feature Settings File"
 #~ msgstr "وارد کردن پرونده‌ی تنظیمات امکانات"
-
 #~ msgid "_Import"
 #~ msgstr "_وارد کردن"
-
 #~ msgid ""
 #~ "This system does not seem to have the XKB extension.  The keyboard "
 #~ "accessibility features will not operate without it."
 #~ msgstr ""
 #~ "به نظر نمی‌رسد که این سیستم دارای پسوند XKB باشد.  امکانات دسترسی‌پذیری "
 #~ "صفحه‌کلید بدون این پسوند کار نمی‌کند."
-
 #~ msgid "*"
 #~ msgstr "*"
-
 #~ msgid "<b>Enable Bo_unce Keys</b>"
 #~ msgstr "<b>به‌کار انداختن کلیدهای جهش_ی </b>"
-
 #~ msgid "<b>Enable Slo_w Keys</b>"
 #~ msgstr "<b>به‌کار انداختن کلیدهای آهس_ته</b>"
-
 #~ msgid "<b>Enable _Mouse Keys</b>"
 #~ msgstr "<b>به‌کار انداختن کلیدهای _موشی</b>"
-
 #~ msgid "<b>Enable _Repeat Keys</b>"
 #~ msgstr "<b>به‌کار انداختن کلیدهای _تکرار</b>"
-
 #~ msgid "<b>Enable _Sticky Keys</b>"
 #~ msgstr "<b>به‌کار انداختن کلیدهای _چسبان</b>"
-
 #~ msgid "<b>Features</b>"
 #~ msgstr "<b>امکانات</b>"
-
 #~ msgid "<b>Toggle Keys</b>"
 #~ msgstr "<b>کلیدهای ضامنی</b>"
-
 #~ msgid "Basic"
 #~ msgstr "ابتدایی"
-
 #~ msgid "Beep if key is re_jected"
 #~ msgstr "اگر کلید پذ_یرفته نشد بوق زده‌ شود"
-
 #~ msgid "Beep when _features turned on or off from keyboard"
 #~ msgstr "هنگام روشن یا خاموش شدن امکانات صفحه‌کلید بوق زده شود"
-
 #~ msgid "Beep when _modifier is pressed"
 #~ msgstr "هنگام فشار داده شدن _تغییر‌دهنده بوق زده شود"
-
 #~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
 #~ msgstr "وقتی یک LED روشن شد یک بوق و وقتی خاموش شد دوبار بوق زده شود"
-
 #~ msgid "Beep when key is:"
 #~ msgstr "بوق زدن هنگام فشار دادن کلید:"
-
 #~ msgid "Del_ay:"
 #~ msgstr "تأ_خیر:"
-
 #~ msgid "Delay between keypress and pointer mo_vement:"
 #~ msgstr "تأخیر بین فشار دادن کلید و حرکت اشاره‌گر"
-
 #~ msgid "Disa_ble if two keys pressed together"
 #~ msgstr "ا_ز کار افتادن در صورت فشار داده شدن همزمان دو کلید"
-
 #~ msgid "E_nable Toggle Keys"
 #~ msgstr "به _کار انداختن کلیدهای ضامنی"
-
 #~ msgid "Filters"
 #~ msgstr "صافی‌ها"
-
 #~ msgid ""
 #~ "Ignore all subsequent presses of the SAME key if they happen within a "
 #~ "user selectable period of time."
 #~ msgstr ""
 #~ "نادیده گرفتن همه‌ی فشار داده شدن‌های بعدی <b>یک</b> کلید اگر در محدوده‌ی  "
 #~ "زمانی قابل انتخاب برای کاربر رخ دهند."
-
 #~ msgid "Keyboard Accessibility Preferences (AccessX)"
 #~ msgstr "ترجیحات دسترسی‌پذیری صفحه کلید (AccessX)"
-
 #~ msgid "Ma_ximum pointer speed:"
 #~ msgstr "حداک_ثر سرعت اشاره‌گر:"
-
 #~ msgid "Mouse _Preferences..."
 #~ msgstr "_ترجیحات موشی..."
-
 #~ msgid ""
 #~ "Only accept keys after they have been pressed and held for a user "
 #~ "adjustable amount of time."
 #~ msgstr ""
 #~ "قبول کلید‌ها فقط در صورتی که پس از فشار داده شدن به مدت زمان تنظیمی کاربر "
 #~ "نگه داشته شوند."
-
 #~ msgid ""
 #~ "Perform multiple simultaneous key press operations by pressing modifier "
 #~ "keys in sequence."
 #~ msgstr ""
 #~ "انجام چندین عملیات فشردن کلید به طور هم‌زمان با فشردن کلیدهای تغییردهنده "
 #~ "به ترتیب."
-
 #~ msgid "S_peed:"
 #~ msgstr "سر‌_عت:"
-
 #~ msgid "Time to acce_lerate to maximum speed:"
 #~ msgstr "زمان افزایش _سرعت به حداکثر:"
-
 #~ msgid "Turn the numeric keypad into a mouse control pad."
 #~ msgstr "تبدیل صفحه‌کلید عددی به صفحه‌ی کنترل موشی."
-
 #~ msgid "_Disable if unused for:"
 #~ msgstr "ا_ز کار انداختن در صورت عدم استفاده به مدت:"
-
 #~ msgid "_Import Feature Settings..."
 #~ msgstr "_وارد کردن تنظیمات امکانات..."
-
 #~ msgid "_Only accept keys held for:"
 #~ msgstr "_قبول کلید‌ها فقط در صورت نگه داشته شدن به مدت:"
-
 #~ msgid "_Type to test settings:"
 #~ msgstr "برای آزمایش تنظیمات _تایپ کنید:"
-
 #~ msgid "_accepted"
 #~ msgstr "_پذیرفته شد"
-
 #~ msgid "_pressed"
 #~ msgstr "_فشار داده شد"
-
 #~ msgid "_rejected"
 #~ msgstr "_رد شد"
-
 #~ msgid "characters/second"
 #~ msgstr "نویسه/ثانیه"
-
 #~ msgid "milliseconds"
 #~ msgstr "میلی‌ثانیه"
-
 #~ msgid "pixels/second"
 #~ msgstr "نقطه/ثانیه"
-
 #~ msgid "seconds"
 #~ msgstr "ثانیه"
-
 #~ msgid "Change your Desktop Background settings"
 #~ msgstr "تنظیمات پس‌زمینه‌ی رومیزی‌تان را تغییر دهید"
-
 #~ msgid "Desktop Background"
 #~ msgstr "پس‌زمینه‌ی رومیزی"
-
 #~ msgid "<b>Desktop _Wallpaper</b>"
 #~ msgstr "<b>_کاغذدیواری رومیزی</b>"
-
 #~ msgid "<b>_Desktop Colors</b>"
 #~ msgstr "<b>_رنگ‌های رومیزی</b>"
-
 #~ msgid "Desktop Background Preferences"
 #~ msgstr "ترجیحات پس‌زمینه رومیزی"
-
 #~ msgid "Open a dialog to specify the color"
 #~ msgstr "باز کردن محاوره برای مشخص کردن رنگ"
-
 #~ msgid "_Add Wallpaper"
 #~ msgstr "_اضافه کردن کاغذ‌دیواری"
-
 #~ msgid "_Remove"
 #~ msgstr "_حذف"
-
 #~ msgid "_Style:"
 #~ msgstr "_سبک:"
-
 #~ msgid "Centered"
 #~ msgstr "وسط"
-
 #~ msgid "Fill Screen"
 #~ msgstr "پر کردن صفحه"
-
 #~ msgid "Scaled"
 #~ msgstr "با حفظ مقیاس"
-
 #~ msgid "Tiled"
 #~ msgstr "کاشی"
-
 #~ msgid "Solid Color"
 #~ msgstr "رنگ یکدست"
-
 #~ msgid "Horizontal Gradient"
 #~ msgstr "سایه‌ی افقی"
-
 #~ msgid "Vertical Gradient"
 #~ msgstr "سایه‌ی عمودی"
-
 #~ msgid "Add Wallpaper"
 #~ msgstr "اضافه کردن کاغذدیواری"
-
 #~ msgid "Images"
 #~ msgstr "تصویرها"
-
 #~ msgid "All Files"
 #~ msgstr "همه‌ی پرونده‌ها"
-
 #~ msgid "No Wallpaper"
 #~ msgstr "کاغذدیواری"
-
 # ../capplets/background/gnome-wp-item.c:289:
 #~ msgid "pixel"
 #~ msgid_plural "pixels"
 #~ msgstr[0] "نقطه"
-
 #~ msgid ""
 #~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
 #~ "Without the GNOME settings manager running, some preferences may not take "
@@ -1886,83 +1686,58 @@ msgstr "استفاده از تنظیمات X"
 #~ "این می‌تواند بیانگر مشکلی در بونوبو باشد، یا ممکن است یک مدیر تنظیمات غیر "
 #~ "گنومی (به عنوان مثال KDE) از قبل در حال اجرا باشد و با مدیر تنظیمات گنوم "
 #~ "مغایرت داشته باشد."
-
 #~ msgid "Just apply settings and quit"
 #~ msgstr "فقط اِعمال تنظیمات و بعد ترک"
-
 #~ msgid "Retrieve and store legacy settings"
 #~ msgstr "بازیابی و ذخیره‌سازی تنظیمات منسوخ شده"
-
 #~ msgid "Copying '%s'"
 #~ msgstr "در حال نسخه برداری از «%s»"
-
 #~ msgid "From URI"
 #~ msgstr "از نشانی اینترنتی"
-
 #~ msgid "URI currently transferring from"
 #~ msgstr "انتقال فعلی نشانی اینترنتی از"
-
 #~ msgid "To URI"
 #~ msgstr "به نشانی اینترنتی"
-
 #~ msgid "URI currently transferring to"
 #~ msgstr "انتقال فعلی نشانی اینترنتی به"
-
 #~ msgid "Fraction completed"
 #~ msgstr "کسر کامل شد"
-
 #~ msgid "Fraction of transfer currently completed"
 #~ msgstr "کسر انتقال هم‌اکنون کامل شد"
-
 #~ msgid "Current URI index"
 #~ msgstr "نمایه‌ی فعلی نشانی اینترنتی"
-
 #~ msgid "Current URI index - starts from 1"
 #~ msgstr "نمایه‌ی فعلی نشانی اینترنتی - از ۱ آغاز می‌شود"
-
 #~ msgid "Total URIs"
 #~ msgstr "کل نشانی‌های جهانی"
-
 #~ msgid "Total number of URIs"
 #~ msgstr "تعداد کل نشانی‌های جهانی"
-
 #~ msgid "Copying files"
 #~ msgstr "در حال نسخه‌برداری از پرونده‌ها"
-
 #~ msgid "To:"
 #~ msgstr "به:"
-
 #~ msgid "Connecting..."
 #~ msgstr "در حال اتصال..."
-
 #~ msgid "Key"
 #~ msgstr "کلید"
-
 #~ msgid "GConf key to which this property editor is attached"
 #~ msgstr "کلید GConf که این ویرایشگر ویژگی به آن پیوست شده است"
-
 # ../capplets/common/gconf-property-editor.:c:183
 #~ msgid "Change set"
 #~ msgstr "عوض کردن تنظیم"
-
 #~ msgid ""
 #~ "GConf change set containing data to be forwarded to the gconf client on "
 #~ "apply"
 #~ msgstr "مجموعه‌ی تغییرات GConf که در صورت اِعمال به کارگیر gconf ارجاع می‌شود"
-
 # ../capplets/common/gconf-property-editor.c:201http://persianblog.com/?date=13820103&blog=zirshalvari
 #~ msgid "UI Control"
 #~ msgstr "کنترل واسط کاربر"
-
 #~ msgid "Object that controls the property (normally a widget)"
 #~ msgstr "شیء کنترل کننده‌ی ویژگی(معمولاً یک ویجت)"
-
 #~ msgid "Property editor object data"
 #~ msgstr "داده‌ی شیء ویرایشگر ویژگی"
-
 #~ msgid "Custom data required by the specific property editor"
 #~ msgstr "داده‌ی سفارشی، لازم برای ویرایشگر ویژگی‌های خاص"
-
 #~ msgid ""
 #~ "Couldn't find the file '%s'.\n"
 #~ "\n"
@@ -1972,7 +1747,6 @@ msgstr "استفاده از تنظیمات X"
 #~ "پرونده‌ی «%s» پیدا نشد.\n"
 #~ "\n"
 #~ "لطفاً از وجود آن اطمینان حاصل کنید، یا تصویر پس‌زمینه‌ی دیگری انتخاب کنید."
-
 #~ msgid ""
 #~ "I don't know how to open the file '%s'.\n"
 #~ "Perhaps it's a kind of picture that is not yet supported.\n"
@@ -1983,193 +1757,130 @@ msgstr "استفاده از تنظیمات X"
 #~ "شاید این نوعی تصویر است که هنوز پشتیبانی نمی‌شود.\n"
 #~ "\n"
 #~ "لطفاً به جای آن تصویر دیگری انتخاب کنید."
-
 #~ msgid "Please select an image."
 #~ msgstr "لطفاً یک تصویر انتخاب کنید."
-
 #~ msgid "_Select"
 #~ msgstr "_انتخاب"
-
 #~ msgid "Preferred Applications"
 #~ msgstr "برنامه‌های ترجیح داده شده"
-
 #~ msgid "Select your default applications"
 #~ msgstr "برنامه‌ی پیش‌فرض خود را انتخاب کنید"
-
 #~ msgid "Custom"
 #~ msgstr "سفارشی"
-
 #~ msgid "Balsa"
 #~ msgstr "بالسا"
-
 #~ msgid "Debian Sensible Browser"
 #~ msgstr "مرورگر Sensible از Debian"
-
 #~ msgid "Debian Terminal Emulator"
 #~ msgstr "مقلّد پایانه‌ی Debian"
-
 #~ msgid "ETerm"
 #~ msgstr "ETerm"
-
 #~ msgid "Encompass"
 #~ msgstr "اینکامپس"
-
 #~ msgid "Epiphany Web Browser"
 #~ msgstr "مرورگر وب اِپیفانی"
-
 #~ msgid "Evolution Mail Reader"
 #~ msgstr "نامه‌خوان اوولوشن"
-
 #~ msgid "Evolution Mail Reader 1.4"
 #~ msgstr "نامه‌خوان اوولوشن 1.4"
-
 #~ msgid "Evolution Mail Reader 1.5"
 #~ msgstr "نامه‌خوان اوولوشن 1.5"
-
 #~ msgid "Evolution Mail Reader 1.6"
 #~ msgstr "نامه‌خوان اوولوشن 1.6"
-
 #~ msgid "Evolution Mail Reader 2.0"
 #~ msgstr "نامه‌خوان اوولوشن 2.0"
-
 #~ msgid "Evolution Mail Reader 2.2"
 #~ msgstr "نامه‌خوان اوولوشن 2.2"
-
 #~ msgid "Evolution Mail Reader 2.4"
 #~ msgstr "نامه‌خوان اوولوشن 2.4"
-
 #~ msgid "Firebird"
 #~ msgstr "فایر‌برد"
-
 #~ msgid "Firefox"
 #~ msgstr "فایر‌فاکس"
-
 #~ msgid "GNOME Terminal"
 #~ msgstr "پایانه‌ی گنوم"
-
 #~ msgid "Galeon"
 #~ msgstr "گالیون"
-
 #~ msgid "KMail"
 #~ msgstr "KMail"
-
 #~ msgid "Konqueror"
 #~ msgstr "کنکورر"
-
 #~ msgid "Links Text Browser"
 #~ msgstr "مرورگر متنی Links"
-
 #~ msgid "Lynx Text Browser"
 #~ msgstr "مرورگر متنی Lynx"
-
 #~ msgid "Mozilla"
 #~ msgstr "موزیلا"
-
 #~ msgid "Mozilla 1.6"
 #~ msgstr "موزیلا 1.6"
-
 #~ msgid "Mozilla Mail"
 #~ msgstr "نامه‌ی موزیلا"
-
 #~ msgid "Mozilla Thunderbird"
 #~ msgstr "تاندربرد موزیلا"
-
 #~ msgid "Mutt"
 #~ msgstr "Mutt"
-
 #~ msgid "NXterm"
 #~ msgstr "NXterm"
-
 #~ msgid "Netscape Communicator"
 #~ msgstr "‏Communicator نت‌اسکیپ"
-
 #~ msgid "Opera"
 #~ msgstr "اُپرا"
-
 #~ msgid "RXVT"
 #~ msgstr "RXVT"
-
 #~ msgid "Standard XTerminal"
 #~ msgstr "‏XTerminal استاندارد"
-
 #~ msgid "Sylpheed-Claws"
 #~ msgstr "Sylpheed-Claws"
-
 #~ msgid "Thunderbird"
 #~ msgstr "تاندربرد"
-
 #~ msgid "W3M Text Browser"
 #~ msgstr "مرورگر متنی W3M"
-
 #~ msgid "aterm"
 #~ msgstr "aterm"
-
 #~ msgid "<b>Audio Player</b>"
 #~ msgstr "<b>پخش‌کننده‌ی صدا</b>"
-
 #~ msgid "<b>Image Viewer</b>"
 #~ msgstr "<b>نمایش‌دهنده‌ی تصویر</b>"
-
 #~ msgid "<b>Instant Messenger</b>"
 #~ msgstr "<b>پیغام‌رسان اینترنتی</b>"
-
 #~ msgid "<b>Mail Reader</b>"
 #~ msgstr "<b>نامه‌خوان</b>"
-
 #~ msgid "<b>Terminal Emulator</b>"
 #~ msgstr "<b>مقلّد پایانه</b>"
-
 #~ msgid "<b>Text Editor</b>"
 #~ msgstr "<b>ویرایشگر متن</b>"
-
 #~ msgid "<b>Video Player</b>"
 #~ msgstr "<b>پخش‌کننده‌ی ویدیو</b>"
-
 #~ msgid "<b>Web Browser</b>"
 #~ msgstr "<b>مرورگر وب</b>"
-
 #~ msgid "Co_mmand:"
 #~ msgstr "_فرمان:"
-
 #~ msgid "E_xecute flag:"
 #~ msgstr "پر_چم اجرا:"
-
 #~ msgid "Internet"
 #~ msgstr "اینترنت"
-
 #~ msgid "Run in t_erminal"
 #~ msgstr "در پا_یانه اجرا شود"
-
 #~ msgid "Change screen resolution"
 #~ msgstr "تفکیک‌پذیری صفحه‌نمایش عوض شود"
-
 #~ msgid "Screen Resolution"
 #~ msgstr "تفکیک‌پذیری صفحه‌نمایش"
-
 #~ msgid "%d Hz"
 #~ msgstr "%Id هرتز"
-
 #~ msgid "_Resolution:"
 #~ msgstr "_تفکیک‌پذیری"
-
 #~ msgid "Re_fresh rate:"
 #~ msgstr "آهنگ نو_سازی"
-
 #~ msgid "Default Settings"
 #~ msgstr "تنظیمات پیش‌فرض"
-
 #~ msgid "Screen %d Settings\n"
 #~ msgstr "تنظیمات صفحه‌نمایش %Id\n"
-
 #~ msgid "Screen Resolution Preferences"
 #~ msgstr "ترجیحات تفکیک‌پذیری صفحه‌نمایش"
-
 #~ msgid "_Make default for this computer (%s) only"
 #~ msgstr "_فقط برای این رایانه (%s) پیش‌فرض شود"
-
 #~ msgid "Options"
 #~ msgstr "گزینه‌ها"
-
 #~ msgid ""
 #~ "Testing the new settings. If you don't respond in %d second the previous "
 #~ "settings will be restored."
@@ -2179,80 +1890,56 @@ msgstr "استفاده از تنظیمات X"
 #~ msgstr[0] ""
 #~ "آزمایش تنظیمات جدید. اگر در مدت %Id ثانیه پاسخی ندهیدتنظیمات قبلی "
 #~ "بازگردانده خواهد شد."
-
 #~ msgid "Keep Resolution"
 #~ msgstr "تفکیک‌پذیری حفظ شود"
-
 #~ msgid "Do you want to keep this resolution?"
 #~ msgstr "آیا می‌خواهید این تفکیک‌پذیری حفظ شود؟"
-
 #~ msgid "Use _previous resolution"
 #~ msgstr "تفکیک‌پذیری قبلی _استفاده شود"
-
 #~ msgid "_Keep resolution"
 #~ msgstr "_تفکیک‌پذیری حفظ شود"
-
 #~ msgid ""
 #~ "The X Server does not support the XRandR extension.  Runtime resolution "
 #~ "changes to the display size are not available."
 #~ msgstr ""
 #~ "کارگزار X از پسوندهای XRandR پشتیبانی نمی‌کند.  تغییرات تفکیک‌پذیری در "
 #~ "اندازه‌ی نمایش در زمان اجرا موجود نیستند."
-
 #~ msgid "Select fonts for the desktop"
 #~ msgstr "انتخاب قلم برای رومیزی"
-
 #~ msgid "<b>Font Rendering</b>"
 #~ msgstr "<b>کشیدن قلم</b>"
-
 #~ msgid "<b>Smoothing</b>:"
 #~ msgstr "<b>هموار کردن</b>"
-
 #~ msgid "<b>Subpixel order</b>:"
 #~ msgstr "<b>ترتیب نقطه‌ی زیر</b>"
-
 #~ msgid "Best _shapes"
 #~ msgstr "بهترین _شکل"
-
 #~ msgid "Best co_ntrast"
 #~ msgstr "بهترین _کنتراست"
-
 #~ msgid "D_etails..."
 #~ msgstr "ج_زئیات..."
-
 #~ msgid "Des_ktop font:"
 #~ msgstr "قلم _رومیزی:"
-
 #~ msgid "Font Preferences"
 #~ msgstr "ترجیحات قلم"
-
 #~ msgid "Font Rendering Details"
 #~ msgstr "جزئیات کشیدن قلم"
-
 #~ msgid "Go _to font folder"
 #~ msgstr "رفتن _به پوشه‌ی قلم"
-
 #~ msgid "Gra_yscale"
 #~ msgstr "سایه‌ی_خاکستری"
-
 #~ msgid "N_one"
 #~ msgstr "هی_چ‌کدام"
-
 #~ msgid "R_esolution:"
 #~ msgstr "تف_کیک‌پذیری:"
-
 #~ msgid "Sub_pixel (LCDs)"
 #~ msgstr "نقطه‌ی _زیر (LCD ها)"
-
 #~ msgid "Sub_pixel smoothing (LCDs)"
 #~ msgstr "هموارسازی زیر_نقطه‌ای‌ (برای LCD)"
-
 #~ msgid "_Application font:"
 #~ msgstr "_قلم برنامه:"
-
 #~ msgid "_Document font:"
 #~ msgstr "قلم _نوشتار:"
-
 #, fuzzy
 #~ msgid "_Fixed width font:"
 #~ msgstr "_قلم عنوان پنجره:"
@@ -2282,6 +1969,7 @@ msgstr "استفاده از تنظیمات X"
 #~ "The font selected is %d point large, and may make it difficult to "
 #~ "effectively use the computer.  It is recommended that you select a size "
 #~ "smaller than %d."
+
 #~ msgid_plural ""
 #~ "The font selected is %d points large, and may make it difficult to "
 #~ "effectively use the computer. It is recommended that you select a size "
@@ -2294,6 +1982,7 @@ msgstr "استفاده از تنظیمات X"
 #~ "The font selected is %d point large, and may make it difficult to "
 #~ "effectively use the computer.  It is recommended that you select a "
 #~ "smaller sized font."
+
 #~ msgid_plural ""
 #~ "The font selected is %d points large, and may make it difficult to "
 #~ "effectively use the computer. It is recommended that you select a smaller "
@@ -2348,350 +2037,238 @@ msgstr "استفاده از تنظیمات X"
 # ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
 #~ msgid "Shortcut"
 #~ msgstr "میان‌بر"
-
 #~ msgid "Keyboard Shortcuts"
 #~ msgstr "میان‌برهای صفحه‌کلید"
-
 #~ msgid ""
 #~ "To edit a shortcut key, click on the corresponding row and type a new "
 #~ "accelerator, or press backspace to clear."
 #~ msgstr ""
 #~ "برای ویرایش یک کلید میان‌بر، روی سطر مربوط به آن کلیک کرده و یک شتاب‌ده "
 #~ "جدیدتایپ کنید، و یا برای پاک کردن پس‌بر را فشار دهید."
-
 #~ msgid "Assign shortcut keys to commands"
 #~ msgstr "انتساب کلید میان‌بر به فرمان‌ها"
-
 #~ msgid "Layout"
 #~ msgstr "چیدمان"
-
 #~ msgid "Default"
 #~ msgstr "پیش‌فرض"
-
 #~ msgid "Models"
 #~ msgstr "مدل‌ها"
-
 #~ msgid "There was an error launching the keyboard tool: %s"
 #~ msgstr "در راه‌اندازی ابزار صفحه‌کلید خطایی وجود داشت : %s"
-
 #~ msgid ""
 #~ "Just apply settings and quit (compatibility only; now handled by daemon)"
 #~ msgstr ""
 #~ "فقط اِعمال تغییرات و ترک (فقط برای سازگاری؛ در حال حاضر با شبح کنترل می‌شود)"
-
 #~ msgid "Start the page with the typing break settings showing"
 #~ msgstr "صفحه با نشان دادن تنظیمات استراحت تایپ آغاز شود"
-
 #~ msgid "..."
 #~ msgstr "..."
-
 #~ msgid "<b>Cursor Blinking</b>"
 #~ msgstr "<b>چشمک زدن مکان‌نما</b>"
-
 #~ msgid "<b>Repeat Keys</b>"
 #~ msgstr "<b>تکرار کلیدها</b>"
-
 #~ msgid "<b>_Lock screen to enforce typing break</b>"
 #~ msgstr "<b>_قفل کردن صفحه برای تحمیل استراحت تایپ</b>"
-
 #~ msgid "<small><i>Fast</i></small>"
 #~ msgstr "<small><i>تند</i></small>"
-
 #~ msgid "<small><i>Long</i></small>"
 #~ msgstr "<small><i>طولانی</i></small>"
-
 #~ msgid "<small><i>Short</i></small>"
 #~ msgstr "<small><i>کوتاه</i></small>"
-
 #~ msgid "<small><i>Slow</i></small>"
 #~ msgstr "<small><i>کند</i></small>"
-
 #~ msgid "A_vailable layouts:"
 #~ msgstr "چیدمان‌های مو_جود:"
-
 #~ msgid "All_ow postponing of breaks"
 #~ msgstr "امکان به تعویق انداختن استراحت‌ها"
-
 #~ msgid "Check if breaks are allowed to be postponed"
 #~ msgstr "بررسی این که  می‌توان استراحت‌ها را به تعویق انداخت یا نه"
-
 #~ msgid "Choose a Keyboard Model"
 #~ msgstr "یک مدل صفحه‌کلید انتخاب کنید"
-
 #~ msgid "Choose a Layout"
 #~ msgstr "یک چیدمان انتخاب کنید"
-
 #~ msgid "Cursor _blinks in text boxes and fields"
 #~ msgstr "مکان‌نما در جعبه‌های متنی و فیلدها چشمک می‌زند"
-
 #~ msgid "Duration of the break when typing is disallowed"
 #~ msgstr "مدت‌زمان استراحت که در آن تایپ کردن مجاز نیست"
-
 #~ msgid "Duration of work before forcing a break"
 #~ msgstr "مدت زمان کار کردن، پیش تحمیل استراحت"
-
 #~ msgid "Key presses _repeat when key is held down"
 #~ msgstr "ت_کرار کلید وقتی کلید پایین نگه داشته شود "
-
 #~ msgid "Keyboard _model:"
 #~ msgstr "_مدل صفحه‌کلید"
-
 #~ msgid "Layout Options"
 #~ msgstr "گزینه‌های چیدمان"
-
 #~ msgid "Layouts"
 #~ msgstr "چیدمان‌ها"
-
 #~ msgid ""
 #~ "Lock screen after a certain duration to help prevent repetitive keyboard "
 #~ "use injuries"
 #~ msgstr ""
 #~ "قفل کردن صفحه‌نمایش پس از مدت‌زمانی معیّن، برای پیشگیری از آسیب‌های ناشی از "
 #~ "استفاده مکرّر از صفحه‌کلید"
-
 #~ msgid "Microsoft Natural Keyboard"
 #~ msgstr "صفحه‌کلید طبیعی میکروسافت"
-
 #~ msgid "Preview:"
 #~ msgstr "پیش‌نمایش:"
-
 #~ msgid "Reset To De_faults"
 #~ msgstr "تنظیم مجدد به پیش _فرض‌ها"
-
 #~ msgid "Separate _group for each window"
 #~ msgstr "_گروه‌های جداگانه برای هر پنجره"
-
 #~ msgid "_Add..."
 #~ msgstr "_اضافه کردن..."
-
 #~ msgid "_Break interval lasts:"
 #~ msgstr "مدت زمان ا_ستراحت:"
-
 #~ msgid "_Delay:"
 #~ msgstr "_تأخیر:"
-
 #~ msgid "_Models:"
 #~ msgstr "_مدل‌ها:"
-
 #~ msgid "_Selected layouts:"
 #~ msgstr "_چیدمان‌های انتخاب شده:"
-
 #~ msgid "_Speed:"
 #~ msgstr "_سرعت:"
-
 #~ msgid "_Work interval lasts:"
 #~ msgstr "مدت زمان _کار:"
-
 #~ msgid "minutes"
 #~ msgstr "دقیقه"
-
 #~ msgid "Set your keyboard preferences"
 #~ msgstr "ترجیحات صفحه‌کلید خود را تنظیم کنید"
-
 #~ msgid "microseconds"
 #~ msgstr "میکروثانیه"
-
 #~ msgid "Unknown Pointer"
 #~ msgstr "مکان‌نمای نامعلوم"
-
 #~ msgid "Default Pointer"
 #~ msgstr "مکان‌نمای پیش‌فرض"
-
 #~ msgid "Default Pointer - Current"
 #~ msgstr "مکان‌نمای پیش‌فرض - فعلی"
-
 #~ msgid "The default pointer that ships with X"
 #~ msgstr "مکان‌نمای پیش‌فرضی که با X می‌آید"
-
 #~ msgid "White Pointer"
 #~ msgstr "مکان‌نما‌ی سفید"
-
 #~ msgid "White Pointer - Current"
 #~ msgstr "مکان‌نمای سفید - فعلی"
-
 #~ msgid "The default pointer inverted"
 #~ msgstr "مکان‌نمای پیش‌فرض وارونه شد"
-
 #~ msgid "Large Pointer"
 #~ msgstr "مکان‌نمای بزرگ"
-
 #~ msgid "Large Pointer - Current"
 #~ msgstr "مکان‌نمای بزرگ - فعلی"
-
 #~ msgid "Large version of normal pointer"
 #~ msgstr "نسخه‌ی بزرگ مکان‌نمای عادی"
-
 #~ msgid "Large White Pointer - Current"
 #~ msgstr "مکان‌نمای سفید بزرگ - فعلی"
-
 #~ msgid "Large White Pointer"
 #~ msgstr "مکان‌نمای سفید بزرگ"
-
 #~ msgid "Large version of white pointer"
 #~ msgstr "نسخه‌ی بزرگ مکان‌نمای سفید"
-
 #~ msgid "Pointer Theme"
 #~ msgstr "تم مکان‌نما"
-
 #~ msgid "<b>Double-Click Timeout </b>"
 #~ msgstr "<b>انقضای مدت دوبار کلیک </b>"
-
 #~ msgid "<b>Drag and Drop</b>"
 #~ msgstr "<b>کشیدن و رها کردن</b>"
-
 #~ msgid "<b>Locate Pointer</b>"
 #~ msgstr "<b>پیدا کردن محل نشانگر</b>"
-
 #~ msgid "<b>Mouse Orientation</b>"
 #~ msgstr "<b>جهت موشی</b>"
-
 #~ msgid "<b>Speed</b>"
 #~ msgstr "<b>سرعت</b>"
-
 #~ msgid "<i>Fast</i>"
 #~ msgstr "<i>سریع</i>"
-
 #~ msgid "<i>Large</i>"
 #~ msgstr "<i>بزرگ</i>"
-
 #~ msgid "<i>Low</i>"
 #~ msgstr "<i>کم</i>"
-
 #~ msgid "<i>Slow</i>"
 #~ msgstr "<i>کند</i>"
-
 #~ msgid "<i>Small</i>"
 #~ msgstr "<i>کوچک</i>"
-
 #~ msgid "Buttons"
 #~ msgstr "دکمه‌ها"
-
 #~ msgid "Highlight the _pointer when you press Ctrl"
 #~ msgstr "وقتی مهار را فشار دادید _نشان‌گر پررنگ شود"
-
 #~ msgid "Large"
 #~ msgstr "بزرگ"
-
 #~ msgid "Medium"
 #~ msgstr "متوسط"
-
 #~ msgid "Motion"
 #~ msgstr "حرکت"
-
 #~ msgid "Pointer Size:"
 #~ msgstr "اندازه‌ی مکان‌نما:"
-
 #~ msgid "Pointers"
 #~ msgstr "مکان‌نماها"
-
 #~ msgid "Small"
 #~ msgstr "کوچک"
-
 #~ msgid "_Acceleration:"
 #~ msgstr "_شتاب‌دهی"
-
 #~ msgid "_Left-handed mouse"
 #~ msgstr "موشی _چپ‌دست"
-
 #~ msgid "_Sensitivity:"
 #~ msgstr "_حسّاسیت"
-
 #~ msgid "_Threshold:"
 #~ msgstr "آ_ستانه:"
-
 #~ msgid "_Timeout:"
 #~ msgstr "انق_ضای مدت:"
-
 #~ msgid "Set your mouse preferences"
 #~ msgstr "ترجیحات موشی‌تان را تنظیم کنید"
-
 #~ msgid "Network Proxy"
 #~ msgstr "پیشکار شبکه"
-
 #~ msgid "Set your network proxy preferences"
 #~ msgstr "ترجیحات پیشکار شبکه‌تان تنظیم کنید"
-
 #~ msgid "      "
 #~ msgstr "      "
-
 #~ msgid "<b>Di_rect internet connection</b>"
 #~ msgstr "<b>اتصال م_ستقیم اینترنت</b>"
-
 #~ msgid "<b>Ignore Host List</b>"
 #~ msgstr "<b>نادیده گرفتن فهرست میزبان</b>"
-
 #~ msgid "<b>_Automatic proxy configuration</b>"
 #~ msgstr "<b>پیکربندی _خودکار پیشکار</b>"
-
 #~ msgid "<b>_Manual proxy configuration</b>"
 #~ msgstr "<b>پیکربندی _دستی پیشکار</b>"
-
 #~ msgid "<b>_Use authentication</b>"
 #~ msgstr "</i>است_فاده از تأیید هویت</i>"
-
 #~ msgid "Advanced Configuration"
 #~ msgstr "پیکر‌بندی پیش‌رفته"
-
 #~ msgid "Autoconfiguration _URL:"
 #~ msgstr "_نشانی اینترنتی پیکربندی خودکار:"
-
 #~ msgid "HTTP Proxy Details"
 #~ msgstr "جزئیات پیشکار HTTP"
-
 #~ msgid "H_TTP proxy:"
 #~ msgstr "پیشکار H_TTP:"
-
 #~ msgid "Network Proxy Preferences"
 #~ msgstr "ترجیحات پیشکار شبکه"
-
 #~ msgid "Port:"
 #~ msgstr "درگاه:"
-
 #~ msgid "Proxy Configuration"
 #~ msgstr "پیکربندی پیشکار"
-
 #~ msgid "S_ocks host:"
 #~ msgstr "_میزبان Socks:"
-
 #~ msgid "U_sername:"
 #~ msgstr "نا_م کاربر:"
-
 #~ msgid "_Details"
 #~ msgstr "_جزئیات"
-
 #~ msgid "_FTP proxy:"
 #~ msgstr "_پیشکار FTP:"
-
 #~ msgid "_Password:"
 #~ msgstr "_گذرواژه:"
-
 #~ msgid "_Secure HTTP proxy:"
 #~ msgstr "پیشکار HTTP ا_من:"
-
 #~ msgid "Enable sound and associate sounds with events"
 #~ msgstr "به کار انداختن صدا و مربوط کردن صداها به رویدادها"
-
 #~ msgid "Sound Preferences"
 #~ msgstr "ترجیحات صدا"
-
 #~ msgid "Flash _entire screen"
 #~ msgstr "خاموش و روشن کردن همه‌ی صفحه‌نمایش برای یک لحظه"
-
 #~ msgid "Flash _window titlebar"
 #~ msgstr "خاموش و روشن شدن نوار عنوان پنجره برای یک لحظه"
-
 #~ msgid "Sounds"
 #~ msgstr "صداها"
-
 #~ msgid "System Beep"
 #~ msgstr "بوق سیستم"
-
 #~ msgid "_Enable system beep"
 #~ msgstr "_به کار انداختن بوق سیستم"
-
 #~ msgid "Would you like to remove this theme?"
 #~ msgstr "آیا می‌خواهید این تم حذف شود؟"
-
 #, fuzzy
 #~ msgid "Theme can not be deleted"
 #~ msgstr "نام تم باید باشد"
@@ -3217,6 +2794,7 @@ msgstr "استفاده از تنظیمات X"
 #~ msgstr "/_کمی استراحت کنید"
 
 #~ msgid "%d minute until the next break"
+
 #~ msgid_plural "%d minutes until the next break"
 #~ msgstr[0] "%Id دقیقه تا استراحت بعدی"
 
