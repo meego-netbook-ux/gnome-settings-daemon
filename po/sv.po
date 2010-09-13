@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-27 22:20+0000\n"
-"PO-Revision-Date: 2010-09-13 11:04-0800\n"
+"PO-Revision-Date: 2010-09-13 11:10-0800\n"
 "Last-Translator: Petra Mathilda Klein <klein.mathilda@gmail.com>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,6 @@ msgid "Subsequent free percentage notify threshold"
 msgstr "Tröskelvärde för efterföljande varning om lågt diskutrymme (procent)"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
-#, fuzzy
 msgid "Binding to eject an optical disc."
 msgstr "Bindning för att mata ut en optisk skiva."
 
@@ -256,7 +255,6 @@ msgid "Turn on laptop monitor after system boot if user plugs in external monito
 msgstr "Starta på bärbar dator efter systemomstart om användare ansluter extern skärm vid systemomstart."
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:8
-#, fuzzy
 msgid "Whether a notification icon with display-related things should be shown in the panel."
 msgstr "Om en notifieringsikon med skärmrelaterade saker ska visas i panelen."
 
@@ -322,7 +320,6 @@ msgid "Select the touchpad scroll method"
 msgstr "Välj rullningsmetod för pekplattan"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:6
-#, fuzzy
 msgid "Select the touchpad scroll method. Supported values are: 0: disabled, 1: edge scrolling, and 2: two-finger scrolling"
 msgstr "Välj rullningsmetod för pekplattan. Värden som stöds är: 0 - inaktiverad, 1 - kantrullning, 2 - tvåfingersrullning"
 
@@ -772,7 +769,6 @@ msgid "Font plugin"
 msgstr "Insticksmodul för typsnitt"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:64
-#, fuzzy
 msgid "Don't show any warnings again for this file system"
 msgstr "Visa inte några varningar igen för detta filsystem"
 
@@ -816,7 +812,6 @@ msgid "Empty Trash"
 msgstr "Töm papperskorgen"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:447
-#, fuzzy
 msgid "Examine…"
 msgstr "Undersök..."
 
@@ -830,9 +825,9 @@ msgid "Removing item %lu of %lu"
 msgstr "Tar bort objekt %lu av %lu"
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:117
-#, fuzzy, c-format
+#, c-format
 msgid "Removing: %s"
-msgstr "<i>Tar bort: %s</i>"
+msgstr "Tar bort: %s"
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:247
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:296
@@ -840,7 +835,6 @@ msgid "Emptying the trash"
 msgstr "Tömmer papperskorgen"
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:272
-#, fuzzy
 msgid "Preparing to empty trash…"
 msgstr "Förbereder att tömma papperskorgen..."
 
@@ -897,7 +891,7 @@ msgid "Keyboard plugin"
 msgstr "Insticksmodul för tangentbord"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:137
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Error activating XKB configuration.\n"
 "It can happen under various circumstances:\n"
@@ -928,7 +922,6 @@ msgstr ""
 "- Resultatet av <b>%s</b>"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:151
-#, fuzzy
 msgid ""
 "You are using XFree 4.3.0.\n"
 "There are known problems with complex XKB configurations.\n"
@@ -947,7 +940,6 @@ msgid "Keyboard _Preferences"
 msgstr "Tangentbordsins_tällningar"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:292
-#, fuzzy
 msgid "Show _Current Layout"
 msgstr "Visa aktuell _layout"
 
@@ -960,7 +952,6 @@ msgid "Load modmap files"
 msgstr "Läs in modmap-filer"
 
 #: ../plugins/keyboard/modmap-dialog.ui.h:3
-#, fuzzy
 msgid "Would you like to load the modmap files?"
 msgstr "Vill du läsa in modmap-filerna?"
 
@@ -1030,7 +1021,6 @@ msgid "Could not enable mouse accessibility features"
 msgstr "Kunde inte aktivera mushjälpmedelsfunktioner"
 
 #: ../plugins/mouse/gsd-mouse-manager.c:884
-#, fuzzy
 msgid "Mouse accessibility requires Mousetweaks to be installed on your system."
 msgstr "Mushjälpmedel kräver att mousetweaks (Musjusteringar) är installerat på ditt system."
 
@@ -1107,9 +1097,8 @@ msgid "Trying to switch the monitor configuration anyway."
 msgstr "Försöker att växla till skärmkonfigurationen ändå."
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1703
-#, fuzzy
 msgid "Rotation not supported"
-msgstr "<i>Rotering stöds inte</i>"
+msgstr "Rotering stöds inte"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1759
 msgid "Could not save monitor configuration"
@@ -1132,9 +1121,8 @@ msgid "Upside Down"
 msgstr "Upp och ner"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1900
-#, fuzzy
 msgid "_Configure Display Settings…"
-msgstr "_Konfigurera skärminställningar ..."
+msgstr "_Konfigurera skärminställningar..."
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1941
 msgid "Configure display settings"
