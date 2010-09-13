@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-27 22:20+0000\n"
-"PO-Revision-Date: 2010-09-13 16:12-0800\n"
+"PO-Revision-Date: 2010-09-13 16:21-0800\n"
 "Last-Translator: Martine <martine.landais@intel.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
@@ -1202,7 +1202,7 @@ msgstr "L'emplacement dans lequel est la carte"
 
 #: ../plugins/smartcard/gsd-smartcard.c:161
 msgid "Slot Series"
-msgstr "Slot Series"
+msgstr "Séries de l'emplacement"
 
 #: ../plugins/smartcard/gsd-smartcard.c:162
 msgid "per-slot card identifier"
