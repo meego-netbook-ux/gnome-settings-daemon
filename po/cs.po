@@ -1173,7 +1173,7 @@ msgstr "Cesta k ovladači PKCS #11"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:504
 msgid "received error or hang up from event source"
-msgstr ""
+msgstr "Přijata chyba nebo přerušení od zdroje událostí"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:593
 #, c-format
@@ -1209,13 +1209,12 @@ msgid "The slot the card is in"
 msgstr "Zdířka pro kartu je v"
 
 #: ../plugins/smartcard/gsd-smartcard.c:161
-#, fuzzy
 msgid "Slot Series"
-msgstr "Pomalé klávesy"
+msgstr "Řada zdířek"
 
 #: ../plugins/smartcard/gsd-smartcard.c:162
 msgid "per-slot card identifier"
-msgstr ""
+msgstr "Označení karet prostřednictvím zdířek"
 
 #: ../plugins/smartcard/gsd-smartcard.c:168
 #: ../plugins/smartcard/gsd-smartcard.c:169
