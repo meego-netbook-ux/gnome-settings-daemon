@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon 2.29.x\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-27 22:20+0000\n"
-"PO-Revision-Date: 2010-09-14 12:06-0800\n"
+"PO-Revision-Date: 2010-09-14 13:27-0800\n"
 "Last-Translator: francesca godani <francesca.godani@ptiglobal.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "MIME-Version: 1.0\n"
@@ -839,7 +839,6 @@ msgstr "Svuota cestino"
 # è un pulsante (credo apra baobab)
 # FIXME manca l'acceleratore
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:447
-#, fuzzy
 msgid "Examine…"
 msgstr "Esamina..."
 
