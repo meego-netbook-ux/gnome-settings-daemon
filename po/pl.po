@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-27 22:20+0000\n"
-"PO-Revision-Date: 2010-09-14 13:16+0100\n"
-"Last-Translator: Marcin Sołtysiak <marcin.p.soltysiak@gmail.com>\n"
+"PO-Revision-Date: 2010-09-14 09:50-0800\n"
+"Last-Translator: mekaminX <mariax.e.kaminski@intel.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,23 +41,23 @@ msgstr "Ignorowane ścieżki montowania"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:5
 msgid "Percentage free space threshold for initial warning of low disk space. If the percentage free space drops below this, a warning will be shown."
-msgstr "Próg wolnego miejsca (w procentach). Jeśli procent wolnego miejsca spadnie poniżej tej wartości, wyświetlone zostanie ostrzeżenie"
+msgstr "Próg wolnego miejsca w procentach dla początkowego ostrzeżenia o małej ilości miejsca na dysku. Jeśli procent wolnego miejsca spadnie poniżej tej wartości, wyświetlone zostanie ostrzeżenie."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:6
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr "Określenie listy ścieżek montowania do zignorowania, kiedy jest mało miejsca."
+msgstr "Określ listę ścieżek montowania do zignorowania, kiedy jest mało miejsca."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:7
 msgid "Specify a time in minutes. Subsequent warnings for a volume will not appear more often than this period."
-msgstr "Określenie czasu w minutach. Kolejne ostrzeżenia dla woluminu nie będą pojawiały się częściej niż ten okres."
+msgstr "Określ czas w minutach. Kolejne ostrzeżenia dla wolumenu nie będą pojawiały się częściej niż ten okres."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:8
 msgid "Specify an amount in GB. If the amount of free space is more than this, no warning will be shown."
-msgstr "Podaj wartość w gigabajtach. Jeśli ilość wolnego miejsca jest większa niż ta wartość, żadne ostrzeżenie nie zostanie wyświetlone"
+msgstr "Określ liczbę w gigabajtach. Jeśli ilość wolnego miejsca jest większa niż ta wartość, żadne ostrzeżenie nie zostanie wyświetlone."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:9
 msgid "Specify the percentage that the free disk space should reduce by before issuing a subsequent warning."
-msgstr "Podaj wartość w procentach, o jaką wolne miejsce powinno się zmniejszyć przed wyświetleniem kolejnego ostrzeżenia"
+msgstr "Określ procent, o jaki wolne miejsce powinno się zmniejszyć przed wyświetleniem kolejnego ostrzeżenia."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:10
 msgid "Subsequent free percentage notify threshold"
@@ -141,7 +141,7 @@ msgstr "Skrót do zatrzymania odtwarzania."
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
 msgid "Eject"
-msgstr "Wysunięcie nośnika"
+msgstr "Wyrzuć"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
 msgid "Home folder"
@@ -149,31 +149,31 @@ msgstr "Katalog domowy"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
 msgid "Launch calculator"
-msgstr "Uruchomienie kalkulatora"
+msgstr "Uruchom kalkulator"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
 msgid "Launch email client"
-msgstr "Uruchomienie klienta e-mail"
+msgstr "Uruchom klienta e-mail"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
 msgid "Launch help browser"
-msgstr "Uruchomienie przeglądarki pomocy"
+msgstr "Uruchom przeglądarkę pomocy"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
 msgid "Launch media player"
-msgstr "Uruchomienie odtwarzacza multimediów"
+msgstr "Uruchom odtwarzacz multimediów"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
 msgid "Launch web browser"
-msgstr "Uruchomienie przeglądarki WWW"
+msgstr "Uruchom przeglądarkę WWW"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
 msgid "Lock screen"
-msgstr "Blokada ekranu"
+msgstr "Blokuj ekran"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
 msgid "Log out"
-msgstr "Wylogowanie"
+msgstr "Wyloguj się"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
 msgid "Next track"
@@ -181,11 +181,11 @@ msgstr "Następna ścieżka"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
 msgid "Pause playback"
-msgstr "Wstrzymanie odtwarzania"
+msgstr "Wstrzymaj odtwarzanie"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
 msgid "Play (or play/pause)"
-msgstr "Odtwarzanie (lub odtwarzanie/wstrzymanie)"
+msgstr "Odtwarzaj (lub odtwarzaj/wstrzymaj)"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
 msgid "Previous track"
@@ -193,15 +193,15 @@ msgstr "Poprzednia ścieżka"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
 msgid "Search"
-msgstr "Wyszukiwanie"
+msgstr "Szukaj"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
 msgid "Stop playback"
-msgstr "Zatrzymanie odtwarzania"
+msgstr "Zatrzymaj odtwarzania"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
 msgid "Toggle touchpad"
-msgstr "Przełączenie panelu dotykowego"
+msgstr "Przełącz panel dotykowy"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
 msgid "Volume down"
@@ -225,35 +225,35 @@ msgstr "Zwiększenie głośności"
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:1
 msgid "File for default configuration for RandR"
-msgstr "Plik domyślnej konfiguracji RandR"
+msgstr "Plik domyślniej konfiguracji dla RandR"
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:2
 msgid "Show Displays in Notification Area"
-msgstr "Wyświetlanie ekranów w obszarze powiadamiania"
+msgstr "Wyświetl ekrany w obszarze powiadamiania"
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:3
 msgid "The XRandR plugin will look for a default configuration in the file specified by this key. This is similar to the ~/.config/monitors.xml that normally gets stored in users' home directories. If a user does not have such a file, or has one that does not match the user's setup of monitors, then the file specified by this key will be used instead."
-msgstr "Wtyczka XRandR będzie szukać domyślnej konfiguracji w pliku podanym w tym polu. Jest to podobne do pliku ~/.config/monitors.xml, który zwykle zapisywany jest w katalogu domowym użytkownika. Jeśli użytkownik nie posiada takiego pliku, lub jego zawartość nie pasuje do posiadanej konfiguracji monitorów, to wtedy zostanie użyty plik podany w tym polu."
+msgstr "Wtyczka XRandR będzie szukała domyślniej konfiguracji w pliku określonym przez ten klucz. Jest to podobne do ~ / .config / monitors.xml, które zwykle jest przechowywane w domowych katalogach użytkowników. Jeśli użytkownik nie ma takiego pliku, lub ma taki, który nie pasuje do konfiguracji monitorów użytkownika, plik określony przez ten klucz zostanie użyty."
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:4
 msgid "Turn on external monitor after system boot"
-msgstr "Włącz zewnętrzny monitor po starcie systemu"
+msgstr "Włącz zewnętrzny monitor po uruchomieniu systemu"
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:5
 msgid "Turn on external monitor after system boot if user plugs in external monitor on system boot."
-msgstr "Włącz zewnętrzny monitor po starcie systemu tylko gdy jest on podłączony w momencie uruchomienia."
+msgstr "Włącz zewnętrzny monitor po uruchomieniu systemu, jeśli użytkownik podłączył zewnętrzny monitor podczas uruchomiania systemu."
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:6
 msgid "Turn on laptop monitor after system boot"
-msgstr "Włącz monitor laptopa po starcie systemu"
+msgstr "Włącz monitor laptopa po uruchomieniu systemu"
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:7
 msgid "Turn on laptop monitor after system boot if user plugs in external monitor on system boot."
-msgstr "Włącz monitor laptopa po starcie systemu tylko gdy zewnętrzny monitor jest podłączony w momencie uruchomienia."
+msgstr "Włącz monitor laptopa po uruchomieniu systemu, jeśli użytkownik podłączył zewnętrzny monitor podczas uruchomiania systemu."
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:8
 msgid "Whether a notification icon with display-related things should be shown in the panel."
-msgstr "Określa, czy ikona z właściwościami ekranu ma być wyświetlana w obszarze powiadamiania."
+msgstr "Czy ikona powiadomienia z ekranem - pokrewne rzeczy powinny być widoczne w panelu."
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:1
 msgid "Antialiasing"
@@ -301,31 +301,31 @@ msgstr "Jeśli nie jest puste, to skróty klawiszowe będą ignorowane, chyba ż
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:1
 msgid "Disable touchpad while typing"
-msgstr "Wyłączenie panelu dotykowego podczas pisania"
+msgstr "Wyłącz panel dotykowy podczas pisania"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:2
 msgid "Enable horizontal scrolling"
-msgstr "Przewijanie w poziomie"
+msgstr "Przewijaj w poziomie"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:3
 msgid "Enable mouse clicks with touchpad"
-msgstr "Włączenie kliknięć myszy za pomocą panelu dotykowego"
+msgstr "Włącz kliknięcia myszy za pomocą panelu dotykowego"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:4
 msgid "Enable touchpad"
-msgstr "Włączenie panelu dotykowego"
+msgstr "Włącz panel dotykowy"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:5
 msgid "Select the touchpad scroll method"
-msgstr "Wybór metody przewijania panelu dotykowego"
+msgstr "Wybierz metody przewijania panelu dotykowego"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:6
 msgid "Select the touchpad scroll method. Supported values are: 0: disabled, 1: edge scrolling, and 2: two-finger scrolling"
-msgstr "Wybór metody przewijania za pomocą panelu dotykowego. Obsługiwane wartości: 0 - wyłączone, 1 - przewijanie przy krawędziach, 2 - przewijanie dwoma palcami"
+msgstr "Wybierz metodę przewijania panelu dotykowego. Obsługiwane wartości: 0 - wyłączone, 1 - przewijanie przy krawędziach, 2 - przewijanie dwoma palcami"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:7
 msgid "Set this to TRUE if you have problems with accidentally hitting the touchpad while typing."
-msgstr "Powinno być ustawione na \"TRUE\", jeśli użytkownik ma problemy z przypadkowym naciskaniem panelu dotykowego podczas pisania."
+msgstr "Ustawienie na \"TRUE\" pomaga użytkownikowi, który ma problemy z przypadkowym naciskaniem panelu dotykowego podczas pisania."
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:8
 msgid "Set this to TRUE to allow horizontal scrolling by the same method selected with the scroll_method key."
@@ -377,59 +377,59 @@ msgstr "Włącz wtyczkę XRandR"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:9
 msgid "Enable accessibility keyboard plugin"
-msgstr "Włącz wtyczki dostępności klawiatury"
+msgstr "Włącz wtyczkę dostępności klawiatury"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:10
 msgid "Enable background plugin"
-msgstr "Włącz wtyczki tła pulpitu"
+msgstr "Włącz wtyczkę tła pulpitu"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:11
 msgid "Enable clipboard plugin"
-msgstr "Włącz wtyczki schowka"
+msgstr "Włącz wtyczkę schowka"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:12
 msgid "Enable font plugin"
-msgstr "Włącz wtyczki czcionek"
+msgstr "Włącz wtyczkę czcionek"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:13
 msgid "Enable housekeeping plugin"
-msgstr "Włącz wtyczki gospodarowania"
+msgstr "Włącz wtyczkę gospodarowania"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:14
 msgid "Enable keybindings plugin"
-msgstr "Włącz wtyczki skrótów klawiszowych"
+msgstr "Włącz wtyczkę skrótów klawiszowych"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:15
 msgid "Enable keyboard plugin"
-msgstr "Włącz wtyczki klawiatury"
+msgstr "Włącz wtyczkę klawiatury"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:16
 msgid "Enable media keys plugin"
-msgstr "Włącz wtyczki klawiszy multimedialnych"
+msgstr "Włącz wtyczkę klawiszy multimedialnych"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:17
 msgid "Enable mouse plugin"
-msgstr "Włącz wtyczki myszy"
+msgstr "Włącz wtyczkę myszy"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:18
 msgid "Enable smartcard plugin"
-msgstr "Włącz wtyczkę smartcard"
+msgstr "Włącz wtyczkę karty inteligentnej"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:19
 msgid "Enable sound plugin"
-msgstr "Włącz wtyczki dźwięku"
+msgstr "Włącz wtyczkę dźwięku"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:20
 msgid "Enable typing breaks plugin"
-msgstr "Włącz wtyczki przerwy w pisaniu"
+msgstr "Włącz wtyczkę przerwy w pisaniu"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:21
 msgid "Enable xrdb plugin"
-msgstr "Włącz wtyczki xrdb"
+msgstr "Włącz wtyczkę xrdb"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:22
 msgid "Enable xsettings plugin"
-msgstr "Włącz wtyczki XSettings"
+msgstr "Włącz wtyczkę XSettings"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:23
 msgid "Mouse keys"
@@ -473,7 +473,7 @@ msgstr "Wartość \"true\" włącza wtyczkę zarządzania ustawieniami klawiatur
 
 #: ../data/gnome-settings-daemon.schemas.in.h:33
 msgid "Set to True to enable the plugin to manage locking the screen on smartcard removal."
-msgstr "Wartość \"true\" włącza wtyczkę zarządzania blokowaniem ekranu po wyjęciu karty smartcard."
+msgstr "Wartość \"true\" włącza wtyczkę zarządzania blokowania ekranu przy usuwaniu karty inteligentnej."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:34
 msgid "Set to True to enable the plugin to manage mouse settings."
@@ -581,11 +581,11 @@ msgstr "Określa, czy funkcja dostępności klawiatury \"klawisze trwałe\" jest
 
 #: ../data/desktop_gnome_peripherals_smartcard.schemas.in.h:1
 msgid "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The action will get performed when the smartcard used for log in is removed."
-msgstr "Wybierz jedno z \"none\", \"lock_screen\" lub \"force_logout\". Będzie to czynność wykonana, gdy karta smartcard uzyta podczas logowania zostanie usunięta."
+msgstr "Ustaw do jednego z \"none\", \"lock_screen\", lub \"force_logout\". Akcja zostanie wykonywana, gdy karta inteligentna używana do logowania jest usunięta."
 
 #: ../data/desktop_gnome_peripherals_smartcard.schemas.in.h:2
 msgid "Smartcard removal action"
-msgstr "Czynność podczas wyjmowania karty smartcard"
+msgstr "Akcja usuwania karty inteligentnej"
 
 #: ../gnome-settings-daemon/main.c:55
 msgid "Enable debugging code"
@@ -601,7 +601,7 @@ msgstr "Prefiks GConf, z którego mają być wczytywane ustawienia wtyczek"
 
 #: ../gnome-settings-daemon/main.c:58
 msgid "Exit after a time (for debugging)"
-msgstr "Kończy działanie po podanym czasie - do debugowania"
+msgstr "Kończ działanie po podanym czasie - do debugowania"
 
 #: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
 msgid "Accessibility Keyboard"
@@ -634,12 +634,12 @@ msgstr "Przytrzymano przez osiem sekund klawisz Shift. Jest to skrót klawiszowy
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:546
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:685
 msgid "Don't activate"
-msgstr "Bez włączania"
+msgstr "Nie włączaj"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:546
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:685
 msgid "Don't deactivate"
-msgstr "Bez wyłączania"
+msgstr "Nie wyłączaj"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:552
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:691
@@ -706,7 +706,7 @@ msgstr "Preferencje dostępu uniwersalnego"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:1
 msgid "Enhance _contrast in colors"
-msgstr "_Zwiększenie kontrastu kolorów"
+msgstr "_Zwiększ kontrast kolorów"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:2
 msgid "Make _text larger and easier to read"
@@ -730,11 +730,11 @@ msgstr "_Czytnik ekranowy"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:8
 msgid "_Ignore duplicate keypresses (Bounce Keys)"
-msgstr "_Ignorowanie podwójnych naciśnięć klawiszy w jednym ciągu (klawisze odbijane)"
+msgstr "_Ignoruj podwójnych naciśnięć klawiszy w jednym ciągu (klawisze odbijane)"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:9
 msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
-msgstr "_Wprowadzanie skrótów klawiszowych jeden klawisz po drugim (klawisze trwałe)"
+msgstr "_Wprowadź skróty klawiszowe jeden klawisz po drugim (klawisze trwałe)"
 
 #: ../plugins/background/background.gnome-settings-plugin.in.h:1
 msgid "Background"
@@ -809,11 +809,11 @@ msgstr "Mało miejsca na dysku"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:439
 msgid "Empty Trash"
-msgstr "Opróżnianie kosza"
+msgstr "Opróżnij kosz"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:447
 msgid "Examine…"
-msgstr "Sprawdzanie..."
+msgstr "Sprawdź..."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:454
 msgid "Ignore"
@@ -917,7 +917,7 @@ msgstr ""
 "%s\n"
 "%d\n"
 "%s\n"
-"W razie zgłoszenia tej sytuacji jako błąd, proszę dołączyć:\n"
+"W razie zgłoszenia tej sytuacji jako błędu, proszę dołączyć:\n"
 "- wynik polecenia <b>%s</b>\n"
 "- wynik polecenia <b>%s</b>"
 
@@ -933,7 +933,7 @@ msgstr ""
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:279
 msgid "_Layouts"
-msgstr "U_kłady"
+msgstr "Układy"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:286
 msgid "Keyboard _Preferences"
@@ -1023,9 +1023,8 @@ msgid "Could not enable mouse accessibility features"
 msgstr "Nie można włączyć funkcji dostępności myszy"
 
 #: ../plugins/mouse/gsd-mouse-manager.c:884
-#, fuzzy
 msgid "Mouse accessibility requires Mousetweaks to be installed on your system."
-msgstr "Dostępność myszy wymaga instalacji pakietu mousetweaks."
+msgstr "Dostępność myszy wymaga instalacji pakietu Mousetweaks."
 
 #: ../plugins/mouse/gsd-mouse-manager.c:887
 msgid "Mouse Preferences"
@@ -1130,7 +1129,7 @@ msgstr "_Skonfiguruj ustawienia wyświetlania..."
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1941
 msgid "Configure display settings"
-msgstr "Konfiguruje ustawienia wyświetlania"
+msgstr "Skonfiguruj ustawienia wyświetlania"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:2001
 msgid "Could not apply the stored configuration for monitors"
@@ -1143,7 +1142,7 @@ msgstr "Nie można ustalić katalogu domowego użytkownika"
 
 #: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:1
 msgid "Manage the X resource database"
-msgstr "Zarządzanie bazą zasobów X"
+msgstr "Zarządzaj bazą zasobów X"
 
 #: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:2
 msgid "X Resource Database"
@@ -1156,7 +1155,7 @@ msgstr "Klucz GConf %s został ustawiony na typ %s, lecz jego oczekiwanym typem 
 
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
 msgid "Manage X Settings"
-msgstr "Zmiana ustawień X"
+msgstr "Zarządzaj ustawieniami X"
 
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
 msgid "X Settings"
@@ -1168,54 +1167,52 @@ msgstr "Ścieżka modułu"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:168
 msgid "path to smartcard PKCS #11 driver"
-msgstr "ścieżka do sterownika PKCS #11 karty smartcard"
+msgstr "ścieżka do sterownika karty elektronicznej PKCS # 11"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:504
 msgid "received error or hang up from event source"
-msgstr "odebrano sygnał błędu lub rozłączenia ze żródla zdarzenia"
+msgstr "otrzymano błąd lub rozłączono ze źródłem zdarzenia"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:593
 #, c-format
 msgid "NSS security system could not be initialized"
-msgstr "System zabezpieczeń NSS nie może być zainicjowany"
+msgstr "nie można zainicjować systemu bezpieczeństwa NSS"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:662
 #, c-format
 msgid "no suitable smartcard driver could be found"
-msgstr "brak odpowiedniego sterownika karty smartcard"
+msgstr "nie znaleziono odpowiedniego sterownika karty inteligentnej"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:682
 #, c-format
 msgid "smartcard driver '%s' could not be loaded"
-msgstr "sterownik karty smartcard '%s' nie został znaleziony"
+msgstr "sterownik karty inteligentnej '%s' nie został załadowany"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:771
 #, c-format
 msgid "could not watch for incoming card events - %s"
-msgstr "obserwowanie przychodzących zdarzeń karty niemożliwe - %s"
+msgstr "nie można oglądać nadchodzących zdarzeń karty - %s"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:1124
 #, c-format
 msgid "encountered unexpected error while waiting for smartcard events"
-msgstr "napotkano niespodziewany błą podczas oczekiwania na zdarzenie karty smartcard"
+msgstr "wystąpił nieoczekiwany błąd podczas oczekiwania na wydarzenia karty inteligentnej"
 
 #: ../plugins/smartcard/gsd-smartcard.c:154
 msgid "Slot ID"
-msgstr "ID slotu"
+msgstr "ID otworu"
 
 #: ../plugins/smartcard/gsd-smartcard.c:155
 msgid "The slot the card is in"
-msgstr "Slot, w którym znajduje się karta"
+msgstr "Otwór, w którym jest karta"
 
-# Nie jestem pewien co to jest, ale ma zwiazek z autentykacja za pomoca karty chipowej
 #: ../plugins/smartcard/gsd-smartcard.c:161
-#, fuzzy
 msgid "Slot Series"
-msgstr "Klawisze powolne"
+msgstr "Seria otworów"
 
 #: ../plugins/smartcard/gsd-smartcard.c:162
 msgid "per-slot card identifier"
-msgstr "identyfikator karty per-slot"
+msgstr "identyfikator karty wedlug otworów"
 
 #: ../plugins/smartcard/gsd-smartcard.c:168
 #: ../plugins/smartcard/gsd-smartcard.c:169
@@ -1228,7 +1225,7 @@ msgstr "Moduł"
 
 #: ../plugins/smartcard/gsd-smartcard.c:174
 msgid "smartcard driver"
-msgstr "sterownik"
+msgstr "sterownik karty inteligentnej"
 
 #~ msgid "Unknown"
 #~ msgstr "Nieznany"
