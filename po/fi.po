@@ -69,7 +69,6 @@ msgid "Subsequent free percentage notify threshold"
 msgstr "Seuraavan huomautuksen vapaan prosenttiosuuden raja"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
-#, fuzzy
 msgid "Binding to eject an optical disc."
 msgstr "Sidos levyn poistamiseksi asemasta."
 
@@ -587,7 +586,7 @@ msgstr "Aseta tähän joko \\ \"none \", \\ \"lock_screen \" tai \\ \"force_logo
 
 #: ../data/desktop_gnome_peripherals_smartcard.schemas.in.h:2
 msgid "Smartcard removal action"
-msgstr ""
+msgstr "Toimenpide älykorttia poistettaessa"
 
 #: ../gnome-settings-daemon/main.c:55
 msgid "Enable debugging code"
@@ -602,7 +601,6 @@ msgid "GConf prefix from which to load plugin settings"
 msgstr "GConf-etuliite, josta liitännäisen asetuksen ladataan"
 
 #: ../gnome-settings-daemon/main.c:58
-#, fuzzy
 msgid "Exit after a time (for debugging)"
 msgstr "Poistu tietyn ajan jälkeen – sopii virheenjäljitykseen"
 
@@ -772,9 +770,8 @@ msgid "Font plugin"
 msgstr "Kirjasinliitännäinen"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:64
-#, fuzzy
 msgid "Don't show any warnings again for this file system"
-msgstr "Älä näytä mitään varoituksia tästä tiedostojärjestelmästä"
+msgstr "Älä näytä uudestaan mitään varoituksia tästä tiedostojärjestelmästä"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:66
 msgid "Don't show any warnings again"
@@ -816,7 +813,6 @@ msgid "Empty Trash"
 msgstr "Tyhjennä roskakori"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:447
-#, fuzzy
 msgid "Examine…"
 msgstr "Tutki..."
 
@@ -830,9 +826,9 @@ msgid "Removing item %lu of %lu"
 msgstr "Poistetaan kohdetta %lu/%lu"
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:117
-#, fuzzy, c-format
+#, c-format
 msgid "Removing: %s"
-msgstr "<i>Poistetaan: %s</i>"
+msgstr "Poistetaan: %s"
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:247
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:296
@@ -840,7 +836,6 @@ msgid "Emptying the trash"
 msgstr "Tyhjennetään roskakoria"
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:272
-#, fuzzy
 msgid "Preparing to empty trash…"
 msgstr "Valmistaudutaan tyhjentämään roskakori..."
 
@@ -939,8 +934,9 @@ msgstr ""
 "Kokeile käyttää yksinkertaisempia asetuksia tai ota käyttöön tuoreempi versio XFree-ohjelmistosta."
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:279
+#, fuzzy
 msgid "_Layouts"
-msgstr ""
+msgstr "_Ulkoasut"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:286
 msgid "Keyboard _Preferences"
@@ -960,7 +956,6 @@ msgid "Load modmap files"
 msgstr "Modmap-tiedostojen lataus"
 
 #: ../plugins/keyboard/modmap-dialog.ui.h:3
-#, fuzzy
 msgid "Would you like to load the modmap files?"
 msgstr "Haluatko ladata modmap-tiedostot?"
 
@@ -1030,9 +1025,8 @@ msgid "Could not enable mouse accessibility features"
 msgstr "Hiiren esteettömyystoimintoja ei voitu ottaa käyttöön"
 
 #: ../plugins/mouse/gsd-mouse-manager.c:884
-#, fuzzy
 msgid "Mouse accessibility requires Mousetweaks to be installed on your system."
-msgstr "Hiiren esteettömyystuki vaatii mousetweaks-paketin asennuksen järjestelmääsi."
+msgstr "Hiiren esteettömyystuki vaatii että järjestelmässä on asennettuna Mousetweaks."
 
 #: ../plugins/mouse/gsd-mouse-manager.c:887
 msgid "Mouse Preferences"
@@ -1107,9 +1101,8 @@ msgid "Trying to switch the monitor configuration anyway."
 msgstr "Yritetään vaihtaa näytön asetuksia joka tapauksessa."
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1703
-#, fuzzy
 msgid "Rotation not supported"
-msgstr "<i>Kierto ei ole tuettu</i>"
+msgstr "Kierto ei ole tuettu"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1759
 msgid "Could not save monitor configuration"
@@ -1172,40 +1165,41 @@ msgstr "X-asetukset"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:167
 msgid "Module Path"
-msgstr ""
+msgstr "Moduulin polku"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:168
 msgid "path to smartcard PKCS #11 driver"
-msgstr ""
+msgstr "polku älykortin PKCS #11 -ajuriin"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:504
+#, fuzzy
 msgid "received error or hang up from event source"
-msgstr ""
+msgstr "vastaanotettiin virhe tai luopuminen tapahtumalähteestä"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:593
 #, c-format
 msgid "NSS security system could not be initialized"
-msgstr ""
+msgstr "NSS-turvallisuusjärjestelmää ei voitu alustaa"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:662
 #, c-format
 msgid "no suitable smartcard driver could be found"
-msgstr ""
+msgstr "sopivaa älykorttiajuria ei löydetty"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:682
 #, c-format
 msgid "smartcard driver '%s' could not be loaded"
-msgstr ""
+msgstr "älykorttiajuria '%s' ei voitu ladata"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:771
-#, c-format
+#, c-format, fuzzy
 msgid "could not watch for incoming card events - %s"
-msgstr ""
+msgstr "ei voitu tarkkailla saapuvia tapahtumia - %s"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:1124
-#, c-format
+#, c-format, fuzzy
 msgid "encountered unexpected error while waiting for smartcard events"
-msgstr ""
+msgstr "törmättiin yllättävään virheeseen odottettaessa älykortin tapahtumia"
 
 #: ../plugins/smartcard/gsd-smartcard.c:154
 msgid "Slot ID"
@@ -1216,9 +1210,8 @@ msgid "The slot the card is in"
 msgstr ""
 
 #: ../plugins/smartcard/gsd-smartcard.c:161
-#, fuzzy
 msgid "Slot Series"
-msgstr "Hitaat näppäimet"
+msgstr ""
 
 #: ../plugins/smartcard/gsd-smartcard.c:162
 msgid "per-slot card identifier"
@@ -1227,16 +1220,15 @@ msgstr ""
 #: ../plugins/smartcard/gsd-smartcard.c:168
 #: ../plugins/smartcard/gsd-smartcard.c:169
 msgid "name"
-msgstr ""
+msgstr "nimi"
 
 #: ../plugins/smartcard/gsd-smartcard.c:173
-#, fuzzy
 msgid "Module"
-msgstr "Hiiri"
+msgstr "Moduuli"
 
 #: ../plugins/smartcard/gsd-smartcard.c:174
 msgid "smartcard driver"
-msgstr ""
+msgstr "älykorttiajuri"
 
 #~ msgid "Unknown"
 #~ msgstr "Tuntematon"
