@@ -5,12 +5,12 @@
 # Ilkka Tuohela <hile@iki.fi>, 2005-2009.
 # Tommi Vainikainen <thv@iki.fi>, 2009.
 # Timo Jyrinki <timo.jyrinki@iki.fi>, 2010.
-#
+# 
 # sticky key = pohjaan jäävä näppäin
 # bounce key = kimmonäppäin
 # mouse key = hiirinäppäin
 # toggle key = piippaava näppäin
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
@@ -57,9 +57,8 @@ msgid "Specify a time in minutes. Subsequent warnings for a volume will not appe
 msgstr "Määritä aika minuutteina. Seuraavat varoitukset taltiolle eivät näy useammin kuin tämän aikavälin kuluttua."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:8
-#, fuzzy
 msgid "Specify an amount in GB. If the amount of free space is more than this, no warning will be shown."
-msgstr "Määritä tila gigatavuina. Mikäli vapaata tilaa on enemmän kuin tämä määrä, varoitusta ei näytetä"
+msgstr "Määritä raja-arvo gigatavuina. Mikäli vapaata tilaa on enemmän kuin tämä määrä, varoitusta ei näytetä"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:9
 msgid "Specify the percentage that the free disk space should reduce by before issuing a subsequent warning."
@@ -232,7 +231,7 @@ msgstr "Kasvata äänenvoimakkuutta"
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:1
 msgid "File for default configuration for RandR"
-msgstr ""
+msgstr "Tiedosto RandR vakioasetuksia varten"
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:2
 msgid "Show Displays in Notification Area"
@@ -240,26 +239,25 @@ msgstr "Näytä näyttötiedot ilmoitusalueella"
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:3
 msgid "The XRandR plugin will look for a default configuration in the file specified by this key. This is similar to the ~/.config/monitors.xml that normally gets stored in users' home directories. If a user does not have such a file, or has one that does not match the user's setup of monitors, then the file specified by this key will be used instead."
-msgstr ""
+msgstr "XRandR-lisäosa etsii vakioasetustiedostoa tämän avaimen perusteella. Tämä on vastaava kuin käyttäjien kotihakemistoissa tavanomaisesti oleva ~/.config/monitors.xml -tiedosto. Jos käyttäjällä ei ole kyseistä tiedostoa, tai sen sisältö ei vastaa käyttäjän näyttökokoonpanoa, käytetään sen sijasta tätä asetustiedostoa."
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:4
 msgid "Turn on external monitor after system boot"
-msgstr ""
+msgstr "Käynnistä ulkoinen näyttö järjestelmän käynnistämisen jälkeen"
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:5
 msgid "Turn on external monitor after system boot if user plugs in external monitor on system boot."
-msgstr ""
+msgstr "Käynnistä ulkoinen näyttö järjestelmän käynnistämisen jälkeen, jos käyttäjä on kytkenyt ulkoisen näytön käynnistyksen aikana."
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:6
 msgid "Turn on laptop monitor after system boot"
-msgstr ""
+msgstr "Käynnistä kannettavan näyttö järjestelmän käynnistämisen jälkeen"
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:7
 msgid "Turn on laptop monitor after system boot if user plugs in external monitor on system boot."
-msgstr ""
+msgstr "Käynnistä kannettavan näyttö järjestelmän käynnistämisen jälkeen, jos käyttäjä on kytkenyt ulkoisen näytön käynnistyksen aikana."
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:8
-#, fuzzy
 msgid "Whether a notification icon with display-related things should be shown in the panel."
 msgstr "Näytetäänkö näyttöön liittyvistä asioita huomautuskuvake paneelissa"
 
@@ -324,7 +322,6 @@ msgid "Select the touchpad scroll method"
 msgstr "Valitse kosketuslevyn vieritystapa"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:6
-#, fuzzy
 msgid "Select the touchpad scroll method. Supported values are: 0: disabled, 1: edge scrolling, and 2: two-finger scrolling"
 msgstr "Valitse kosketuslevyn vieritystapa. Tuetut arvot ovat: 0 - ei käytössä, 1 - reunavieritys, 2 - kahden sormen vieritys"
 
@@ -377,9 +374,8 @@ msgid "Command used to turn the screen reader on or off."
 msgstr "Komento, jolla näytönlukija otetaan käyttöön tai poistetaan käytöstä."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:8
-#, fuzzy
 msgid "Enable XRandR plugin"
-msgstr "Käytä xrandr-lisäosaa"
+msgstr "Käytä XRandR-lisäosaa"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:9
 msgid "Enable accessibility keyboard plugin"
@@ -418,9 +414,8 @@ msgid "Enable mouse plugin"
 msgstr "Käytä hiirilisäosaa"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:18
-#, fuzzy
 msgid "Enable smartcard plugin"
-msgstr "Käytä xrandr-lisäosaa"
+msgstr "Käytä älykortti-lisäosaa"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:19
 msgid "Enable sound plugin"
@@ -459,9 +454,8 @@ msgid "Set to True to enable the housekeeping plugin, to prune transient file ca
 msgstr "Aseta todeksi, jos haluat käyttää siivousliitännäistä, joka tyhjentää ylijääneet välimuistitiedostot."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:28
-#, fuzzy
 msgid "Set to True to enable the plugin to manage XRandR settings."
-msgstr "Aseta todeksi, jos haluat ottaa käyttöön xrandr-asetusten hallintalisäosan."
+msgstr "Aseta todeksi, jos haluat ottaa käyttöön XRrandR-asetusten hallintalisäosan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:29
 msgid "Set to True to enable the plugin to manage clipboard settings."
@@ -480,9 +474,8 @@ msgid "Set to True to enable the plugin to manage keyboard settings."
 msgstr "Aseta todeksi, jos haluat ottaa käyttöön näppäinasetusten hallintalisäosan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:33
-#, fuzzy
 msgid "Set to True to enable the plugin to manage locking the screen on smartcard removal."
-msgstr "Aseta todeksi, jos haluat ottaa käyttöön näytönsäästäjän hallintalisäosan."
+msgstr "Aseta todeksi, jos haluat ottaa käyttöön älykortin poistamisesta johtuvan näytön lukitsemisen hallintalisäosan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:34
 msgid "Set to True to enable the plugin to manage mouse settings."
@@ -590,7 +583,7 @@ msgstr "Onko esteettömyystoiminto pohjaan jäävillä näppäimillä pääll�
 
 #: ../data/desktop_gnome_peripherals_smartcard.schemas.in.h:1
 msgid "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The action will get performed when the smartcard used for log in is removed."
-msgstr ""
+msgstr "Aseta tähän joko \\ \"none \", \\ \"lock_screen \" tai \\ \"force_logout \". Toiminta saa suorittaa kun älykortin käytetään kirjautua poistetaan."
 
 #: ../data/desktop_gnome_peripherals_smartcard.schemas.in.h:2
 msgid "Smartcard removal action"
@@ -1247,42 +1240,56 @@ msgstr ""
 
 #~ msgid "Unknown"
 #~ msgstr "Tuntematon"
+
 #~ msgid "Keyboard Layout \"%s\""
 #~ msgstr "Näppäimistöasettelu ”%s”"
+
 #~ msgid "_Groups"
 #~ msgstr "_Ryhmät"
+
 #~ msgid "Keyboard Layout"
 #~ msgstr "Näppäimistön asettelu"
+
 #~ msgid ""
 #~ "Couldn't put the machine to sleep.\n"
 #~ "Verify that the machine is correctly configured."
 #~ msgstr ""
 #~ "Koneen virransäästötilan aktivointi ei onnistunut.\n"
 #~ "Tarkista, että tietokoneesi asetukset ovat oikein."
+
 #~ msgid "Binding to suspend the computer."
 #~ msgstr "Sidos tietokoneen siirtämiseksi keskeytystilaan."
+
 #~ msgid "Suspend"
 #~ msgstr "Keskeytystila"
+
 #~ msgid "GNOME Volume Control"
 #~ msgstr "Gnomen äänenvoimakkuus"
-#~ msgid ""
-#~ "Set to True to display a dialog when there are errors running the "
-#~ "screensaver."
+
+#~ msgid "Set to True to display a dialog when there are errors running the screensaver."
 #~ msgstr "Näytä virheikkuna, kun näytönsäästäjän suorittamisessa on ongelmia."
+
 #~ msgid "Set to True to run the screensaver at login."
 #~ msgstr "Käynnistä näytönsäästäjä kirjauduttaessa sisään."
+
 #~ msgid "Show startup errors"
 #~ msgstr "Näytä käynnistysvirheet"
+
 #~ msgid "Start screensaver"
 #~ msgstr "Käynnistä näytönsäästäjä"
+
 #~ msgid "Enable screensaver plugin"
 #~ msgstr "Käytä näytönsäästäjälisäosaa"
+
 #~ msgid "Toggle screenreader"
 #~ msgstr "Näytetäänkö näytönlukija"
+
 #~ msgid "%d%% of the disk space on `%s' is in use"
 #~ msgstr "%d %% levytilasta osiolla \"%s\" on käytössä"
+
 #~ msgid "Analyze"
 #~ msgstr "Analysoi"
+
 #~ msgid ""
 #~ "There was an error starting up the screensaver:\n"
 #~ "\n"
@@ -1295,63 +1302,84 @@ msgstr ""
 #~ "%s\n"
 #~ "\n"
 #~ "Näytönsäästäjät eivät toimi tämän istunnon aikana."
+
 #~ msgid "Screensaver"
 #~ msgstr "Näytönsäästäjä"
+
 #~ msgid "Screensaver plugin"
 #~ msgstr "Näytönsäästäjä-liitännäinen"
+
 #~ msgid ""
 #~ "Cannot create the directory \"%s\".\n"
 #~ "This is needed to allow changing the mouse pointer theme."
 #~ msgstr ""
 #~ "Kansiota \"%s\" ei voi luoda.\n"
 #~ "Kansio tarvitaan, jotta hiiren osoittimen teemaa voi vaihtaa."
+
 #~ msgid ""
 #~ "Cannot create the directory \"%s\".\n"
 #~ "This is needed to allow changing cursors."
 #~ msgstr ""
 #~ "Kansion \"%s\" luonti epäonnistui.\n"
 #~ "Kansio tarvitaan, jotta kursoreita voi vaihtaa."
+
 #~ msgid "Couldn't load sound file %s as sample %s"
 #~ msgstr "Äänitiedoston %s latautuminen ääneksi %s epäonnistui"
+
 #~ msgid "Login"
 #~ msgstr "Kirjaudu sisään"
+
 #~ msgid "Logout"
 #~ msgstr "Kirjaudu ulos"
+
 #~ msgid "Boing"
 #~ msgstr "Kumahdus"
+
 #~ msgid "Siren"
 #~ msgstr "Sireeni"
+
 #~ msgid "Clink"
 #~ msgstr "Helähdys"
+
 #~ msgid "Beep"
 #~ msgstr "Piippaus"
+
 #~ msgid "No sound"
 #~ msgstr "Ei ääntä"
+
 #~ msgid "Sound not set for this event."
 #~ msgstr "Tälle tapahtumalle ei ole määritelty ääntä"
+
 #~ msgid ""
 #~ "The sound file for this event does not exist.\n"
-#~ "You may want to install the gnome-audio package for a set of default "
-#~ "sounds."
+#~ "You may want to install the gnome-audio package for a set of default sounds."
 #~ msgstr ""
 #~ "Tapahtumaan liittyvää äänitiedostoa ei ole olemassa.\n"
 #~ "Voi olla että haluat asentaa paketin gnome-audio, jossa oletusäänet ovat."
+
 #~ msgid "The sound file for this event does not exist."
 #~ msgstr "Tämän tapahtuman äänitiedostoa ei ole."
+
 #~ msgid "Select Sound File"
 #~ msgstr "Valitse äänitiedosto"
+
 #~ msgid "The file %s is not a valid wav file"
 #~ msgstr "Tiedosto %s ei ole kelvollinen WAV-tiedosto"
+
 #~ msgid "Select sound file..."
 #~ msgstr "Valitse äänitiedosto..."
+
 #~ msgid "Sound"
 #~ msgstr "Ääni"
+
 #~ msgid "Sound plugin"
 #~ msgstr "Ääniliitännäinen"
+
 #~ msgid "An error occurred while configuring the screen"
 #~ msgstr "Tapahtui virhe määriteltäessä näyttöasetuksia"
+
 #~ msgid "gtk-close"
 #~ msgstr "gtk-close"
+
 #~ msgid "Screen Rotation"
 #~ msgstr "Näytön kierto"
-
