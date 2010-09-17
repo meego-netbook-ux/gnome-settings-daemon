@@ -5,18 +5,18 @@
 # Ilkka Tuohela <hile@iki.fi>, 2005-2009.
 # Tommi Vainikainen <thv@iki.fi>, 2009.
 # Timo Jyrinki <timo.jyrinki@iki.fi>, 2010.
-# 
+#
 # sticky key = pohjaan jäävä näppäin
 # bounce key = kimmonäppäin
 # mouse key = hiirinäppäin
 # toggle key = piippaava näppäin
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-27 22:20+0000\n"
-"PO-Revision-Date: 2010-09-14 19:44-0800\n"
+"PO-Revision-Date: 2010-09-16 17:07-0800\n"
 "Last-Translator: Anna Bergman <anna.b.bergman@gmail.com>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -892,7 +892,7 @@ msgid "Keyboard plugin"
 msgstr "Näppäimistöliitännäinen"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:137
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Error activating XKB configuration.\n"
 "It can happen under various circumstances:\n"
@@ -910,20 +910,19 @@ msgid ""
 msgstr ""
 "Virhe aktivoitaessa XKB-asetuksia.\n"
 "Virhe voi tapahtua eri tilanteissa:\n"
-"- ohjelmavirhe libxklavier-kirjastossa\n"
-"- ohjelmavirhe X-palvelimessa (xkbcomp- ja xmodmap-apuohjelmat)\n"
-"- X-palvelin epäyhteensopivalla libxkbfile-toteutuksella\n"
+" • ohjelmavirhe libxklavier-kirjastossa\n"
+" • ohjelmavirhe X-palvelimessa (xkbcomp- ja xmodmap-apuohjelmat)\n"
+" • X-palvelin epäyhteensopivalla libxkbfile-toteutuksella\n"
 "\n"
 "X-palvelimen versiotiedot:\n"
 "%s\n"
 "%d\n"
 "%s\n"
 "Jos kerrot tästä ohjelmavirheraportilla, sisällytä raporttiin:\n"
-"- Komennon <b>%s</b> tulos\n"
-"- Komennon <b>%s</b> tulos"
+" • Komennon <b>%s</b> tulos\n"
+" • Komennon <b>%s</b> tulos"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:151
-#, fuzzy
 msgid ""
 "You are using XFree 4.3.0.\n"
 "There are known problems with complex XKB configurations.\n"
@@ -934,18 +933,16 @@ msgstr ""
 "Kokeile käyttää yksinkertaisempia asetuksia tai ota käyttöön tuoreempi versio XFree-ohjelmistosta."
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:279
-#, fuzzy
 msgid "_Layouts"
-msgstr "_Ulkoasut"
+msgstr "_Asettelut"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:286
 msgid "Keyboard _Preferences"
 msgstr "Näppäimistön _asetukset"
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:292
-#, fuzzy
 msgid "Show _Current Layout"
-msgstr "Näytä nykyinen a_settelu"
+msgstr "Näytä_nykyinen asettelu"
 
 #: ../plugins/keyboard/modmap-dialog.ui.h:1
 msgid "A_vailable files:"
@@ -1125,7 +1122,6 @@ msgid "Upside Down"
 msgstr "Ylösalaisin"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:1900
-#, fuzzy
 msgid "_Configure Display Settings…"
 msgstr "_Määrittele näytön asetukset..."
 
@@ -1172,7 +1168,6 @@ msgid "path to smartcard PKCS #11 driver"
 msgstr "polku älykortin PKCS #11 -ajuriin"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:504
-#, fuzzy
 msgid "received error or hang up from event source"
 msgstr "vastaanotettiin virhe tai luopuminen tapahtumalähteestä"
 
@@ -1192,30 +1187,30 @@ msgid "smartcard driver '%s' could not be loaded"
 msgstr "älykorttiajuria '%s' ei voitu ladata"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:771
-#, c-format, fuzzy
+#, c-format
 msgid "could not watch for incoming card events - %s"
-msgstr "ei voitu tarkkailla saapuvia tapahtumia - %s"
+msgstr "ei voitu tarkkailla saapuvia kortti-tapahtumia - %s"
 
 #: ../plugins/smartcard/gsd-smartcard-manager.c:1124
-#, c-format, fuzzy
+#, c-format
 msgid "encountered unexpected error while waiting for smartcard events"
 msgstr "törmättiin yllättävään virheeseen odottettaessa älykortin tapahtumia"
 
 #: ../plugins/smartcard/gsd-smartcard.c:154
 msgid "Slot ID"
-msgstr ""
+msgstr "Laajennuspaikka-ID"
 
 #: ../plugins/smartcard/gsd-smartcard.c:155
 msgid "The slot the card is in"
-msgstr ""
+msgstr "Laajennuspaikka, jos kortti on"
 
 #: ../plugins/smartcard/gsd-smartcard.c:161
 msgid "Slot Series"
-msgstr ""
+msgstr "Laajennuspaikka-sarja"
 
 #: ../plugins/smartcard/gsd-smartcard.c:162
 msgid "per-slot card identifier"
-msgstr ""
+msgstr "Laajennuspaikan korttitunnisteen mukaan"
 
 #: ../plugins/smartcard/gsd-smartcard.c:168
 #: ../plugins/smartcard/gsd-smartcard.c:169
