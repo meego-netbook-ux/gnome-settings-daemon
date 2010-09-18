@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-22 21:17+0000\n"
-"PO-Revision-Date: 2010-06-24 11:26-0800\n"
-"Last-Translator: Anna Bergman <anna.b.bergman@gmail.com>\n"
+"PO-Revision-Date: 2010-09-17 19:03-0800\n"
+"Last-Translator: \n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +38,7 @@ msgstr "Vapaan tilan ei-huomautusta-raja"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:3
 msgid "Minimum notify period for repeated warnings"
-msgstr "Lyhin huomautusväli toistuville varoituksille"
+msgstr "Lyhyin ilmoitusaika toistuville varoituksille"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:4
 msgid "Mount paths to ignore"
@@ -46,7 +46,7 @@ msgstr "Ohitettavat liitospolut"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:5
 msgid "Percentage free space threshold for initial warning of low disk space. If the percentage free space drops below this, a warning will be shown"
-msgstr "Prosentteina vapaan tilan raja ensimmäiselle varoitukselle vähäisestä levytilasta. Jos vapaan tilan osuus putoaa tämän prosenttimäärän alle, näytetään varoitus"
+msgstr "Vapaan tilan prosenttiosuuden raja, jolloin vähäisestä levytilasta·annetaan ensimmäinen varoitus. Jos vapaan tilan osuus putoaa tämän prosenttimäärän alle, näytetään varoitus."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:6
 msgid "Specify a list of mount paths to ignore when they run low on space."
@@ -62,7 +62,7 @@ msgstr "Määritä tila gigatavuina. Mikäli vapaata tilaa on enemmän kuin täm
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:9
 msgid "Specify the percentage that the free disk space should reduce by before issuing a subsequent warning"
-msgstr "Määritä prosentteina osuus, jonka vapaan tilan tulee vähetä ennen kuin näytetään seuraava varoitus"
+msgstr "Määritä prosentteina osuus, jonka vapaan tilan tulee vähetä ennen kuin näytetään seuraava varoitus."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:10
 msgid "Subsequent free percentage notify threshold"
@@ -274,7 +274,7 @@ msgstr "Sallitut näppäimet"
 
 #: ../data/desktop_gnome_keybindings.schemas.in.h:2
 msgid "If non-empty, keybindings will be ignored unless their GConf directory is in the list. This is useful for lockdown."
-msgstr "Jos arvo ei ole tyhjä, näppäinsidekset jätetään huomioimatta, jollei niiden GConf-kansio ole luettelossa. Tämä on hyödyllinen rajattaessa käyttöä."
+msgstr "Jos arvo ei ole tyhjä, näppäinsidokset jätetään huomioimatta, jollei niiden GConf-kansio ole luettelossa. Tämä on hyödyllinen käyttöä rajattaessa."
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:1
 msgid "Disable touchpad while typing"
@@ -458,7 +458,7 @@ msgstr "Aseta todeksi, jos haluat ottaa käyttöön multimedianäppäinten halli
 
 #: ../data/gnome-settings-daemon.schemas.in.h:35
 msgid "Set to True to enable the plugin to manage sound sample caches."
-msgstr "Aseta todeksi, jos haluat äänisamplejen välimuistin hallintalisäosan."
+msgstr "Aseta todeksi, jos haluat äänimallien välimuistin hallintalisäosan."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:36
 msgid "Set to True to enable the plugin to manage the accessibility keyboard settings."
@@ -530,11 +530,11 @@ msgstr "Näytetäänkö näytönlukija"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:53
 msgid "Whether the bounce keys keyboard accessibility feature is turned on."
-msgstr "Onko estettömyystoiminto \"Kimmonäppäimet\" päällä."
+msgstr "Onko esteettömyystoiminto kimmonäppäimillä päällä."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:54
 msgid "Whether the mouse keys keyboard accessibility feature is turned on."
-msgstr "Onko estettömyystoiminto \"Hiirinäppäimet\" päällä."
+msgstr "Onko esteettömyystoiminto hiirinäppäimillä päällä."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:55
 msgid "Whether the on-screen keyboard is turned on."
@@ -550,15 +550,15 @@ msgstr "Onko näytönlukija päällä."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:58
 msgid "Whether the slow keys keyboard accessibility feature is turned on."
-msgstr "Onko estettömyystoiminto \"Hitaat näppäimet\" päällä."
+msgstr "Onko esteettömyystoiminto hitailla näppäimillä päällä."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:59
 msgid "Whether the sticky keys keyboard accessibility feature is turned on."
-msgstr "Onko estettömyystoiminto \"Pohjaan jäävät näppäimet\" päällä."
+msgstr "Onko esteettömyystoiminto pohjaan jäävillä näppäimillä päällä."
 
 #: ../gnome-settings-daemon/main.c:55
 msgid "Enable debugging code"
-msgstr "Käytä vianetsinätilaa"
+msgstr "Käytä vianetsintätilaa"
 
 #: ../gnome-settings-daemon/main.c:56
 msgid "Don't become a daemon"
@@ -598,7 +598,7 @@ msgstr "Haluatko poistaa hitaat näppäimet käytöstä?"
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:521
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:587
 msgid "You just held down the Shift key for 8 seconds.  This is the shortcut for the Slow Keys feature, which affects the way your keyboard works."
-msgstr "Pidit juuri vaihtonäppäintä painettuna 8 sekuntia. Tämä on hitaat näppäimet -ominaisuuden pikanäppäily, ja muuttaa tapaa, jolla näppäimistö toimii."
+msgstr "Pidit juuri vaihtonäppäintä painettuna 8 sekuntia. Tämä on Hitaat näppäimet -ominaisuuden pikanäppäily. Se muuttaa tapaa, jolla näppäimistö toimii."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:546
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:685
@@ -657,12 +657,12 @@ msgstr "Haluatko poistaa pohjaan jäävät näppäimet käytöstä?"
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:658
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:726
 msgid "You just pressed the Shift key 5 times in a row.  This is the shortcut for the Sticky Keys feature, which affects the way your keyboard works."
-msgstr "Painoit juuri vaihtonäppäintä 5 kertaa peräkkäin. Tämä on pohjaan jäävät näppäimet -ominaisuuden pikanäppäily, ja muuttaa tapaa, jolla näppäimistö toimii."
+msgstr "Painoit juuri vaihtonäppäintä 5 kertaa peräkkäin. Tämä on Pohjaan jäävät näppäimet -ominaisuuden pikanäppäily. Se muuttaa tapaa, jolla näppäimistö toimii."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:660
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:728
 msgid "You just pressed two keys at once, or pressed the Shift key 5 times in a row.  This turns off the Sticky Keys feature, which affects the way your keyboard works."
-msgstr "Painoit juuri kahta näppäintä samalla tai vaihtonäppäintä 5 kertaa peräkkäin. Tämä on pohjaan jäävät näppäimet -ominaisuuden pikanäppäily, ja muuttaa tapaa, jolla näppäimistö toimii."
+msgstr "Painoit juuri kahta näppäintä samalla tai vaihtonäppäintä 5 kertaa peräkkäin. Tämä on Pohjaan jäävät näppäimet -ominaisuuden pikanäppäily. Se muuttaa tapaa, jolla näppäimistö toimii."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:756
 msgid "Sticky Keys Alert"
