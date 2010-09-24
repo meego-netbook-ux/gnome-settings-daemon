@@ -24,9 +24,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-25 22:46-0300\n"
-"PO-Revision-Date: 2010-02-24 22:15-0300\n"
-"Last-Translator: Vladimir Melo <vmelo@gnome.org>\n"
+"POT-Creation-Date: 2010-08-27 22:20+0000\n"
+"PO-Revision-Date: 2010-09-13 12:49-0800\n"
+"Last-Translator: GLSPTB_Gabor <bechtg@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,50 +54,31 @@ msgid "Mount paths to ignore"
 msgstr "Caminhos montados para ignorar"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:5
-msgid ""
-"Percentage free space threshold for initial warning of low disk space. If "
-"the percentage free space drops below this, a warning will be shown"
-msgstr ""
-"Limiar da percentagem de espaço livre para aviso inicial de pouco espaço em "
-"disco. Se a percentagem de espaço livre descer abaixo disto, um aviso será "
-"mostrado"
+msgid "Percentage free space threshold for initial warning of low disk space. If the percentage free space drops below this, a warning will be shown."
+msgstr "Limiar da percentagem de espaço livre para aviso inicial de pouco espaço em disco. Se a percentagem de espaço livre descer abaixo disto, um aviso será mostrado"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:6
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
-"Especifique uma lista de caminhos montados para ignorar quando ficarem com "
-"espaço reduzido."
+msgstr "Especifique uma lista de caminhos montados para ignorar quando ficarem com espaço reduzido."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:7
-msgid ""
-"Specify a time in minutes. Subsequent warnings for a volume will not appear "
-"more often than this period."
-msgstr ""
-"Especifique um tempo em minutos. Avisos subsequentes para um volume não "
-"aparecerão com mais frequência que este período."
+msgid "Specify a time in minutes. Subsequent warnings for a volume will not appear more often than this period."
+msgstr "Especifique um tempo em minutos. Avisos subsequentes para um volume não aparecerão com mais frequência que este período."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:8
-msgid ""
-"Specify an amount in GB. If the amount of free space is more than this, no "
-"warning will be shown"
-msgstr ""
-"Especifique uma quantia em GB. Se a quantidade de espaço livre é mais do que "
-"isso, nenhum aviso será mostrado"
+msgid "Specify an amount in GB. If the amount of free space is more than this, no warning will be shown."
+msgstr "Especifique uma quantia em GB. Se a quantidade de espaço livre é mais do que isso, nenhum aviso será mostrado"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:9
-msgid ""
-"Specify the percentage that the free disk space should reduce by before "
-"issuing a subsequent warning"
-msgstr ""
-"Especifique a percentagem que o espaço livre em disco deve reduzir antes de "
-"emitir um aviso subsequente"
+msgid "Specify the percentage that the free disk space should reduce by before issuing a subsequent warning."
+msgstr "Especifique a percentagem que o espaço livre em disco deve reduzir antes de emitir um aviso subsequente"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:10
 msgid "Subsequent free percentage notify threshold"
 msgstr "Limiar subsequente do notificador de percentagem livre"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
-msgid "Binding to eject an optical disk."
+msgid "Binding to eject an optical disc."
 msgstr "Atalho para ejetar um disco ótico."
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
@@ -256,18 +237,38 @@ msgstr "Incremento do volume em percentagem."
 msgid "Volume up"
 msgstr "Aumentar volume"
 
-# Things - Traduzida como coisas - se encontrar tradução melhor, altere
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:1
-msgid ""
-"If a notification icon with display related things should be shown in the "
-"panel."
-msgstr ""
-"Se um ícone de notificação de coisas relacionadas com a tela deve ser "
-"mostrado no painel."
+msgid "File for default configuration for RandR"
+msgstr "Arquivo de configuração padrão para RandR"
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:2
 msgid "Show Displays in Notification Area"
 msgstr "Mostrar telas na área de notificação"
+
+#: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:3
+msgid "The XRandR plugin will look for a default configuration in the file specified by this key. This is similar to the ~/.config/monitors.xml that normally gets stored in users' home directories. If a user does not have such a file, or has one that does not match the user's setup of monitors, then the file specified by this key will be used instead."
+msgstr "O plug-in XRandR irá procurar uma configuração padrão no arquivo especificado por esta chave. Isto é semelhante ao ~/.config/monitors.xml que normalmente é armazenado nos diretórios pessoais dos usuários. Se um usuário não possui tal arquivo, ou possui um que não corresponde com a configuração de monitores do usuário, o arquivo especificado por esta chave será usado em seu lugar."
+
+#: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:4
+msgid "Turn on external monitor after system boot"
+msgstr "Ligue o monitor externo depois da inicialização do sistema"
+
+#: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:5
+msgid "Turn on external monitor after system boot if user plugs in external monitor on system boot."
+msgstr "Ligue o monitor externo depois da inicialização do sistema se o usuário conectar um monitor externo ao inicializar o sistema"
+
+#: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:6
+msgid "Turn on laptop monitor after system boot"
+msgstr "Ligue o monitor de laptop depois da inicialização do sistema"
+
+#: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:7
+msgid "Turn on laptop monitor after system boot if user plugs in external monitor on system boot."
+msgstr "Ligue o monitor de laptop depois da inicialização do sistema se o usuário conectar um monitor externo ao inicializar o sistema."
+
+# Things - Traduzida como coisas - se encontrar tradução melhor, altere
+#: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:8
+msgid "Whether a notification icon with display-related things should be shown in the panel."
+msgstr "Se um ícone de notificação de coisas relacionadas com a tela deve ser mostrado no painel."
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:1
 msgid "Antialiasing"
@@ -286,56 +287,28 @@ msgid "RGBA order"
 msgstr "Ordem RGBA"
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:5
-msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
-"on bottom."
-msgstr ""
-"A ordem dos elementos de subpixel em uma tela LCD; utilizado apenas quando a "
-"suavização está definida como \"rgba\". Valores possíveis são: \"rgb\" para "
-"vermelho à esquerda (mais comum), \"bgr\" para azul à esquerda, \"vrgb\" "
-"para vermelho no topo, \"vbgr\" para vermelho no fundo."
+msgid "The order of subpixel elements on an LCD screen; only used when antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red on bottom."
+msgstr "A ordem dos elementos de subpixel em uma tela LCD; utilizado apenas quando a suavização está definida como \"rgba\". Valores possíveis são: \"rgb\" para vermelho à esquerda (mais comum), \"bgr\" para azul à esquerda, \"vrgb\" para vermelho no topo, \"vbgr\" para vermelho no fundo."
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:6
-msgid ""
-"The resolution used for converting font sizes to pixel sizes, in dots per "
-"inch."
-msgstr ""
-"A resolução utilizada para converter os tamanhos das fontes em tamanhos de "
-"pixel, em pontos por polegada."
+msgid "The resolution used for converting font sizes to pixel sizes, in dots per inch."
+msgstr "A resolução utilizada para converter os tamanhos das fontes em tamanhos de pixel, em pontos por polegada."
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:7
-msgid ""
-"The type of antialiasing to use when rendering fonts. Possible values are: "
-"\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
-"antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"O tipo de suavização a utilizar quando renderizar fontes. Valores possíveis "
-"são: \"none\" nenhuma suavização, \"grayscale\" para suavização padrão cinza "
-"e \"rgba\" para suavização de subpixel (apenas telas LCD)."
+msgid "The type of antialiasing to use when rendering fonts. Possible values are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+msgstr "O tipo de suavização a utilizar quando renderizar fontes. Valores possíveis são: \"none\" nenhuma suavização, \"grayscale\" para suavização padrão cinza e \"rgba\" para suavização de subpixel (apenas telas LCD)."
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:8
-msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: \"none"
-"\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full"
-"\" for maximum hinting (may cause distortion of letter forms)."
-msgstr ""
-"O tipo de hinting a utilizar ao renderizar fontes. Valores possíveis são: "
-"\"none\" (nenhum), \"slight\" (discreto), \"medium\" (médio) , e \"full"
-"\" (completo) (poderá causar distorção na forma das letras)."
+msgid "The type of hinting to use when rendering fonts. Possible values are: \"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full\" for maximum hinting (may cause distortion of letter forms)."
+msgstr "O tipo de hinting a utilizar ao renderizar fontes. Valores possíveis são: \"none\" (nenhum), \"slight\" (discreto), \"medium\" (médio) , e \"full\" (completo) (poderá causar distorção na forma das letras)."
 
 #: ../data/desktop_gnome_keybindings.schemas.in.h:1
 msgid "Allowed keys"
 msgstr "Teclas permitidas"
 
 #: ../data/desktop_gnome_keybindings.schemas.in.h:2
-msgid ""
-"If non-empty, keybindings will be ignored unless their GConf directory is in "
-"the list. This is useful for lockdown."
-msgstr ""
-"Se não-vazio, os atalhos do teclado deverão ser ignorados a menos que o "
-"diretório GConf esteja na lista. Isso é útil para bloqueios."
+msgid "If non-empty, keybindings will be ignored unless their GConf directory is in the list. This is useful for lockdown."
+msgstr "Se não-vazio, os atalhos do teclado deverão ser ignorados a menos que o diretório GConf esteja na lista. Isso é útil para bloqueios."
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:1
 msgid "Disable touchpad while typing"
@@ -358,35 +331,20 @@ msgid "Select the touchpad scroll method"
 msgstr "Selecionar o método de rolagem do touchpad"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:6
-msgid ""
-"Select the touchpad scroll method. Supported values are: 0 - disabled, 1 - "
-"edge scrolling, 2 - two-finger scrolling"
-msgstr ""
-"Selecione o método de rolagem do touchpad. Os valores suportados são: 0 - "
-"desabilitado; 1 - rolagem pela lateral; 2 - rolagem com dois dedos"
+msgid "Select the touchpad scroll method. Supported values are: 0: disabled, 1: edge scrolling, and 2: two-finger scrolling"
+msgstr "Selecione o método de rolagem do touchpad. Os valores suportados são: 0 - desabilitado; 1 - rolagem pela lateral; 2 - rolagem com dois dedos"
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:7
-msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
-msgstr ""
-"Defina como VERDADEIRO, se você tiver problemas ao tocar acidentalmente o "
-"touchpad enquanto digita."
+msgid "Set this to TRUE if you have problems with accidentally hitting the touchpad while typing."
+msgstr "Defina como VERDADEIRO, se você tiver problemas ao tocar acidentalmente o touchpad enquanto digita."
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:8
-msgid ""
-"Set this to TRUE to allow horizontal scrolling by the same method selected "
-"with the scroll_method key."
-msgstr ""
-"Defina como VERDADEIRO para permitir rolagem horizontal pelo mesmo método "
-"selecionado com a chave scroll_method."
+msgid "Set this to TRUE to allow horizontal scrolling by the same method selected with the scroll_method key."
+msgstr "Defina como VERDADEIRO para permitir rolagem horizontal pelo mesmo método selecionado com a chave scroll_method."
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:9
-msgid ""
-"Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
-"Defina como VERDADEIRO para poder enviar cliques do mouse tocando no "
-"touchpad."
+msgid "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
+msgstr "Defina como VERDADEIRO para poder enviar cliques do mouse tocando no touchpad."
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:10
 msgid "Set this to TRUE to enable all touchpads."
@@ -425,250 +383,220 @@ msgid "Command used to turn the screen reader on or off."
 msgstr "Comando usado para ligar ou desligar o leitor de tela."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:8
+msgid "Enable XRandR plugin"
+msgstr "Habilitar o plug-in do XRandR "
+
+#: ../data/gnome-settings-daemon.schemas.in.h:9
 msgid "Enable accessibility keyboard plugin"
 msgstr "Habilitar plug-in de acessibilidade do teclado"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:9
+#: ../data/gnome-settings-daemon.schemas.in.h:10
 msgid "Enable background plugin"
 msgstr "Habilitar plug-in do plano de fundo"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:10
+#: ../data/gnome-settings-daemon.schemas.in.h:11
 msgid "Enable clipboard plugin"
 msgstr "Habilitar plug-in da área de transferência"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:11
+#: ../data/gnome-settings-daemon.schemas.in.h:12
 msgid "Enable font plugin"
 msgstr "Habilitar plug-in de fonte"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:12
+#: ../data/gnome-settings-daemon.schemas.in.h:13
 msgid "Enable housekeeping plugin"
 msgstr "Habilitar plug-in housekeeping"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:13
+#: ../data/gnome-settings-daemon.schemas.in.h:14
 msgid "Enable keybindings plugin"
 msgstr "Habilitar o plug-in de atalhos de teclado"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:14
+#: ../data/gnome-settings-daemon.schemas.in.h:15
 msgid "Enable keyboard plugin"
 msgstr "Habilitar plug-in do teclado"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:15
+#: ../data/gnome-settings-daemon.schemas.in.h:16
 msgid "Enable media keys plugin"
 msgstr "Habilitar o plug-in de teclas de mídia"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:16
+#: ../data/gnome-settings-daemon.schemas.in.h:17
 msgid "Enable mouse plugin"
 msgstr "Habilitar plug-in do mouse"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:17
+#: ../data/gnome-settings-daemon.schemas.in.h:18
+msgid "Enable smartcard plugin"
+msgstr "Habilitar o plug-in do smartcard"
+
+#: ../data/gnome-settings-daemon.schemas.in.h:19
 msgid "Enable sound plugin"
 msgstr "Habilitar plug-in de som"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:18
+#: ../data/gnome-settings-daemon.schemas.in.h:20
 msgid "Enable typing breaks plugin"
 msgstr "Habilitar o plug-in de intervalo de digitação"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:19
-msgid "Enable xrandr plugin"
-msgstr "Habilitar o plug-in do xrandr"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:20
+#: ../data/gnome-settings-daemon.schemas.in.h:21
 msgid "Enable xrdb plugin"
 msgstr "Habilitar plug-in xrdb"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:21
+#: ../data/gnome-settings-daemon.schemas.in.h:22
 msgid "Enable xsettings plugin"
 msgstr "Habilitar o plug-in do xsettings"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:22
+#: ../data/gnome-settings-daemon.schemas.in.h:23
 msgid "Mouse keys"
 msgstr "Teclas do mouse"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:23
+#: ../data/gnome-settings-daemon.schemas.in.h:24
 msgid "On-screen keyboard"
 msgstr "Teclado exibido na tela"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:24
+#: ../data/gnome-settings-daemon.schemas.in.h:25
 msgid "Screen magnifier"
 msgstr "Ampliador de tela"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:25
+#: ../data/gnome-settings-daemon.schemas.in.h:26
 msgid "Screen reader"
 msgstr "Leitor de tela"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:26
-msgid ""
-"Set to True to enable the housekeeping plugin, to prune transient file "
-"caches."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in housekeeping, para retirar "
-"os arquivos temporariamente em cache."
-
 #: ../data/gnome-settings-daemon.schemas.in.h:27
-msgid "Set to True to enable the plugin to manage clipboard settings."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar as "
-"configurações da área de transferência."
+msgid "Set to True to enable the housekeeping plugin, to prune transient file caches."
+msgstr "Defina como Verdadeiro para habilitar o plug-in housekeeping, para retirar os arquivos temporariamente em cache."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:28
-msgid "Set to True to enable the plugin to manage desktop background settings."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar as "
-"configurações de papel de parede."
+msgid "Set to True to enable the plugin to manage XRandR settings."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar as configurações do XRandR."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:29
-msgid "Set to True to enable the plugin to manage font settings."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar as "
-"configurações de fonte."
+msgid "Set to True to enable the plugin to manage clipboard settings."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar as configurações da área de transferência."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:30
-msgid "Set to True to enable the plugin to manage keyboard settings."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar as "
-"configurações de teclado."
+msgid "Set to True to enable the plugin to manage desktop background settings."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar as configurações de papel de parede."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:31
-msgid "Set to True to enable the plugin to manage mouse settings."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar as "
-"configurações de mouse."
+msgid "Set to True to enable the plugin to manage font settings."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar as configurações de fonte."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:32
-msgid "Set to True to enable the plugin to manage multimedia keys settings."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar as "
-"configurações de teclas multimídia."
+msgid "Set to True to enable the plugin to manage keyboard settings."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar as configurações de teclado."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:33
-msgid "Set to True to enable the plugin to manage sound sample caches."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar o cache das "
-"amostras de som."
+msgid "Set to True to enable the plugin to manage locking the screen on smartcard removal."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar o bloqueio da tela ao remover o smartcard."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:34
-msgid ""
-"Set to True to enable the plugin to manage the accessibility keyboard "
-"settings."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar as "
-"configurações de acessibilidade do teclado."
+msgid "Set to True to enable the plugin to manage mouse settings."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar as configurações de mouse."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:35
-msgid "Set to True to enable the plugin to manage the keybindings."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar os atalhos de "
-"teclado."
+msgid "Set to True to enable the plugin to manage multimedia keys settings."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar as configurações de teclas multimídia."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:36
-msgid "Set to True to enable the plugin to manage typing breaks."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar o intervalo "
-"de digitação."
+msgid "Set to True to enable the plugin to manage sound sample caches."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar o cache das amostras de som."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:37
-msgid "Set to True to enable the plugin to manage xrandr settings."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar as "
-"configurações do xrandr."
+msgid "Set to True to enable the plugin to manage the accessibility keyboard settings."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar as configurações de acessibilidade do teclado."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:38
-msgid "Set to True to enable the plugin to manage xrdb settings."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar as "
-"configurações do xrdb."
+msgid "Set to True to enable the plugin to manage the keybindings."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar os atalhos de teclado."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:39
-msgid "Set to True to enable the plugin to manage xsettings."
-msgstr ""
-"Defina como Verdadeiro para habilitar o plug-in para gerenciar o xsettings."
+msgid "Set to True to enable the plugin to manage typing breaks."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar o intervalo de digitação."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:40
+msgid "Set to True to enable the plugin to manage xrdb settings."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar as configurações do xrdb."
+
+#: ../data/gnome-settings-daemon.schemas.in.h:41
+msgid "Set to True to enable the plugin to manage xsettings."
+msgstr "Defina como Verdadeiro para habilitar o plug-in para gerenciar o xsettings."
+
+#: ../data/gnome-settings-daemon.schemas.in.h:42
 msgid "Slow keys"
 msgstr "Teclas lentas"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:41
+#: ../data/gnome-settings-daemon.schemas.in.h:43
 msgid "Sticky keys"
 msgstr "Teclas de aderência"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:42
+#: ../data/gnome-settings-daemon.schemas.in.h:44
 msgid "The name of the keyboard shortcut to toggle the magnifier"
 msgstr "O nome do atalho de teclado para alternar o ampliador"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:43
+#: ../data/gnome-settings-daemon.schemas.in.h:45
 msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
 msgstr "O nome do atalho de teclado para alternar o teclado exibido na tela"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:44
+#: ../data/gnome-settings-daemon.schemas.in.h:46
 msgid "The name of the keyboard shortcut to toggle the screen reader"
 msgstr "O nome do atalho de teclado para alternar o leitor de tela"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:45
-msgid ""
-"This is the name of the keyboard shortcut to toggle the magnifier. This name "
-"will be shown in the keyboard shortcut preferences dialog."
-msgstr ""
-"Este é o nome do atalho de teclado para alternar o ampliador. Este nome será "
-"mostrado no diálogo de preferências de atalhos de teclado."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:46
-msgid ""
-"This is the name of the keyboard shortcut to toggle the on-screen keyboard. "
-"This name will be shown in the keyboard shortcut preferences dialog."
-msgstr ""
-"Este é o nome do atalho de teclado para alternar o teclado exibido na tela. "
-"Este nome será mostrado no diálogo de preferências de atalhos de teclado."
-
 #: ../data/gnome-settings-daemon.schemas.in.h:47
-msgid ""
-"This is the name of the keyboard shortcut to toggle the screen reader. This "
-"name will be shown in the keyboard shortcut preferences dialog."
-msgstr ""
-"Este é o nome do atalho de teclado para alternar o leitor de tela. Este nome "
-"será mostrado no diálogo de preferências de atalhos de teclado."
+msgid "This is the name of the keyboard shortcut to toggle the magnifier. This name will be shown in the keyboard shortcut preferences dialog."
+msgstr "Este é o nome do atalho de teclado para alternar o ampliador. Este nome será mostrado no diálogo de preferências de atalhos de teclado."
 
 #: ../data/gnome-settings-daemon.schemas.in.h:48
+msgid "This is the name of the keyboard shortcut to toggle the on-screen keyboard. This name will be shown in the keyboard shortcut preferences dialog."
+msgstr "Este é o nome do atalho de teclado para alternar o teclado exibido na tela. Este nome será mostrado no diálogo de preferências de atalhos de teclado."
+
+#: ../data/gnome-settings-daemon.schemas.in.h:49
+msgid "This is the name of the keyboard shortcut to toggle the screen reader. This name will be shown in the keyboard shortcut preferences dialog."
+msgstr "Este é o nome do atalho de teclado para alternar o leitor de tela. Este nome será mostrado no diálogo de preferências de atalhos de teclado."
+
+#: ../data/gnome-settings-daemon.schemas.in.h:50
 msgid "Toggle magnifier"
 msgstr "Alternar ampliador"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:49
+#: ../data/gnome-settings-daemon.schemas.in.h:51
 msgid "Toggle on-screen keyboard"
 msgstr "Alternar teclado exibido na tela"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:50
+#: ../data/gnome-settings-daemon.schemas.in.h:52
 msgid "Toggle screen reader"
 msgstr "Alternar leitor de tela"
 
-#: ../data/gnome-settings-daemon.schemas.in.h:51
-msgid "Whether the bounce keys keyboard accessibility feature is turned on."
-msgstr ""
-"Se a função de acessibilidade teclas de repercussão está ligada ou não."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:52
-msgid "Whether the mouse keys keyboard accessibility feature is turned on."
-msgstr ""
-"Se a função de acessibilidade teclas de acessibilidade do mouse está ligada "
-"ou não."
-
 #: ../data/gnome-settings-daemon.schemas.in.h:53
+msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+msgstr "Se a função de acessibilidade teclas de repercussão está ligada ou não."
+
+#: ../data/gnome-settings-daemon.schemas.in.h:54
+msgid "Whether the mouse keys keyboard accessibility feature is turned on."
+msgstr "Se a função de acessibilidade teclas de acessibilidade do mouse está ligada ou não."
+
+#: ../data/gnome-settings-daemon.schemas.in.h:55
 msgid "Whether the on-screen keyboard is turned on."
 msgstr "Se o teclado exibido na tela está ligado ou não."
 
-#: ../data/gnome-settings-daemon.schemas.in.h:54
+#: ../data/gnome-settings-daemon.schemas.in.h:56
 msgid "Whether the screen magnifier is turned on."
 msgstr "Se o ampliador de tela está ligado ou não."
 
-#: ../data/gnome-settings-daemon.schemas.in.h:55
+#: ../data/gnome-settings-daemon.schemas.in.h:57
 msgid "Whether the screen reader is turned on."
 msgstr "Se o leitor de tela está ligado ou não."
 
-#: ../data/gnome-settings-daemon.schemas.in.h:56
+#: ../data/gnome-settings-daemon.schemas.in.h:58
 msgid "Whether the slow keys keyboard accessibility feature is turned on."
 msgstr "Se a função de acessibilidade teclas lentas está ligada ou não."
 
-#: ../data/gnome-settings-daemon.schemas.in.h:57
+#: ../data/gnome-settings-daemon.schemas.in.h:59
 msgid "Whether the sticky keys keyboard accessibility feature is turned on."
 msgstr "Se a função de acessibilidade teclas de aderência está ligada ou não."
+
+#: ../data/desktop_gnome_peripherals_smartcard.schemas.in.h:1
+msgid "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The action will get performed when the smartcard used for log in is removed."
+msgstr "Defina isto ao \"none\", \"lock_screen\", ou \"force_logout\". Esta ação será executada quando o smartcard usado para o login é removido."
+
+#: ../data/desktop_gnome_peripherals_smartcard.schemas.in.h:2
+msgid "Smartcard removal action"
+msgstr "Ação de remoção de smartcard"
 
 #: ../gnome-settings-daemon/main.c:55
 msgid "Enable debugging code"
@@ -683,8 +611,8 @@ msgid "GConf prefix from which to load plugin settings"
 msgstr "Prefixo do GConf de onde carregar as configurações de plug-in"
 
 #: ../gnome-settings-daemon/main.c:58
-msgid "Exit after a time - for debugging"
-msgstr "Sair depois de um tempo - para depuração"
+msgid "Exit after a time (for debugging)"
+msgstr "Sair depois de um tempo (para depuração)"
 
 #: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
 msgid "Accessibility Keyboard"
@@ -711,12 +639,8 @@ msgstr "Você deseja desativar teclas lentas?"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:521
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:587
-msgid ""
-"You just held down the Shift key for 8 seconds.  This is the shortcut for "
-"the Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Você segurou a tecla Shift por 8 segundos. Esse é o atalho para teclas "
-"lentas, que afetam o modo de funcionamento do seu teclado."
+msgid "You just held down the Shift key for 8 seconds.  This is the shortcut for the Slow Keys feature, which affects the way your keyboard works."
+msgstr "Você segurou a tecla Shift por 8 segundos. Esse é o atalho para teclas lentas, que afetam o modo de funcionamento do seu teclado."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:546
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:685
@@ -774,24 +698,13 @@ msgstr "Você deseja desativar as teclas de aderência?"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:658
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:726
-msgid ""
-"You just pressed the Shift key 5 times in a row.  This is the shortcut for "
-"the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Você acaba de pressionar a tecla Shift 5 vezes consecutivas. Esse é um "
-"atalho de teclado para a função de Teclas de aderência, que afeta a forma "
-"como seu teclado funciona."
+msgid "You just pressed the Shift key 5 times in a row.  This is the shortcut for the Sticky Keys feature, which affects the way your keyboard works."
+msgstr "Você acaba de pressionar a tecla Shift 5 vezes consecutivas. Esse é um atalho de teclado para a função de Teclas de aderência, que afeta a forma como seu teclado funciona."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:660
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:728
-msgid ""
-"You just pressed two keys at once, or pressed the Shift key 5 times in a "
-"row.  This turns off the Sticky Keys feature, which affects the way your "
-"keyboard works."
-msgstr ""
-"Você acaba de pressionar duas teclas de uma vez ou a tecla Shift 5 vezes "
-"consecutivas. Isso desliga a função de Teclas de aderência, que afeta a "
-"forma como seu teclado funciona."
+msgid "You just pressed two keys at once, or pressed the Shift key 5 times in a row.  This turns off the Sticky Keys feature, which affects the way your keyboard works."
+msgstr "Você acaba de pressionar duas teclas de uma vez ou a tecla Shift 5 vezes consecutivas. Isso desliga a função de Teclas de aderência, que afeta a forma como seu teclado funciona."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:756
 msgid "Sticky Keys Alert"
@@ -832,8 +745,7 @@ msgstr "_Ignorar pressionamento de teclas duplicados (teclas de repercussão)"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:9
 msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
-msgstr ""
-"_Pressionar atalhos do teclado, uma tecla de cada vez (teclas de aderência)"
+msgstr "_Pressionar atalhos do teclado, uma tecla de cada vez (teclas de aderência)"
 
 #: ../plugins/background/background.gnome-settings-plugin.in.h:1
 msgid "Background"
@@ -868,7 +780,7 @@ msgid "Font plugin"
 msgstr "Plug-in de fonte"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:64
-msgid "Don't show any warnings again for this filesystem"
+msgid "Don't show any warnings again for this file system"
 msgstr "Não mostrar quaisquer avisos novamente para este sistema de arquivo"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:66
@@ -886,36 +798,20 @@ msgid "This computer has only %s disk space remaining."
 msgstr "Este computador tem apenas %s de espaço em disco restante."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:98
-msgid ""
-"You can free up disk space by emptying the Trash, removing unused programs "
-"or files, or moving files to another disk or partition."
-msgstr ""
-"Você pode liberar espaço em disco esvaziando a lixeira, removendo programas "
-"ou arquivos inutilizados, ou movendo arquivos para outro disco ou partição."
+msgid "You can free up disk space by emptying the Trash, removing unused programs or files, or moving files to another disk or partition."
+msgstr "Você pode liberar espaço em disco esvaziando a lixeira, removendo programas ou arquivos inutilizados, ou movendo arquivos para outro disco ou partição."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:101
-msgid ""
-"You can free up disk space by removing unused programs or files, or by "
-"moving files to another disk or partition."
-msgstr ""
-"Você pode liberar espaço em disco removendo programas ou arquivos "
-"inutilizados, ou movendo arquivos para outro disco ou partição."
+msgid "You can free up disk space by removing unused programs or files, or by moving files to another disk or partition."
+msgstr "Você pode liberar espaço em disco removendo programas ou arquivos inutilizados, ou movendo arquivos para outro disco ou partição."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:106
-msgid ""
-"You can free up disk space by emptying the Trash, removing unused programs "
-"or files, or moving files to an external disk."
-msgstr ""
-"Você pode liberar espaço em disco esvaziando a lixeira, removendo programas "
-"ou arquivos inutilizados, ou movendo arquivos para um disco externo."
+msgid "You can free up disk space by emptying the Trash, removing unused programs or files, or moving files to an external disk."
+msgstr "Você pode liberar espaço em disco esvaziando a lixeira, removendo programas ou arquivos inutilizados, ou movendo arquivos para um disco externo."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:109
-msgid ""
-"You can free up disk space by removing unused programs or files, or by "
-"moving files to an external disk."
-msgstr ""
-"Você pode liberar espaço em disco removendo programas ou arquivos "
-"inutilizados, ou movendo arquivos para um disco externo."
+msgid "You can free up disk space by removing unused programs or files, or by moving files to an external disk."
+msgstr "Você pode liberar espaço em disco removendo programas ou arquivos inutilizados, ou movendo arquivos para um disco externo."
 
 #. Set up all the window stuff here
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:204
@@ -927,49 +823,46 @@ msgid "Empty Trash"
 msgstr "Esvaziar lixeira"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:447
-msgid "Examine..."
+msgid "Examine…"
 msgstr "Examinar..."
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:454
 msgid "Ignore"
 msgstr "Ignorar"
 
-#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:96
+#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:97
 #, c-format
 msgid "Removing item %lu of %lu"
 msgstr "Removendo item %lu de %lu"
 
-#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:116
+#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:117
 #, c-format
-msgid "<i>Removing: %s</i>"
-msgstr "<i>Removendo: %s</i>"
+msgid "Removing: %s"
+msgstr "Removendo: %s"
 
-#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:244
-#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:293
+#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:247
+#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:296
 msgid "Emptying the trash"
 msgstr "Esvaziando a lixeira"
 
-#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:269
-msgid "Preparing to empty trash..."
+#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:272
+msgid "Preparing to empty trash…"
 msgstr "Preparando para esvaziar lixeira..."
 
-#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:295
+#. Translators: "Emptying trash from <device>"
+#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:299
 msgid "From: "
 msgstr "De: "
 
-#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:356
+#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:360
 msgid "Empty all of the items from the trash?"
 msgstr "Esvaziar todos os itens da lixeira?"
 
-#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:359
-msgid ""
-"If you choose to empty the trash, all items in it will be permanently lost. "
-"Please note that you can also delete them separately."
-msgstr ""
-"Se você escolher esvaziar a lixeira, todos os itens serão permanentemente "
-"perdidos. Observe que você também pode excluí-los separadamente."
+#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:363
+msgid "If you choose to empty the trash, all items in it will be permanently lost. Please note that you can also delete them separately."
+msgstr "Se você escolher esvaziar a lixeira, todos os itens serão permanentemente perdidos. Observe que você também pode excluí-los separadamente."
 
-#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:366
+#: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:370
 msgid "_Empty Trash"
 msgstr "_Esvaziar lixeira"
 
@@ -1008,22 +901,22 @@ msgstr "Teclado"
 msgid "Keyboard plugin"
 msgstr "Plug-in do teclado"
 
-#: ../plugins/keyboard/gsd-keyboard-xkb.c:112
+#: ../plugins/keyboard/gsd-keyboard-xkb.c:137
 #, c-format
 msgid ""
 "Error activating XKB configuration.\n"
 "It can happen under various circumstances:\n"
-"- a bug in libxklavier library\n"
-"- a bug in X server (xkbcomp, xmodmap utilities)\n"
-"- X server with incompatible libxkbfile implementation\n"
+" • a bug in libxklavier library\n"
+" • a bug in X server (xkbcomp, xmodmap utilities)\n"
+" • X server with incompatible libxkbfile implementation\n"
 "\n"
 "X server version data:\n"
 "%s\n"
 "%d\n"
 "%s\n"
 "If you report this situation as a bug, please include:\n"
-"- The result of <b>%s</b>\n"
-"- The result of <b>%s</b>"
+" • The result of <b>%s</b>\n"
+" • The result of <b>%s</b>"
 msgstr ""
 "Erro ao ativar a configuração do XKB.\n"
 "Isso pode acontecer em várias circunstâncias:\n"
@@ -1039,37 +932,26 @@ msgstr ""
 "- O resultado de <b>%s</b>\n"
 "- O resultado de <b>%s</b>"
 
-#: ../plugins/keyboard/gsd-keyboard-xkb.c:126
+#: ../plugins/keyboard/gsd-keyboard-xkb.c:151
 msgid ""
 "You are using XFree 4.3.0.\n"
 "There are known problems with complex XKB configurations.\n"
-"Try using a simpler configuration or taking a fresher version of XFree "
-"software."
+"Try using a simpler configuration or using a later version of the XFree software."
 msgstr ""
 "Você está usando XFree 4.3.0.\n"
 "Existem problemas conhecidos com configurações complexas do XKB.\n"
-"Tente usar uma configuração mais simples ou obter uma versão mais nova do "
-"software XFree."
+"Tente usar uma configuração mais simples ou obter uma versão mais nova do software XFree."
 
-#: ../plugins/keyboard/gsd-keyboard-xkb.c:197
-msgid "Unknown"
-msgstr "Desconhecido"
+#: ../plugins/keyboard/gsd-keyboard-xkb.c:279
+msgid "_Layouts"
+msgstr "_Disposições"
 
-#: ../plugins/keyboard/gsd-keyboard-xkb.c:266
-#, c-format
-msgid "Keyboard Layout \"%s\""
-msgstr "Disposição do teclado \"%s\""
-
-#: ../plugins/keyboard/gsd-keyboard-xkb.c:389
-msgid "_Groups"
-msgstr "_Grupos"
-
-#: ../plugins/keyboard/gsd-keyboard-xkb.c:396
+#: ../plugins/keyboard/gsd-keyboard-xkb.c:286
 msgid "Keyboard _Preferences"
 msgstr "_Preferências do teclado"
 
-#: ../plugins/keyboard/gsd-keyboard-xkb.c:402
-msgid "Show Current _Layout"
+#: ../plugins/keyboard/gsd-keyboard-xkb.c:292
+msgid "Show _Current Layout"
 msgstr "Mostrar _disposição atual"
 
 #: ../plugins/keyboard/modmap-dialog.ui.h:1
@@ -1081,7 +963,7 @@ msgid "Load modmap files"
 msgstr "Carregar arquivos modmap"
 
 #: ../plugins/keyboard/modmap-dialog.ui.h:3
-msgid "Would you like to load the modmap file(s)?"
+msgid "Would you like to load the modmap files?"
 msgstr "Você gostaria de carregar o(s) arquivo(s) modmap?"
 
 #: ../plugins/keyboard/modmap-dialog.ui.h:4
@@ -1096,19 +978,11 @@ msgstr "_Carregar"
 msgid "_Loaded files:"
 msgstr "Arquivos _carregados:"
 
-#: ../plugins/keyboard/show-layout.ui.h:1
-msgid "Keyboard Layout"
-msgstr "Disposição do teclado"
+#: ../plugins/media-keys/gsd-media-keys-manager.c:195
+msgid "Could not get default terminal. Verify that your default terminal command is set and points to a valid application."
+msgstr "Não foi possível obter o terminal padrão. Verifique se o comando para o terminal padrão está definido e aponta para um aplicativo válido."
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:200
-msgid ""
-"Could not get default terminal. Verify that your default terminal command is "
-"set and points to a valid application."
-msgstr ""
-"Não foi possível obter o terminal padrão. Verifique se o comando para o "
-"terminal padrão está definido e aponta para um aplicativo válido."
-
-#: ../plugins/media-keys/gsd-media-keys-manager.c:240
+#: ../plugins/media-keys/gsd-media-keys-manager.c:235
 #, c-format
 msgid ""
 "Couldn't execute command: %s\n"
@@ -1116,14 +990,6 @@ msgid ""
 msgstr ""
 "Não foi possível executar o comando: %s\n"
 "Verifique se esse comando é válido."
-
-#: ../plugins/media-keys/gsd-media-keys-manager.c:256
-msgid ""
-"Couldn't put the machine to sleep.\n"
-"Verify that the machine is correctly configured."
-msgstr ""
-"Não foi possível colocar a máquina para hibernar.\n"
-"Verifique se as configurações estão corretas."
 
 #. translators:
 #. * The device has been disabled
@@ -1161,18 +1027,15 @@ msgstr "Teclas de mídia"
 msgid "Media keys plugin"
 msgstr "Plug-in de teclas de mídia"
 
-#: ../plugins/mouse/gsd-mouse-manager.c:874
+#: ../plugins/mouse/gsd-mouse-manager.c:882
 msgid "Could not enable mouse accessibility features"
 msgstr "Não foi possível habilitar os recursos de acessibilidade do mouse"
 
-#: ../plugins/mouse/gsd-mouse-manager.c:876
-msgid ""
-"Mouse accessibility requires mousetweaks to be installed on your system."
-msgstr ""
-"A acessibilidade de mouse requer que o mousetweaks seja instalado em seu "
-"sistema."
+#: ../plugins/mouse/gsd-mouse-manager.c:884
+msgid "Mouse accessibility requires Mousetweaks to be installed on your system."
+msgstr "A acessibilidade de mouse requer que o Mousetweaks seja instalado em seu sistema."
 
-#: ../plugins/mouse/gsd-mouse-manager.c:879
+#: ../plugins/mouse/gsd-mouse-manager.c:887
 msgid "Mouse Preferences"
 msgstr "Preferências do mouse"
 
@@ -1200,87 +1063,83 @@ msgstr "Definir um tamanho de tela e definições de rotação"
 msgid "XRandR"
 msgstr "XRandR"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:222
+#: ../plugins/xrandr/gsd-xrandr-manager.c:225
 msgid "Could not switch the monitor configuration"
 msgstr "Não foi possível mudar a configuração do monitor"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:246
+#: ../plugins/xrandr/gsd-xrandr-manager.c:249
 msgid "Could not restore the display's configuration"
 msgstr "Não foi possível restaurar a configuração do monitor"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:271
+#: ../plugins/xrandr/gsd-xrandr-manager.c:274
 msgid "Could not restore the display's configuration from a backup"
-msgstr ""
-"Não foi possível restaurar a configuração do monitor a partir de um backup"
+msgstr "Não foi possível restaurar a configuração do monitor a partir de um backup"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:292
+#: ../plugins/xrandr/gsd-xrandr-manager.c:295
 #, c-format
 msgid "The display will be reset to its previous configuration in %d second"
-msgid_plural ""
-"The display will be reset to its previous configuration in %d seconds"
-msgstr[0] ""
-"O monitor será restaurado para sua configuração anterior em %d segundo"
-msgstr[1] ""
-"O monitor será restaurado para sua configuração anterior em %d segundos"
+msgid_plural "The display will be reset to its previous configuration in %d seconds"
+msgstr[0] "O monitor será restaurado para sua configuração anterior em %d segundo"
+msgstr[1] "O monitor será restaurado para sua configuração anterior em %d segundos"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:341
+#: ../plugins/xrandr/gsd-xrandr-manager.c:344
 msgid "Does the display look OK?"
 msgstr "O vídeo está bom?"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:347
+#: ../plugins/xrandr/gsd-xrandr-manager.c:350
 msgid "_Restore Previous Configuration"
 msgstr "_Restaurar configuração anterior"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:348
+#: ../plugins/xrandr/gsd-xrandr-manager.c:351
 msgid "_Keep This Configuration"
 msgstr "_Manter esta configuração"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:429
+#: ../plugins/xrandr/gsd-xrandr-manager.c:432
 msgid "The selected configuration for displays could not be applied"
 msgstr "A configuração escolhida para o(s) vídeo(s) não pôde ser aplicada"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:967
+#: ../plugins/xrandr/gsd-xrandr-manager.c:970
 #, c-format
 msgid "Could not refresh the screen information: %s"
 msgstr "Não foi possível atualizar a informação da tela: %s"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:970
+#: ../plugins/xrandr/gsd-xrandr-manager.c:973
 msgid "Trying to switch the monitor configuration anyway."
 msgstr "Tentando mudar a configuração do monitor de qualquer modo."
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1679
-msgid "<i>Rotation not supported</i>"
-msgstr "<i>Sem suporte a rotação</i>"
+#: ../plugins/xrandr/gsd-xrandr-manager.c:1703
+msgid "Rotation not supported"
+msgstr "Sem suporte a rotação"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1733
+#: ../plugins/xrandr/gsd-xrandr-manager.c:1759
 msgid "Could not save monitor configuration"
 msgstr "Não foi possível salvar a configuração do monitor"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1751
+#: ../plugins/xrandr/gsd-xrandr-manager.c:1777
 msgid "Normal"
 msgstr "Normal"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1752
+#: ../plugins/xrandr/gsd-xrandr-manager.c:1778
 msgid "Left"
 msgstr "Esquerda"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1753
+#: ../plugins/xrandr/gsd-xrandr-manager.c:1779
 msgid "Right"
 msgstr "Direita"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1754
+#: ../plugins/xrandr/gsd-xrandr-manager.c:1780
 msgid "Upside Down"
 msgstr "Cabeça para baixo"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1874
-msgid "_Configure Display Settings ..."
+#: ../plugins/xrandr/gsd-xrandr-manager.c:1900
+msgid "_Configure Display Settings…"
 msgstr "_Definir configurações de exibição..."
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1915
+#: ../plugins/xrandr/gsd-xrandr-manager.c:1941
 msgid "Configure display settings"
 msgstr "Define configurações de exibição"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1972
+#: ../plugins/xrandr/gsd-xrandr-manager.c:2001
 msgid "Could not apply the stored configuration for monitors"
 msgstr "Não foi possível aplicar a configuração armazenada para monitores"
 
@@ -1297,11 +1156,10 @@ msgstr "Gerenciar o banco de dados de recursos do X"
 msgid "X Resource Database"
 msgstr "Banco de dados de recursos do X"
 
-#: ../plugins/xsettings/gsd-xsettings-manager.c:644
+#: ../plugins/xsettings/gsd-xsettings-manager.c:596
 #, c-format
 msgid "GConf key %s set to type %s but its expected type was %s\n"
-msgstr ""
-"A chave %s do GConf foi definida para o tipo %s mas o tipo esperado era %s\n"
+msgstr "A chave %s do GConf foi definida para o tipo %s mas o tipo esperado era %s\n"
 
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
 msgid "Manage X Settings"
@@ -1311,50 +1169,114 @@ msgstr "Gerenciar configurações do X"
 msgid "X Settings"
 msgstr "Configurações do X"
 
+#: ../plugins/smartcard/gsd-smartcard-manager.c:167
+msgid "Module Path"
+msgstr "Caminho de módulo"
+
+#: ../plugins/smartcard/gsd-smartcard-manager.c:168
+msgid "path to smartcard PKCS #11 driver"
+msgstr "caminho ao driver de smartcard PKCS #11"
+
+#: ../plugins/smartcard/gsd-smartcard-manager.c:504
+msgid "received error or hang up from event source"
+msgstr "houve erro ou problema da fonte do evento"
+
+#: ../plugins/smartcard/gsd-smartcard-manager.c:593
+#, c-format
+msgid "NSS security system could not be initialized"
+msgstr "Sistema de segurança NSS não pôde ser inicializado"
+
+#: ../plugins/smartcard/gsd-smartcard-manager.c:662
+#, c-format
+msgid "no suitable smartcard driver could be found"
+msgstr "nenhum driver adequado de smartcard foi localizado"
+
+#: ../plugins/smartcard/gsd-smartcard-manager.c:682
+#, c-format
+msgid "smartcard driver '%s' could not be loaded"
+msgstr "driver de smartcard  '%s' não pôde ser carregado"
+
+#: ../plugins/smartcard/gsd-smartcard-manager.c:771
+#, c-format
+msgid "could not watch for incoming card events - %s"
+msgstr "não foi possível observar eventos de entrada de cartão - %s"
+
+#: ../plugins/smartcard/gsd-smartcard-manager.c:1124
+#, c-format
+msgid "encountered unexpected error while waiting for smartcard events"
+msgstr "ocorreu um erro inesperado ao aguardar eventos de smartcard"
+
+#: ../plugins/smartcard/gsd-smartcard.c:154
+msgid "Slot ID"
+msgstr "ID de slot"
+
+#: ../plugins/smartcard/gsd-smartcard.c:155
+msgid "The slot the card is in"
+msgstr "O slot"
+
+#: ../plugins/smartcard/gsd-smartcard.c:161
+msgid "Slot Series"
+msgstr "Séries de slot"
+
+#: ../plugins/smartcard/gsd-smartcard.c:162
+msgid "per-slot card identifier"
+msgstr "identificador de slot de cartão"
+
+#: ../plugins/smartcard/gsd-smartcard.c:168
+#: ../plugins/smartcard/gsd-smartcard.c:169
+msgid "name"
+msgstr "nome"
+
+#: ../plugins/smartcard/gsd-smartcard.c:173
+msgid "Module"
+msgstr "Módulo"
+
+#: ../plugins/smartcard/gsd-smartcard.c:174
+msgid "smartcard driver"
+msgstr "driver de smartcard"
+
+#~ msgid "Unknown"
+#~ msgstr "Desconhecido"
+#~ msgid "Keyboard Layout \"%s\""
+#~ msgstr "Disposição do teclado \"%s\""
+#~ msgid "_Groups"
+#~ msgstr "_Grupos"
+#~ msgid "Keyboard Layout"
+#~ msgstr "Disposição do teclado"
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Não foi possível colocar a máquina para hibernar.\n"
+#~ "Verifique se as configurações estão corretas."
 #~ msgid "Binding to suspend the computer."
 #~ msgstr "Atalho para suspender o computador."
-
 #~ msgid "Suspend"
 #~ msgstr "Suspender"
-
 #~ msgid "GNOME Volume Control"
 #~ msgstr "Controle de volume do GNOME"
-
 #~ msgid ""
 #~ "Set to True to display a dialog when there are errors running the "
 #~ "screensaver."
 #~ msgstr ""
 #~ "Defina como Verdadeiro para exibir um diálogo quando houver erros ao "
 #~ "executar a proteção de tela."
-
 #~ msgid "Set to True to run the screensaver at login."
 #~ msgstr ""
 #~ "Defina como Verdadeiro para executar a proteção de tela ao iniciar a "
 #~ "sessão."
-
 #~ msgid "Show startup errors"
 #~ msgstr "Mostrar erros de inicialização"
-
 #~ msgid "Start screensaver"
 #~ msgstr "Iniciar a proteção de tela"
-
 #~ msgid "Enable screensaver plugin"
 #~ msgstr "Habilitar o plug-in de proteção de tela"
-
-#~ msgid "Set to True to enable the plugin to manage screensaver settings."
-#~ msgstr ""
-#~ "Defina como Verdadeiro para habilitar o plug-in para gerenciar a proteção "
-#~ "de tela."
-
 #~ msgid "Toggle screenreader"
 #~ msgstr "Alternar leitor de tela"
-
 #~ msgid "%d%% of the disk space on `%s' is in use"
 #~ msgstr "%d%% do espaço no disco `%s' está em uso"
-
 #~ msgid "Analyze"
 #~ msgstr "Analisar"
-
 #~ msgid ""
 #~ "There was an error starting up the screensaver:\n"
 #~ "\n"
@@ -1367,60 +1289,44 @@ msgstr "Configurações do X"
 #~ "%s\n"
 #~ "\n"
 #~ "A proteção de tela não funcionará nesta sessão."
-
 #~ msgid "Screensaver"
 #~ msgstr "Proteção de tela"
-
 #~ msgid "Screensaver plugin"
 #~ msgstr "Plug-in da proteção de tela"
-
 #~ msgid "Sound"
 #~ msgstr "Som"
-
 #~ msgid "Sound Sample Cache plugin"
 #~ msgstr "Plug-in do cache da amostra de som"
-
 #~ msgid ""
 #~ "Cannot create the directory \"%s\".\n"
 #~ "This is needed to allow changing the mouse pointer theme."
 #~ msgstr ""
 #~ "Não foi possível criar o diretório \"%s\".\n"
 #~ "Ele é necessário para mudar o tema do cursor."
-
 #~ msgid ""
 #~ "Cannot create the directory \"%s\".\n"
 #~ "This is needed to allow changing cursors."
 #~ msgstr ""
 #~ "Não foi possível criar o diretório \"%s\".\n"
 #~ "Ele é necessário para a mudança de cursores."
-
 #~ msgid "Couldn't load sound file %s as sample %s"
 #~ msgstr "Não foi possível carregar o arquivo de som %s como exemplo %s"
-
 #~ msgid "Login"
 #~ msgstr "Início de sessão"
-
 #~ msgid "Logout"
 #~ msgstr "Encerramento de sessão"
-
 #~ msgid "Boing"
 #~ msgstr "Boing"
-
 #~ msgid "Siren"
 #~ msgstr "Sirene"
-
 #~ msgid "Clink"
 #~ msgstr "Clink"
-
 #~ msgid "Beep"
 #~ msgstr "Bip"
-
 #~ msgid "No sound"
 #~ msgstr "Sem som"
-
 #~ msgid "Sound not set for this event."
 #~ msgstr "Som não definido para este evento."
-
 #~ msgid ""
 #~ "The sound file for this event does not exist.\n"
 #~ "You may want to install the gnome-audio package for a set of default "
@@ -1429,59 +1335,44 @@ msgstr "Configurações do X"
 #~ "O arquivo de som para este evento não existe.\n"
 #~ "Você pode querer instalar o pacote gnome-audio para uma definição de sons "
 #~ "padrão."
-
 #~ msgid "The sound file for this event does not exist."
 #~ msgstr "O arquivo de som para este evento não existe."
-
 #~ msgid "Select Sound File"
 #~ msgstr "Selecionar arquivo de som"
-
 #~ msgid "The file %s is not a valid wav file"
 #~ msgstr "O arquivo %s não é um arquivo wav válido"
-
 #~ msgid "Select sound file..."
 #~ msgstr "Selecionar arquivo de som..."
-
 #~ msgid "An error occurred while configuring the screen"
 #~ msgstr "Ocorreu um erro ao configurar a tela"
-
 #~ msgid "gtk-close"
 #~ msgstr "fechar-gtk"
-
 #~ msgid "Screen Rotation"
 #~ msgstr "Rotação da tela"
-
 #~ msgid ""
 #~ "Set to True to keep the handlers for text/plain and text/* MIME types "
 #~ "synchronized."
 #~ msgstr ""
 #~ "Defina como Verdadeiro para manter os manipuladores de text/plain e text/"
 #~ "* MIME sincronizados."
-
 #~ msgid "Sync text/plain and text/* handlers"
 #~ msgstr "Sincronizar aplicativos que cuidam de text/plain e text/*"
-
 #~ msgid "Enable default editor plugin"
 #~ msgstr "Habilitar o plug-in do editor padrão"
-
 #~ msgid ""
 #~ "Set to True to enable the plugin to manage the default text editor "
 #~ "setting."
 #~ msgstr ""
 #~ "Defina como Verdadeiro para habilitar o plug-in para gerenciar as "
 #~ "configurações do editor de texto padrão."
-
 #~ msgid "Key Binding (%s) has its action defined multiple times\n"
 #~ msgstr "Tecla de Atalho (%s) tem múltiplas ações definidas\n"
-
 #~ msgid "Key Binding (%s) has its binding defined multiple times\n"
 #~ msgstr "Tecla de Atalho (%s) tem múltiplos atalhos definidos\n"
-
 #~ msgid "It seems that another application already has access to key '%u'."
 #~ msgstr "Parece que outro aplicativo já tem acesso à chave '%u'."
-
 #~ msgid "Key Binding (%s) is already in use\n"
 #~ msgstr "Tecla de Atalho (%s) já está em uso\n"
-
 #~ msgid "Volume"
 #~ msgstr "Volume"
+
