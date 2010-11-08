@@ -1,25 +1,28 @@
 # Traduction into the walloon language.
-# 
+#
 # Si vos voloz donner on côp di spale pol ratournaedje di Gnome (ou des
 # ôtes libes programes) sicrijhoz mu a l' adresse emile
 # <srtxg@chanae.alphanet.ch>; nos avons co bråmint di l' ovraedje a fé.
-# 
+#
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Pablo Saratxaga <srtxg@chanae.alphanet.ch> 1999-2002
-# Lorint Hendschel <LorintHendschel@skynet.be> 1999,2000
-# Lucyin Mahin <lucyin@walon.org>, 2000
-# 
+#
+# Lorint Hendschel <LorintHendschel@skynet.be> 1999,2000.
+# Lucyin Mahin <lucyin@walon.org>, 2000.
+# Jean Cayron <jean.cayron@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 1.5.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-03 00:17+0000\n"
-"PO-Revision-Date: 2003-01-02 12:26+0100\n"
-"Last-Translator: Pablo Saratxaga <pablo@mandrakesoft.com>\n"
-"Language-Team: Walon <linux-wa@chanae.alphanet.ch>\n"
+"POT-Creation-Date: 2010-11-07 23:30+0000\n"
+"PO-Revision-Date: 2010-11-08 13:03+0100\n"
+"Last-Translator: Jean Cayron <jean.cayron@gmail.com>\n"
+"Language-Team: Walloon <linux-wa@walon.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: ../data/50-accessibility.xml.in.h:1
 msgid "Accessibility"
@@ -27,85 +30,104 @@ msgstr "Accessibilité"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:1
 msgid "Free percentage notify threshold"
-msgstr ""
+msgstr "Soû d' notifiaedje d' åcintaedje di libe"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:2
 msgid "Free space no notify threshold"
-msgstr ""
+msgstr "Soû d' nén notifiaedje di plaece di libe"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:3
 msgid "Minimum notify period for repeated warnings"
 msgstr ""
+"Tårdjaedje minimom inte les notifiaedjes po des adviertixhmints repetés"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:4
 msgid "Mount paths to ignore"
-msgstr ""
+msgstr "Tchimin d' montaedje a passer houte"
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:5
-msgid "Percentage free space threshold for initial warning of low disk space. If the percentage free space drops below this, a warning will be shown."
+msgid ""
+"Percentage free space threshold for initial warning of low disk space. If "
+"the percentage free space drops below this, a warning will be shown."
 msgstr ""
+"Soû d' åcintaedje d' espåce libe pol prumî adviertixhmint di pus waire di "
+"plaece. Si l' åcintaedje di plaece di libe tchait pa dzo çouci, èn "
+"adviertixhmint serè håyné."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:6
 msgid "Specify a list of mount paths to ignore when they run low on space."
 msgstr ""
+"Sipecifyî ene djivêye di tchmins a passer houte cwand i gn a pus waire di "
+"plaece didins."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:7
-msgid "Specify a time in minutes. Subsequent warnings for a volume will not appear more often than this period."
+msgid ""
+"Specify a time in minutes. Subsequent warnings for a volume will not appear "
+"more often than this period."
 msgstr ""
+"Sipecifyî on moumint e munutes. Des repetaedjes di l' adviertixhmint n' "
+"aparexhront nén pus sovint k' çou moumint la."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:8
-msgid "Specify an amount in GB. If the amount of free space is more than this, no warning will be shown."
+msgid ""
+"Specify an amount in GB. If the amount of free space is more than this, no "
+"warning will be shown."
 msgstr ""
+"Sipecifyî ene grandeu e Go. Sel grandeu di plaece libe est pus grande ki "
+"çoula, on n' mosterrè pont d' adviertixhmint."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:9
-msgid "Specify the percentage that the free disk space should reduce by before issuing a subsequent warning."
+msgid ""
+"Specify the percentage that the free disk space should reduce by before "
+"issuing a subsequent warning."
 msgstr ""
+"Sipecifyî l' åcintaedje d' espåce kel fijheu d' plaece doet raptiti divant "
+"d' rifé èn adviertixhmint."
 
 #: ../data/apps_gnome_settings_daemon_housekeeping.schemas.in.h:10
 msgid "Subsequent free percentage notify threshold"
-msgstr ""
+msgstr "Soû d' repetaedje do notifiaedje d' åcintaedje di libe"
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
 msgid "Binding to eject an optical disc."
-msgstr ""
+msgstr "Assoçnaedje di tapes po fé rexhe ene plake optike."
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
 msgid "Binding to enable or disable the touchpad."
 msgstr ""
+"Assoçnaedje di tapes po mete èn alaedje ou essocter l' tåvlete a toutchî."
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
 msgid "Binding to launch the calculator."
-msgstr ""
+msgstr "Assoçnaedje di tapes pos enonder l' carculete."
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
 msgid "Binding to launch the email client."
-msgstr ""
+msgstr "Assoçnaedje di tapes pos enonder l' cliyint d' emile."
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
-#, fuzzy
 msgid "Binding to launch the help browser."
-msgstr "Foyteuse di l' aidance"
+msgstr "Assoçnaedje di tapes pos enonder l' aidance."
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
 msgid "Binding to launch the media player."
-msgstr ""
+msgstr "Assoçnaedje di tapes pos enonder l' djouweu d' media."
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
 msgid "Binding to launch the search tool."
-msgstr ""
+msgstr "Assoçnaedje di tapes pos enonder l' usteye di cweraedje."
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
-#, fuzzy
 msgid "Binding to launch the web browser."
-msgstr "Betchteu waibe"
+msgstr "Assoçnaedje di tapes pos enonder l' betchteu waibe."
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
 msgid "Binding to lock the screen."
-msgstr ""
+msgstr "Assoçnaedje di tapes pos aclawer waitroûle."
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
 msgid "Binding to log out."
-msgstr ""
+msgstr "Assoçnaedje di tapes po s' dislodjî."
 
 #: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
 msgid "Binding to lower the system volume."
@@ -246,7 +268,12 @@ msgid "Show Displays in Notification Area"
 msgstr ""
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:3
-msgid "The XRandR plugin will look for a default configuration in the file specified by this key. This is similar to the ~/.config/monitors.xml that normally gets stored in users' home directories. If a user does not have such a file, or has one that does not match the user's setup of monitors, then the file specified by this key will be used instead."
+msgid ""
+"The XRandR plugin will look for a default configuration in the file "
+"specified by this key. This is similar to the ~/.config/monitors.xml that "
+"normally gets stored in users' home directories. If a user does not have "
+"such a file, or has one that does not match the user's setup of monitors, "
+"then the file specified by this key will be used instead."
 msgstr ""
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:4
@@ -254,7 +281,9 @@ msgid "Turn on external monitor after system boot"
 msgstr ""
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:5
-msgid "Turn on external monitor after system boot if user plugs in external monitor on system boot."
+msgid ""
+"Turn on external monitor after system boot if user plugs in external monitor "
+"on system boot."
 msgstr ""
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:6
@@ -262,11 +291,15 @@ msgid "Turn on laptop monitor after system boot"
 msgstr ""
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:7
-msgid "Turn on laptop monitor after system boot if user plugs in external monitor on system boot."
+msgid ""
+"Turn on laptop monitor after system boot if user plugs in external monitor "
+"on system boot."
 msgstr ""
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:8
-msgid "Whether a notification icon with display-related things should be shown in the panel."
+msgid ""
+"Whether a notification icon with display-related things should be shown in "
+"the panel."
 msgstr ""
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:1
@@ -287,19 +320,31 @@ msgid "RGBA order"
 msgstr ""
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:5
-msgid "The order of subpixel elements on an LCD screen; only used when antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red on bottom."
+msgid ""
+"The order of subpixel elements on an LCD screen; only used when antialiasing "
+"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
+"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
+"on bottom."
 msgstr ""
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:6
-msgid "The resolution used for converting font sizes to pixel sizes, in dots per inch."
+msgid ""
+"The resolution used for converting font sizes to pixel sizes, in dots per "
+"inch."
 msgstr ""
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:7
-msgid "The type of antialiasing to use when rendering fonts. Possible values are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+msgid ""
+"The type of antialiasing to use when rendering fonts. Possible values are: "
+"\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+"antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
 msgstr ""
 
 #: ../data/desktop_gnome_font_rendering.schemas.in.h:8
-msgid "The type of hinting to use when rendering fonts. Possible values are: \"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full\" for maximum hinting (may cause distortion of letter forms)."
+msgid ""
+"The type of hinting to use when rendering fonts. Possible values are: \"none"
+"\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full"
+"\" for maximum hinting (may cause distortion of letter forms)."
 msgstr ""
 
 #: ../data/desktop_gnome_keybindings.schemas.in.h:1
@@ -308,7 +353,9 @@ msgid "Allowed keys"
 msgstr "Sori"
 
 #: ../data/desktop_gnome_keybindings.schemas.in.h:2
-msgid "If non-empty, keybindings will be ignored unless their GConf directory is in the list. This is useful for lockdown."
+msgid ""
+"If non-empty, keybindings will be ignored unless their GConf directory is in "
+"the list. This is useful for lockdown."
 msgstr ""
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:1
@@ -332,19 +379,26 @@ msgid "Select the touchpad scroll method"
 msgstr ""
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:6
-msgid "Select the touchpad scroll method. Supported values are: 0: disabled, 1: edge scrolling, and 2: two-finger scrolling"
+msgid ""
+"Select the touchpad scroll method. Supported values are: 0: disabled, 1: "
+"edge scrolling, and 2: two-finger scrolling"
 msgstr ""
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:7
-msgid "Set this to TRUE if you have problems with accidentally hitting the touchpad while typing."
+msgid ""
+"Set this to TRUE if you have problems with accidentally hitting the touchpad "
+"while typing."
 msgstr ""
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:8
-msgid "Set this to TRUE to allow horizontal scrolling by the same method selected with the scroll_method key."
+msgid ""
+"Set this to TRUE to allow horizontal scrolling by the same method selected "
+"with the scroll_method key."
 msgstr ""
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:9
-msgid "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
+msgid ""
+"Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 
 #: ../data/desktop_gnome_peripherals_touchpad.schemas.in.h:10
@@ -469,7 +523,9 @@ msgid "Screen reader"
 msgstr "Waitroûle"
 
 #: ../data/gnome-settings-daemon.schemas.in.h:27
-msgid "Set to True to enable the housekeeping plugin, to prune transient file caches."
+msgid ""
+"Set to True to enable the housekeeping plugin, to prune transient file "
+"caches."
 msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:28
@@ -493,7 +549,9 @@ msgid "Set to True to enable the plugin to manage keyboard settings."
 msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:33
-msgid "Set to True to enable the plugin to manage locking the screen on smartcard removal."
+msgid ""
+"Set to True to enable the plugin to manage locking the screen on smartcard "
+"removal."
 msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:34
@@ -509,7 +567,9 @@ msgid "Set to True to enable the plugin to manage sound sample caches."
 msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:37
-msgid "Set to True to enable the plugin to manage the accessibility keyboard settings."
+msgid ""
+"Set to True to enable the plugin to manage the accessibility keyboard "
+"settings."
 msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:38
@@ -549,15 +609,21 @@ msgid "The name of the keyboard shortcut to toggle the screen reader"
 msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:47
-msgid "This is the name of the keyboard shortcut to toggle the magnifier. This name will be shown in the keyboard shortcut preferences dialog."
+msgid ""
+"This is the name of the keyboard shortcut to toggle the magnifier. This name "
+"will be shown in the keyboard shortcut preferences dialog."
 msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:48
-msgid "This is the name of the keyboard shortcut to toggle the on-screen keyboard. This name will be shown in the keyboard shortcut preferences dialog."
+msgid ""
+"This is the name of the keyboard shortcut to toggle the on-screen keyboard. "
+"This name will be shown in the keyboard shortcut preferences dialog."
 msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:49
-msgid "This is the name of the keyboard shortcut to toggle the screen reader. This name will be shown in the keyboard shortcut preferences dialog."
+msgid ""
+"This is the name of the keyboard shortcut to toggle the screen reader. This "
+"name will be shown in the keyboard shortcut preferences dialog."
 msgstr ""
 
 #: ../data/gnome-settings-daemon.schemas.in.h:50
@@ -602,7 +668,9 @@ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
 msgstr ""
 
 #: ../data/desktop_gnome_peripherals_smartcard.schemas.in.h:1
-msgid "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The action will get performed when the smartcard used for log in is removed."
+msgid ""
+"Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The "
+"action will get performed when the smartcard used for log in is removed."
 msgstr ""
 
 #: ../data/desktop_gnome_peripherals_smartcard.schemas.in.h:2
@@ -650,7 +718,9 @@ msgstr ""
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:521
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:587
-msgid "You just held down the Shift key for 8 seconds.  This is the shortcut for the Slow Keys feature, which affects the way your keyboard works."
+msgid ""
+"You just held down the Shift key for 8 seconds.  This is the shortcut for "
+"the Slow Keys feature, which affects the way your keyboard works."
 msgstr ""
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:546
@@ -709,12 +779,17 @@ msgstr ""
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:658
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:726
-msgid "You just pressed the Shift key 5 times in a row.  This is the shortcut for the Sticky Keys feature, which affects the way your keyboard works."
+msgid ""
+"You just pressed the Shift key 5 times in a row.  This is the shortcut for "
+"the Sticky Keys feature, which affects the way your keyboard works."
 msgstr ""
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:660
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:728
-msgid "You just pressed two keys at once, or pressed the Shift key 5 times in a row.  This turns off the Sticky Keys feature, which affects the way your keyboard works."
+msgid ""
+"You just pressed two keys at once, or pressed the Shift key 5 times in a "
+"row.  This turns off the Sticky Keys feature, which affects the way your "
+"keyboard works."
 msgstr ""
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:756
@@ -812,19 +887,27 @@ msgid "This computer has only %s disk space remaining."
 msgstr ""
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:98
-msgid "You can free up disk space by emptying the Trash, removing unused programs or files, or moving files to another disk or partition."
+msgid ""
+"You can free up disk space by emptying the Trash, removing unused programs "
+"or files, or moving files to another disk or partition."
 msgstr ""
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:101
-msgid "You can free up disk space by removing unused programs or files, or by moving files to another disk or partition."
+msgid ""
+"You can free up disk space by removing unused programs or files, or by "
+"moving files to another disk or partition."
 msgstr ""
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:106
-msgid "You can free up disk space by emptying the Trash, removing unused programs or files, or moving files to an external disk."
+msgid ""
+"You can free up disk space by emptying the Trash, removing unused programs "
+"or files, or moving files to an external disk."
 msgstr ""
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:109
-msgid "You can free up disk space by removing unused programs or files, or by moving files to an external disk."
+msgid ""
+"You can free up disk space by removing unused programs or files, or by "
+"moving files to an external disk."
 msgstr ""
 
 #. Set up all the window stuff here
@@ -873,7 +956,9 @@ msgid "Empty all of the items from the trash?"
 msgstr ""
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:363
-msgid "If you choose to empty the trash, all items in it will be permanently lost. Please note that you can also delete them separately."
+msgid ""
+"If you choose to empty the trash, all items in it will be permanently lost. "
+"Please note that you can also delete them separately."
 msgstr ""
 
 #: ../plugins/housekeeping/gsd-ldsm-trash-empty.c:370
@@ -936,7 +1021,8 @@ msgstr ""
 msgid ""
 "You are using XFree 4.3.0.\n"
 "There are known problems with complex XKB configurations.\n"
-"Try using a simpler configuration or using a later version of the XFree software."
+"Try using a simpler configuration or using a later version of the XFree "
+"software."
 msgstr ""
 
 #: ../plugins/keyboard/gsd-keyboard-xkb.c:279
@@ -980,7 +1066,9 @@ msgid "_Loaded files:"
 msgstr "Modele"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:195
-msgid "Could not get default terminal. Verify that your default terminal command is set and points to a valid application."
+msgid ""
+"Could not get default terminal. Verify that your default terminal command is "
+"set and points to a valid application."
 msgstr ""
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:235
@@ -1033,7 +1121,8 @@ msgid "Could not enable mouse accessibility features"
 msgstr ""
 
 #: ../plugins/mouse/gsd-mouse-manager.c:884
-msgid "Mouse accessibility requires Mousetweaks to be installed on your system."
+msgid ""
+"Mouse accessibility requires Mousetweaks to be installed on your system."
 msgstr ""
 
 #: ../plugins/mouse/gsd-mouse-manager.c:887
@@ -1079,7 +1168,8 @@ msgstr ""
 #: ../plugins/xrandr/gsd-xrandr-manager.c:295
 #, c-format
 msgid "The display will be reset to its previous configuration in %d second"
-msgid_plural "The display will be reset to its previous configuration in %d seconds"
+msgid_plural ""
+"The display will be reset to its previous configuration in %d seconds"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1539,11 +1629,13 @@ msgstr "léjheu d' smartcard"
 #~ msgid ""
 #~ "Couldn't find the file '%s'.\n"
 #~ "\n"
-#~ "Please make sure it exists and try again, or choose a different background picture."
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
 #~ msgstr ""
 #~ "Dji n' a savou trover l' fitchî «%s».\n"
 #~ "\n"
-#~ "Acertinez vs s' i vs plait k' il egzistêye bén, eyet rssayîz oudonbén tchoezixhoz ene imådje di fond diferinne."
+#~ "Acertinez vs s' i vs plait k' il egzistêye bén, eyet rssayîz oudonbén "
+#~ "tchoezixhoz ene imådje di fond diferinne."
 
 #~ msgid "Please select an image."
 #~ msgstr "Tchoezixhoz ene imådje s' i vs plait."
@@ -2148,7 +2240,8 @@ msgstr "léjheu d' smartcard"
 #~ msgstr "_Bodjî"
 
 #~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
-#~ msgstr "Li manaedjeu di purneas «%s» n' a nén redjistré ene usteye d' apontiaedje\n"
+#~ msgstr ""
+#~ "Li manaedjeu di purneas «%s» n' a nén redjistré ene usteye d' apontiaedje\n"
 
 #~ msgid "Maximize"
 #~ msgstr "Å pus grand"
