@@ -234,7 +234,7 @@ msgstr "Показувати дисплеї у області сповіщенн
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:3
 msgid "The XRandR plugin will look for a default configuration in the file specified by this key. This is similar to the ~/.config/monitors.xml that normally gets stored in users' home directories. If a user does not have such a file, or has one that does not match the user's setup of monitors, then the file specified by this key will be used instead."
-msgstr ""
+msgstr "Плагін XRandR шукатиме конфігурацію за замовчанням згідно цього ключа. Це схоже на ~/.config/monitors.xml що зазвичай зберігається у користувацьких домашніх теках. Якщо користувач не має відповідного файлу, або має такий, що не відповідає користувацьким налаштуванням моніторів, тоді використовуватиметься цей ключ."
 
 #: ../data/apps_gnome_settings_daemon_xrandr.schemas.in.h:4
 msgid "Turn on external monitor after system boot"
