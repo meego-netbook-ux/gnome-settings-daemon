@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-17 00:09+0000\n"
+"POT-Creation-Date: 2010-11-18 22:57+0000\n"
 "PO-Revision-Date: 2010-01-05 23:09+0300\n"
 "Last-Translator: Maxim V. Dziumanenko <dziumanenko@gmail.com>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -584,7 +584,7 @@ msgstr "Чи увімкнено підтримку липких клавіш с�
 
 #: ../data/desktop_gnome_peripherals_smartcard.schemas.in.h:1
 msgid "Set this to one of \"none\", \"lock_screen\", or \"force_logout\". The action will get performed when the smartcard used for log in is removed."
-msgstr ""
+msgstr "Встановити одне з значень: \"none\", \"lock_screen\", or \"force_logout\". Дію буде виконано, коли смарт-карта, використана для входу буде видалена."
 
 #: ../data/desktop_gnome_peripherals_smartcard.schemas.in.h:2
 msgid "Smartcard removal action"
